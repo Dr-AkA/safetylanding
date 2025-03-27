@@ -1,6 +1,8 @@
 import {Header} from "@/sections/Header";
 import { Main } from "@/sections/Main";
 import Head from "next/head";
+import {LogoTicker} from '@/sections/LogoTicker';
+import {ProductShowcase} from '@/sections/ProductShowcase';
 export default function Home() {
   return (<>
     <Head>
@@ -15,6 +17,8 @@ export default function Home() {
     </Head>
     <Header/>
     <Main/>
+    <LogoTicker/>
+    <ProductShowcase/>
     
     </>);
 }

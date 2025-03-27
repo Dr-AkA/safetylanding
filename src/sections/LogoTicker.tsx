@@ -1,3 +1,45 @@
+import Betriebanweisung from '@/assets/betriebsanweisung.png';
+import EHS from '@/assets/EHS-Basis.png';
+import Qualifkationen from '@/assets/Qualifkationen.png';
+import Gefahrdungsbeurteilungen from '@/assets/Gefährdungsbeurteilungen.png';
+import Massnamen from '@/assets/Maßnahmen.png';
+import Prufwartungsplan from '@/assets/prufwartungsplanner.png';
+import UmfalManement from '@/assets/Unfallmanagement.png';
+import Unterweisung from '@/assets/Unterweisungen.png';
+import Image  from 'next/image';
 export const LogoTicker = () => {
-  return null;
+  return <div className='py-8 md:py-12 antialiased bg-[#EAEEFE]'>
+    <div className='container'>
+         
+            <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
+            <div className='flex gap-10 flex-none items-center'>
+           
+            <Image src={Betriebanweisung} alt='Betriebsanweisung erstellen EHS'  className='logo-ticker-image '/>
+        
+           
+            <Image src={EHS} alt='Safety Health and Environment' className='logo-ticker-image '/>
+            
+           
+            <Image src={Qualifkationen} alt='Arbeitsschutzmanagement Qualifikation' className='logo-ticker-image '/>
+         
+            <Image src={Gefahrdungsbeurteilungen} alt='Gefährdungsbeurteilung erstellen' className='logo-ticker-image '/>
+           
+                    
+            <Image src={Massnamen} alt='Sicherheitsmaßnahmen Arbeitsplatz' className='logo-ticker-image '/>
+           
+           
+            <Image src={Prufwartungsplan} alt='Prüf- und Wartungsplan EHS' className='logo-ticker-image '/>
+            
+          
+            <Image src={UmfalManement} alt='Unfallmanagement im Unternehmen' className='logo-ticker-image '/>
+          
+            <Image src={Unterweisung} alt='Sicherheitsunterweisung für Mitarbeiter' className='logo-ticker-image '/>
+           
+          </div>
+          </div>
+
+
+                    
+        </div>
+  </div>;
 };
