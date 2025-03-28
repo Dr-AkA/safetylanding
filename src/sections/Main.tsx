@@ -8,7 +8,7 @@ export const Main = () => {
     <div className="container">
       <div className='md:flex items-center'>
       <div className='w-[478px]'>
-      <div className="text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight">Version 2.0 is Here</div>
+      <div className="tag">Version 2.0 is Here</div>
       <h1 className="text-4xl md:text-6xl font-bold tracking-tighter bg-gradient-to-b from-white to-[#8f8382] text-transparent bg-clip-text mt-6">Safety² Die fortschrittlichste EHS-Software für maximale Arbeitssicherheit</h1>
       
       <p className="text-xl text-white tracking-tight mt-6 jus">safety² ist die flexible, browser- und cloudbasierte EHS-Software, die sich nahtlos an Ihre Unternehmensanforderungen anpasst. Dank des modularen Aufbaus bestimmen Sie selbst, welche Funktionen Sie benötigen.

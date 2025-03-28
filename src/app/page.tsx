@@ -3,6 +3,7 @@ import { Main } from "@/sections/Main";
 import Head from "next/head";
 import {LogoTicker} from '@/sections/LogoTicker';
 import {ProductShowcase} from '@/sections/ProductShowcase';
+import {Modules} from '@/sections/modules';
 export default function Home() {
   return (<>
     <Head>
@@ -19,6 +20,7 @@ export default function Home() {
     <Main/>
     <LogoTicker/>
     <ProductShowcase/>
+    <Modules/>
     
     </>);
 }

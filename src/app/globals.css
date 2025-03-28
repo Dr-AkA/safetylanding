@@ -23,4 +23,17 @@
     {
         @apply h-[70px] w-auto;
     }
+
+    .tag{
+        @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight
+    }
+    .section-title
+    {
+        @apply text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-green-900 to-green-400 text-transparent bg-clip-text;
+    }
+
+    .section-paragraph 
+    {
+        @apply text-center text-[22px] leading-[30px] tracking-tight text-green-800;
+    }
 }
