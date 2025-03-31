@@ -1,10 +1,11 @@
 import ArrowRight from '@/assets/arrow-right.svg';
 import Logo from '@/assets/safety2_logo.svg';
 import MenuIcon from '@/assets/menu.svg';
-
+import Head from 'next/head';
 
 export const Header = () => {
-  return ( <header className='sticky top-0 backdrop-blur-sm z-20'>
+  return ( 
+  <header className='sticky top-0 backdrop-blur-sm z-20'>
   <div className="flex justify-center items-center py-3 bg-black text-white  text-sm gap-3">
     <p className='text-white/80 hidden md:block'>Sicherheit zuerst, Compliance stets.</p>
     <div className='inline-flex items-center gap-1'>
