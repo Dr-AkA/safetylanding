@@ -6,33 +6,35 @@ import Massnamen from '@/assets/Maßnahmen.png';
 import Prufwartungsplan from '@/assets/prufwartungsplanner.png';
 import UmfalManement from '@/assets/Unfallmanagement.png';
 import Unterweisung from '@/assets/Unterweisungen.png';
+import Beobachtungen from '@/assets/beobachtungen.svg?url';
+import Audit from '@/assets/Audit_UebersichtAudits.svg?url';
+
 import Image  from 'next/image';
 const fachmodules = [
   {
     title: "EHS-Basis",
     buttonText: "Mehr erfahren",
     logo:EHS,
-    alt:'Umwelt',
+    alt:'Umwelt und sicherheit',
     features: [
-      ""
+      "safety² EHS-Basis zentralisiert Ihre Daten, hält sie aktuell und verknüpft sie intelligent mit allen Modulen. Anpassbare Berechtigungen gewährleisten höchste Datensicherheit."
     ],
   },
   {
-    title: "Betriebanweisung",
+    title: "Betriebsanweisung",
     buttonText: "Mehr ehrfahren",
     logo:Betriebanweisung,
-    alt:'Gesundheit & Sicherheit',
+    alt:'Betriebsanweisung online erstellen',
    features: [
-     ""
-    ],
+     "Erstellen Sie Betriebsanweisungen effizient mit vordefinierten oder anpassbaren Bausteinen. Dank intelligenter Verknüpfung erfolgt die Generierung automatisch – strukturiert, zeitsparend und normgerecht."],
   },
   {
     title: "Qualifkationen",
     buttonText: "Mehr erfahren",
     logo:Qualifkationen,
-    alt:'Compliance',
+    alt:'Compliance Zertifikaten',
     features: [
-     ""
+     "Zentrales, digitales Kompetenzmanagement mit umfassender Übersicht aller Mitarbeiterqualifikationen. Ermöglicht gezielte Filterung nach spezifischen Fachkompetenzen und Expertisen für optimale Ressourcenplanung."
     ],
   },
   {
@@ -41,25 +43,25 @@ const fachmodules = [
     logo:Gefahrdungsbeurteilungen,
     alt:'Risikomanagement',
     features: [
-     ""
+     "Umfassende digitale Risikoerfassung und -management mit safety² - identifiziert, dokumentiert und bewertet systematisch alle betrieblichen Gefährdungspotenziale für maximale Arbeitssicherheit und Compliance."
     ],
   },
   {
-    title: "Massnamen",
+    title: "Maßnahmen",
     buttonText: "Mehr erfahren",
     logo:Massnamen,
     alt:'Audit-Management',
     features: [
-      ""
+      "Zentrales digitales Maßnahmenmanagement mit safety² – ermöglicht lückenlose Planung, Verfolgung und Dokumentation aller unternehmensweiten Maßnahmen. Inklusive intelligentem Erinnerungssystem für termingerechte Umsetzung und automatischen Benachrichtigungen zu kritischen Änderungen."
     ],
   },
   {
-    title: "Prufwartungsplan",
+    title: "Prüf & Wartungsplaner",
     buttonText: "Mehr erfahren",
     logo:Prufwartungsplan,
     alt:'Gesetzliche Vorschriften',
     features: [
-    ""
+    "Zentrale digitale Erfassung und Überwachung aller prüfpflichtigen Objekte und Arbeitsmittel. Gewährleistet maximale Sicherheit und lückenlose Compliance durch strukturierte Verwaltung von Prüfmitteln und Wartungsaktivitäten mit automatisierter Fristenkontrolle."
     ],
   },
   {
@@ -68,16 +70,34 @@ const fachmodules = [
     logo:UmfalManement,
     alt:'Vorfallmanagement',
     features: [
-      ""
+      "Smarte Arbeitsschutz-Dokumentation: Digitale Erfassung und Analyse von Arbeitsplatzunfällen für ein sichereres Arbeitsumfeld."
     ],
   },
   {
-    title: "Unterweisung",
+    title: "Digitale Unterweisungen",
     buttonText: "Mehr erfahren",
     logo:Unterweisung,
-    alt:'Betriebliches Gesundheitsmanagement (BGM)',
+    alt:'Digitale Unterweisungen erstellen',
     features: [
-      ""
+      "Effiziente Online-Schulungen, die Ihre gesetzlichen Unterweisungspflichten einfach und nachweisbar erfüllen."
+    ],
+  },
+  {
+    title: "Sicherheits-Beobachtungen",
+    buttonText: "Mehr erfahren",
+    logo:Beobachtungen,
+    alt:'Sichere Beobachtungen',
+    features: [
+      "Digitale Erfassung von Arbeitsplatzverhalten und -bedingungen für gezielte Präventionsmaßnahmen und kontinuierliche Verbesserung."
+    ],
+  },
+  {
+    title: "Intelligente Audits & Begehungen",
+    buttonText: "Mehr erfahren",
+    logo:Audit,
+    alt:'Audit-Management',
+    features: [
+        " Optimieren Sie Ihre Compliance-Prozesse durch digitale Echtzeit-Dokumentation während der Begehungen. Unser integriertes Toolkit gewährleistet Richtlinienkonformität, proaktive Gefahrenerkennung und automatisierte Terminplanung – und verwandelt Routineinspektionen in strategische Sicherheitsintelligenz."
     ],
   },
   
@@ -92,21 +112,33 @@ export const Modules = () => {
       <p className="section-paragraph mt-5"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos recusandae possimus soluta veniam corporis quos accusantium. A pariatur magni iure. Illum consequuntur a quisquam optio, iste quae ratione nam perferendis?</p>
       <div className="flex justify-center items-stretch flex-wrap gap-10 mt-10">
   {fachmodules.map(({ title, buttonText, features, logo, alt }) => (
-    <div className="p-10 mt-5 border border-[#77B596]/50 rounded-3xl shadow-[0_7px_14px_#EAEAEA] text-center w-[300px] flex flex-col h-full transition-all duration-300 hover:scale-105 hover:shadow-lg">
-      <h3 className="text-lg font-bold text-black/70">{title}</h3>
-      <Image src={logo} alt={alt} className="h-[100px] w-[90px] mx-auto"/>
-      <div className="flex-grow">
-        <ul className="flex flex-col gap-5 mt-8">
+    <div className="p-10 mt-5 border border-[#77B596]/50 rounded-3xl shadow-[0_7px_14px_#EAEAEA] text-center w-[300px] flex flex-col h-[500px] transition-all duration-300 hover:scale-105 hover:shadow-lg">
+      {/* Header section with fixed spacing */}
+      <div className="mb-4">
+        <h3 className="text-lg font-bold text-black/70 mb-4">{title}</h3>
+        <div className="h-[100px] flex items-center justify-center mb-4">
+          <Image src={logo} alt={alt} className="h-[100px] w-[90px]" height={100} width={100} />
+        </div>
+      </div>
+      
+      {/* Content section with fixed starting point and scrollable area */}
+      <div className="flex-grow overflow-y-auto">
+        <ul className="flex flex-col gap-5">
           {features.map((feature, index) => (
-            <li key={index} className="text-sm flex items-center gap-4 text-center">{feature}</li>
+            <li key={index} className="text-sm flex items-center gap-4 text-center">
+              <span>{feature}</span>
+            </li>
           ))}
         </ul>
       </div>
-      <button className="btn btn-primary w-full mt-[30px]">{buttonText}</button>
+
+      {/* Button section with consistent spacing */}
+      <div className="mt-auto pt-5">
+        <button className="btn btn-primary w-full">{buttonText}</button>
+      </div>
     </div>
   ))}
 </div>
-
     </div>
   </section>;
 };
