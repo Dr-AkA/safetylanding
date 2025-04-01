@@ -1,7 +1,7 @@
 'use client';
-import Betriebanweisung from '@/assets/check-mark-3280.svg?url';
+import Betriebanweisung from '@/assets/check-mark-3280.svg';
 import Placeholder from '@/assets/bundle.webp';
-import Basis from '@/assets/cyber-security-protection-process-black-outline-shield-23043.svg?url';
+import Basis from '@/assets/cyber-security-protection-process-black-outline-shield-23043.svg';
 import Image from 'next/image';
 import {useRef} from 'react';
 import {motion,useScroll,useTransform} from 'framer-motion';
@@ -31,17 +31,21 @@ export const ProductShowcase = () => {
       </p>
       </div>
     <div className='relative'>
-    <Image src={Placeholder} alt="Betriebsanweisung nach Gefahrstoffverordnung" className=' mt-10   object-contain' />
-    <motion.img
-    style={{
-      translateY,
-    }}
-    src={Betriebanweisung.src}  alt='Betriebsanweisung nach Gefahrstoffverordnung' className='hidden md:block absolute -right-36 -top-32 md:w-[200px] md:h-[200px]' height={300} width={300}/>
-    <motion.img src={Basis.src} 
-    style={{
-      translateY,
-    }}
-    alt='EHS System Implementierung' height={300} width={300} className='hidden md:block absolute bottom-30 -left-36 md:w-[200px] md:h-[200px]' />
+     <Image src={Placeholder} alt="Betriebsanweisung nach Gefahrstoffverordnung" className=' mt-10   object-contain' />
+     <motion.div
+    style={{ translateY }}
+    className="hidden md:block absolute md:w-[200px] md:h-[200px] -right-36 -top-32"
+    >
+     <Betriebanweisung alt="Vorfallmanagement" />
+    </motion.div>
+
+    <motion.div
+     style={{ translateY }}
+    className="hidden md:block absolute md:w-[200px] md:h-[200px] -left-36 bottom-30"
+    >
+     <Basis alt="Sichere Beobachtungen" />
+    </motion.div>
+
     </div>
     </div>
   </section>;
