@@ -1,4 +1,4 @@
-import logo from '@/assets/safety_2_only_logo.svg?url';
+import Logo from '@/assets/safety_2_only_logo.svg';
 import Image from 'next/image';
 import SocialX from '@/assets/social-x.svg';
 import SocialInsta from '@/assets/social-insta.svg';
@@ -12,7 +12,7 @@ export const Footer = () => {
     <footer className='bg-black text-[#BCBCBC] text-sm py-10 text-center'>
       <div className="container">
         <div className='inline-flex relative before:content-[""] before:top-2 before:blur before:bottom-0 before:h-full before:w-full before:absolute'>
-      <Image src={logo} height={60}  alt='safety-ehs'/>
+      <Logo height={60}  alt='safety-ehs'/>
       </div>
       <nav  className='flex flex-col gap-6 mt-6 md:flex-row md:justify-center'>
         <a href='#'>Über uns</a>
