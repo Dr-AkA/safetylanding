@@ -1,6 +1,6 @@
 import Arrowright from '@/assets/arrow-right.svg';
 //import SafetyLogo from '@/assets/safety.png';
-import PlaceHolder from '@/assets/mock.jpg';
+import PlaceHolder from '@/assets/logo.webp';
 import Image from 'next/image';
 import cylinderImage from '@/assets/cylinder.png';
 export const Main = () => {

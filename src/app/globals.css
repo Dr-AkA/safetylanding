@@ -37,5 +37,25 @@
         @apply text-center text-[22px] leading-[30px] tracking-tight text-green-800;
     }
 
+
+   
+    ::-webkit-scrollbar {
+      width: 6px; 
+    }
+  
+     ::-webkit-scrollbar-track {
+    background: transparent; 
+    }
+  
+    ::-webkit-scrollbar-thumb {
+    background: rgba(100, 100, 100, 0.3); 
+     border-radius: 10px; 
+    }
+  
+    ::-webkit-scrollbar-thumb:hover {
+    background: rgba(100, 100, 100, 0.5); 
+    }
+  
+
    
 }

@@ -1,3 +1,4 @@
+"use client";
 import Betriebanweisung from '@/assets/betriebsanweisung.png';
 import EHS from '@/assets/EHS-Basis.png';
 import Qualifkationen from '@/assets/Qualifkationen.png';
@@ -6,10 +7,19 @@ import Massnamen from '@/assets/Maßnahmen.png';
 import Prufwartungsplan from '@/assets/prufwartungsplanner.png';
 import UmfalManement from '@/assets/Unfallmanagement.png';
 import Unterweisung from '@/assets/Unterweisungen.png';
+import Beobachtungen from '@/assets/beobachtungen.svg?url';
+import Audit from '@/assets/Audit_UebersichtAudits.svg?url';
 import Image  from 'next/image';
+import { motion } from "framer-motion";
+
 export const LogoTicker = () => {
   return <div className='py-8 md:py-12 antialiased bg-[#EAEEFE]'>
     <div className='container'>
+    <motion.div
+          className="flex gap-10"
+          animate={{ x: ["50%", "-50%"] }}
+          transition={{ repeat: Infinity, duration: 15, ease: "linear" }}
+        >
          
             <div className="flex overflow-hidden [mask-image:linear-gradient(to_right,transparent,black,transparent)]">
             <div className='flex gap-10 flex-none items-center'>
@@ -34,11 +44,13 @@ export const LogoTicker = () => {
             <Image src={UmfalManement} alt='Unfallmanagement im Unternehmen' className='logo-ticker-image '/>
           
             <Image src={Unterweisung} alt='Sicherheitsunterweisung für Mitarbeiter' className='logo-ticker-image '/>
-           
+            <Image src={Audit} alt='Audit-Management' className='logo-ticker-image'/>
+            <Image src={Beobachtungen} alt='Sichere Beobachtungen' className='logo-ticker-image'/>
+
           </div>
           </div>
 
-
+          </motion.div>
                     
         </div>
   </div>;

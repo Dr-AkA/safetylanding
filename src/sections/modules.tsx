@@ -108,12 +108,16 @@ export const Modules = () => {
   
   return <section className="mt-10 py-24">
     <div className="container">
-      <h2 className="section-title">Fach Modules</h2>
-      <p className="section-paragraph mt-5"> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos recusandae possimus soluta veniam corporis quos accusantium. A pariatur magni iure. Illum consequuntur a quisquam optio, iste quae ratione nam perferendis?</p>
+      <h2 className="section-title mt-5">Alle EHS-Prozesse, eine Lösung  Maximale Kontrolle mit einem Klick      </h2>
+      <p className="section-paragraph mt-5"> Unsere vielfältigen Fachmodule ermöglichen es Ihnen, alle wichtigen EHS-Prozesse zentral zu steuern. Von Risikomanagement über Compliance bis hin zu Arbeitssicherheit – alles in einer Plattform, alles unter Ihrer Kontrolle.
+
+ Modular & flexibel  genau auf Ihre Bedürfnisse abgestimmt
+ Effiziente Verwaltung & transparente Prozesse
+ Ein Klick, volle Kontrolle
+ Optimieren Sie Ihr EHS-Management – einfacher, schneller, intelligenter.</p>
       <div className="flex justify-center items-stretch flex-wrap gap-10 mt-10">
   {fachmodules.map(({ title, buttonText, features, logo, alt }) => (
     <div className="p-10 mt-5 border border-[#77B596]/50 rounded-3xl shadow-[0_7px_14px_#EAEAEA] text-center w-[300px] flex flex-col h-[500px] transition-all duration-300 hover:scale-105 hover:shadow-lg">
-      {/* Header section with fixed spacing */}
       <div className="mb-4">
         <h3 className="text-lg font-bold text-black/70 mb-4">{title}</h3>
         <div className="h-[100px] flex items-center justify-center mb-4">
@@ -121,8 +125,7 @@ export const Modules = () => {
         </div>
       </div>
       
-      {/* Content section with fixed starting point and scrollable area */}
-      <div className="flex-grow overflow-y-auto">
+      <div className="flex-grow overflow-y-auto scrollbar-hide">
         <ul className="flex flex-col gap-5">
           {features.map((feature, index) => (
             <li key={index} className="text-sm flex items-center gap-4 text-center">
@@ -132,7 +135,6 @@ export const Modules = () => {
         </ul>
       </div>
 
-      {/* Button section with consistent spacing */}
       <div className="mt-auto pt-5">
         <button className="btn btn-primary w-full">{buttonText}</button>
       </div>

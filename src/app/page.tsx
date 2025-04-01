@@ -4,6 +4,8 @@ import Head from "next/head";
 import {LogoTicker} from '@/sections/LogoTicker';
 import {ProductShowcase} from '@/sections/ProductShowcase';
 import {Modules} from '@/sections/modules';
+import {CallToAction} from '@/sections/CallToAction';
+import {Footer} from '@/sections/Footer';
 export default function Home() {
   return (<>
     <Head>
@@ -21,6 +23,8 @@ export default function Home() {
     <LogoTicker/>
     <ProductShowcase/>
     <Modules/>
+    <CallToAction/>
+    <Footer/>
     
     </>);
 }
