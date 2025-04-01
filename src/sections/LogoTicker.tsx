@@ -7,8 +7,8 @@ import Massnamen from '@/assets/Maßnahmen.png';
 import Prufwartungsplan from '@/assets/prufwartungsplanner.png';
 import UmfalManement from '@/assets/Unfallmanagement.png';
 import Unterweisung from '@/assets/Unterweisungen.png';
-import Beobachtungen from '@/assets/beobachtungen.svg?url';
-import Audit from '@/assets/Audit_UebersichtAudits.svg?url';
+import Beobachtungen from '@/assets/beobachtungen.svg';
+import Audit from '@/assets/Audit_UebersichtAudits.svg';
 import Image  from 'next/image';
 import { motion } from "framer-motion";
 
@@ -44,8 +44,8 @@ export const LogoTicker = () => {
             <Image src={UmfalManement} alt='Unfallmanagement im Unternehmen' className='logo-ticker-image '/>
           
             <Image src={Unterweisung} alt='Sicherheitsunterweisung für Mitarbeiter' className='logo-ticker-image '/>
-            <Image src={Audit} alt='Audit-Management' className='logo-ticker-image'/>
-            <Image src={Beobachtungen} alt='Sichere Beobachtungen' className='logo-ticker-image'/>
+            <Audit  alt='Audit-Management' className='logo-ticker-image'/>
+            <Beobachtungen  alt='Sichere Beobachtungen' className='logo-ticker-image'/>
 
           </div>
           </div>

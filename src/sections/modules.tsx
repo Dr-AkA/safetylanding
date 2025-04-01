@@ -1,3 +1,4 @@
+'use server';
 import Betriebanweisung from '@/assets/betriebsanweisung.png';
 import EHS from '@/assets/EHS-Basis.png';
 import Qualifkationen from '@/assets/Qualifkationen.png';
@@ -6,15 +7,16 @@ import Massnamen from '@/assets/Maßnahmen.png';
 import Prufwartungsplan from '@/assets/prufwartungsplanner.png';
 import UmfalManement from '@/assets/Unfallmanagement.png';
 import Unterweisung from '@/assets/Unterweisungen.png';
-import Beobachtungen from '@/assets/beobachtungen.svg?url';
-import Audit from '@/assets/Audit_UebersichtAudits.svg?url';
+import beobachtung from '@/assets/beobachtungen.svg';
+import audit from '@/assets/Audit_UebersichtAudits.svg';
 
 import Image  from 'next/image';
 const fachmodules = [
   {
     title: "EHS-Basis",
     buttonText: "Mehr erfahren",
-    logo:EHS,
+    Logo:EHS,
+    isSvg:false,
     alt:'Umwelt und sicherheit',
     features: [
       "safety² EHS-Basis zentralisiert Ihre Daten, hält sie aktuell und verknüpft sie intelligent mit allen Modulen. Anpassbare Berechtigungen gewährleisten höchste Datensicherheit."
@@ -23,7 +25,9 @@ const fachmodules = [
   {
     title: "Betriebsanweisung",
     buttonText: "Mehr ehrfahren",
-    logo:Betriebanweisung,
+    Logo:Betriebanweisung,
+    isSvg:false,
+
     alt:'Betriebsanweisung online erstellen',
    features: [
      "Erstellen Sie Betriebsanweisungen effizient mit vordefinierten oder anpassbaren Bausteinen. Dank intelligenter Verknüpfung erfolgt die Generierung automatisch – strukturiert, zeitsparend und normgerecht."],
@@ -31,7 +35,9 @@ const fachmodules = [
   {
     title: "Qualifkationen",
     buttonText: "Mehr erfahren",
-    logo:Qualifkationen,
+    Logo:Qualifkationen,
+    isSvg:false,
+
     alt:'Compliance Zertifikaten',
     features: [
      "Zentrales, digitales Kompetenzmanagement mit umfassender Übersicht aller Mitarbeiterqualifikationen. Ermöglicht gezielte Filterung nach spezifischen Fachkompetenzen und Expertisen für optimale Ressourcenplanung."
@@ -40,7 +46,7 @@ const fachmodules = [
   {
     title: "Gefahrdungsbeurteilungen",
     buttonText: "Mehr erfahren",
-    logo:Gefahrdungsbeurteilungen,
+    Logo:Gefahrdungsbeurteilungen,
     alt:'Risikomanagement',
     features: [
      "Umfassende digitale Risikoerfassung und -management mit safety² - identifiziert, dokumentiert und bewertet systematisch alle betrieblichen Gefährdungspotenziale für maximale Arbeitssicherheit und Compliance."
@@ -49,7 +55,9 @@ const fachmodules = [
   {
     title: "Maßnahmen",
     buttonText: "Mehr erfahren",
-    logo:Massnamen,
+    Logo:Massnamen,
+    isSvg:false,
+
     alt:'Audit-Management',
     features: [
       "Zentrales digitales Maßnahmenmanagement mit safety² – ermöglicht lückenlose Planung, Verfolgung und Dokumentation aller unternehmensweiten Maßnahmen. Inklusive intelligentem Erinnerungssystem für termingerechte Umsetzung und automatischen Benachrichtigungen zu kritischen Änderungen."
@@ -58,7 +66,9 @@ const fachmodules = [
   {
     title: "Prüf & Wartungsplaner",
     buttonText: "Mehr erfahren",
-    logo:Prufwartungsplan,
+    Logo:Prufwartungsplan,
+    isSvg:false,
+
     alt:'Gesetzliche Vorschriften',
     features: [
     "Zentrale digitale Erfassung und Überwachung aller prüfpflichtigen Objekte und Arbeitsmittel. Gewährleistet maximale Sicherheit und lückenlose Compliance durch strukturierte Verwaltung von Prüfmitteln und Wartungsaktivitäten mit automatisierter Fristenkontrolle."
@@ -67,7 +77,9 @@ const fachmodules = [
   {
     title: "UmfalManement",
     buttonText: "Mehr erfahren",
-    logo:UmfalManement,
+    Logo:UmfalManement,
+    isSvg:false,
+
     alt:'Vorfallmanagement',
     features: [
       "Smarte Arbeitsschutz-Dokumentation: Digitale Erfassung und Analyse von Arbeitsplatzunfällen für ein sichereres Arbeitsumfeld."
@@ -76,7 +88,9 @@ const fachmodules = [
   {
     title: "Digitale Unterweisungen",
     buttonText: "Mehr erfahren",
-    logo:Unterweisung,
+    Logo:Unterweisung,
+    isSvg:false,
+
     alt:'Digitale Unterweisungen erstellen',
     features: [
       "Effiziente Online-Schulungen, die Ihre gesetzlichen Unterweisungspflichten einfach und nachweisbar erfüllen."
@@ -85,7 +99,9 @@ const fachmodules = [
   {
     title: "Sicherheits-Beobachtungen",
     buttonText: "Mehr erfahren",
-    logo:Beobachtungen,
+    Logo:beobachtung,
+    isSvg:true,
+
     alt:'Sichere Beobachtungen',
     features: [
       "Digitale Erfassung von Arbeitsplatzverhalten und -bedingungen für gezielte Präventionsmaßnahmen und kontinuierliche Verbesserung."
@@ -94,7 +110,9 @@ const fachmodules = [
   {
     title: "Intelligente Audits & Begehungen",
     buttonText: "Mehr erfahren",
-    logo:Audit,
+    Logo:audit,
+    isSvg:true,
+
     alt:'Audit-Management',
     features: [
         " Optimieren Sie Ihre Compliance-Prozesse durch digitale Echtzeit-Dokumentation während der Begehungen. Unser integriertes Toolkit gewährleistet Richtlinienkonformität, proaktive Gefahrenerkennung und automatisierte Terminplanung – und verwandelt Routineinspektionen in strategische Sicherheitsintelligenz."
@@ -116,12 +134,17 @@ export const Modules = () => {
  Ein Klick, volle Kontrolle
  Optimieren Sie Ihr EHS-Management – einfacher, schneller, intelligenter.</p>
       <div className="flex justify-center items-stretch flex-wrap gap-10 mt-10">
-  {fachmodules.map(({ title, buttonText, features, logo, alt }) => (
+  {fachmodules.map(({ title, buttonText, features, Logo, alt,isSvg }) => (
     <div className="p-10 mt-5 border border-[#77B596]/50 rounded-3xl shadow-[0_7px_14px_#EAEAEA] text-center w-[300px] flex flex-col h-[500px] transition-all duration-300 hover:scale-105 hover:shadow-lg">
       <div className="mb-4">
         <h3 className="text-lg font-bold text-black/70 mb-4">{title}</h3>
         <div className="h-[100px] flex items-center justify-center mb-4">
-          <Image src={logo} alt={alt} className="h-[100px] w-[90px]" height={100} width={100} />
+          {isSvg?(
+            <Logo className="h-[100px] w-[90px]"/>
+          ):(
+            <Image src={Logo} alt={alt} className="h-[100px] w-[90px]" height={100} width={100} />
+          )}
+        
         </div>
       </div>
       
