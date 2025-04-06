@@ -36,7 +36,7 @@ export const ProductShowcase = () => {
     style={{ translateY }}
     className="hidden md:block absolute md:w-[200px] md:h-[200px] -right-36 -top-32"
     >
-     <Betriebanweisung alt="Vorfallmanagement" />
+     <Betriebanweisung alt="Vorfallmanagementn" />
     </motion.div>
 
     <motion.div
