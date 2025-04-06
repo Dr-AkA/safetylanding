@@ -9,9 +9,9 @@ export const Main = () => {
       <div className='md:flex items-center'>
       <div className='w-[478px]'>
       <div className="tag">Version 2.0 is Here</div>
-      <h1 className="text-4xl md:text-6xl font-bold tracking-tighter bg-gradient-to-b from-white to-[#8f8382] text-transparent bg-clip-text mt-6">Safety² Die fortschrittlichste EHS-Software für maximale Arbeitssicherheit</h1>
+      <h1 className="text-4xl  font-bold tracking-tighter bg-gradient-to-b from-white to-[#8f8382] text-transparent bg-clip-text mt-6 md:text-2xl md:text-balance sm:text-1xl">Safety² Die fortschrittlichste EHS-Software für maximale Arbeitssicherheit</h1>
       
-      <p className="text-xl text-white tracking-tight mt-6 jus">safety² ist die flexible, browser- und cloudbasierte EHS-Software, die sich nahtlos an Ihre Unternehmensanforderungen anpasst. Dank des modularen Aufbaus bestimmen Sie selbst, welche Funktionen Sie benötigen.
+      <p className="text-xl text-white tracking-tight mt-6 justify-center sm:text-balance md:text-balance md:text-2xl sm:text-1xl">safety² ist die flexible, browser- und cloudbasierte EHS-Software, die sich nahtlos an Ihre Unternehmensanforderungen anpasst. Dank des modularen Aufbaus bestimmen Sie selbst, welche Funktionen Sie benötigen.
       Revisionssicher, normgerecht und stets auf dem neuesten Stand – für ein sicheres Arbeitsumfeld, das keine Kompromisse macht.</p>
    <div className="flex gap-1 items-center mt-[30px]">
     <button className="btn btn-primary ">Demo anfordern</button>

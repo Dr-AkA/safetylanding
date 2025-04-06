@@ -29,12 +29,12 @@
     }
     .section-title
     {
-        @apply text-center text-3xl md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-green-900 to-green-400 text-transparent bg-clip-text;
+        @apply text-center text-3xl sm:text-[30px] md:text-[54px] md:leading-[60px] font-bold tracking-tighter bg-gradient-to-b from-green-900 to-green-400 text-transparent bg-clip-text;
     }
 
     .section-paragraph 
     {
-        @apply text-center text-[22px] leading-[30px] tracking-tight text-green-800;
+        @apply md:text-[14px] md:text-wrap sm:text-wrap sm:text-[10px] text-center text-[22px] leading-[30px] tracking-tight text-green-800;
     }
 
 

@@ -4,6 +4,7 @@ import SocialX from '@/assets/social-x.svg';
 import SocialInsta from '@/assets/social-insta.svg';
 import SocialLinkedIn from '@/assets/social-linkedin.svg';
 import SocialYouyube from '@/assets/social-youtube.svg';
+import Location from '@/assets/location.png';
 
 
 
@@ -24,8 +25,11 @@ export const Footer = () => {
           <SocialX/>
           <SocialInsta/>
           <SocialLinkedIn/>
-          <SocialYouyube/>   
+          <SocialYouyube/>
+          <Image src={Location} className='h-[23px] w-[23px]' alt='Ruhenhof 4 48565 Steinfurt'/> 
           </div>
+          <p className='mt-5'>Ruhenhof 4,48565 Steinfurt, Germany</p>
+
           <p className='mt-6'>&copy; 2025 Safety-doors GmbH All rights Reserved</p>
       </div>
     </footer>

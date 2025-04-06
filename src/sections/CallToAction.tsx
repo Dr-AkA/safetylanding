@@ -6,8 +6,8 @@ export const CallToAction = () => {
     <section className="bg-gradient-to-b from-[#EAEEFE] to-[#D2DCFF] py-24">
       <div className="container">
         <div className='section-heading'>
-        <h2 className="section-title">Signup for free today</h2>
-        <p className="section-paragraph mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod esse aliquam, doloremque possimus odio quasi deserunt, nihil voluptatum pariatur molestiae sit soluta quia modi quas rerum corrupti. Facere, exercitationem pariatur.</p>
+        <h2 className="section-title">Kostenlose Demo – Jetzt anmelden!</h2>
+        <p className="section-paragraph mt-5">Erleben Sie unsere Lösung in Aktion! Melden Sie sich noch heute für eine kostenlose Demo an und entdecken Sie, wie wir Ihr Unternehmen auf das nächste Level bringen können – unverbindlich & kostenlos!</p>
         </div>
         <div className="flex gap-2 mt-10 justify-center">
           <button className="btn btn-primary">get for free</button>
