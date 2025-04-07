@@ -6,7 +6,8 @@ import {ProductShowcase} from '@/sections/ProductShowcase';
 import {Modules} from '@/sections/modules';
 import {CallToAction} from '@/sections/CallToAction';
 import {Footer} from '@/sections/Footer';
-export default function Home() {
+
+export default function Home({params}:{params:{locale:string}}) {
   return (<>
     <Head>
       <title>BetriebAnweisung</title>
@@ -18,6 +19,7 @@ export default function Home() {
       
 
     </Head>
+    
     <Header/>
     <Main/>
     <LogoTicker/>

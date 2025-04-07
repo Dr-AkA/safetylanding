@@ -2,6 +2,7 @@
   "name": "safety",
   "version": "0.0.1",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -11,10 +12,17 @@
   "dependencies": {
     "clsx": "^2.1.1",
     "framer-motion": "^11.18.2",
+    "i18next": "^24.2.3",
     "next": "^14.2.25",
+<<<<<<< HEAD
     "nodemailer": "^6.10.0",
+=======
+    "next-i18next": "^15.4.2",
+>>>>>>> 74b57d049ca56c4191ed67cb48c2af98520df058
     "react": "^18",
-    "react-dom": "^18"
+    "react-dom": "^18",
+    "react-i18next": "^15.4.1"
+
   },
   "devDependencies": {
     "@svgr/webpack": "^8.1.0",
@@ -27,5 +35,7 @@
     "tailwind-merge": "^2.4.0",
     "tailwindcss": "^3.4.1",
     "typescript": "^5"
+
+
   }
 }
