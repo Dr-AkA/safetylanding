@@ -16,7 +16,7 @@ export const metadata: Metadata = {
     'audit management', 'unterweisungen', 'maßnahmen', 'Gefahrdungsbeurteilungen',
     'hse', 'hs&e', 'h&s executive', 'health safety & environment', 'hse solutions', 'hse 2',
     'health and safety executive', 'hse health and safety', 'hse health safety and environment',
-    'hse uk', 'hse DE', 'hse Germany', 'hse Deutschland', 'hse planning'
+    'hse uk', 'hse DE', 'hse Germany', 'hse Deutschland', 'hse planning','Safety 2.0'
   ]
 };
 
