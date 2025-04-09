@@ -7,7 +7,7 @@ import {Modules} from '@/sections/modules';
 import {CallToAction} from '@/sections/CallToAction';
 import {Footer} from '@/sections/Footer';
 
-export default function Home({params}:{params:{locale:string}}) {
+export default  function Home() {
   return (<>
     <Head>
       <title>BetriebAnweisung</title>

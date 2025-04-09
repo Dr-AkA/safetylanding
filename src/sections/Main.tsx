@@ -1,5 +1,4 @@
 import Arrowright from '@/assets/arrow-right.svg';
-import translation from 'next-i18next';
 //import SafetyLogo from '@/assets/safety.png';
 import PlaceHolder from '@/assets/logo.webp';
 import Image from 'next/image';
