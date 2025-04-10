@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
 import clsx from "clsx";
+import { createTranslator, NextIntlClientProvider } from 'next-intl';
+import { getMessages, getLocale } from 'next-intl/server';
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -21,19 +23,24 @@ export const metadata: Metadata = {
 };
 
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getLocale();
+  const messages = await getMessages();
+
   return (
 
     
-    <html lang="en" className="relative">
+    <html lang={locale} className="relative">
       
       
       <body className={clsx(dmSans.className, "antialiased bg-[#EAEEFE]")}>
+        <NextIntlClientProvider>
         {children}
+        </NextIntlClientProvider>
       </body>
     
 

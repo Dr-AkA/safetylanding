@@ -2,10 +2,11 @@ import {Header} from "@/sections/Header";
 import { Main } from "@/sections/Main";
 import Head from "next/head";
 import {LogoTicker} from '@/sections/LogoTicker';
-import {ProductShowcase} from '@/sections/ProductShowcase';
-import {Modules} from '@/sections/modules';
+import ProductShowcaseWrapper from "@/components/ProductShowCaseWrapper"
+import ModuleWrapper from '@/components/ModuleWrapper';
 import {CallToAction} from '@/sections/CallToAction';
 import {Footer} from '@/sections/Footer';
+
 
 export default  function Home() {
   return (<>
@@ -23,8 +24,8 @@ export default  function Home() {
     <Header/>
     <Main/>
     <LogoTicker/>
-    <ProductShowcase/>
-    <Modules/>
+    <ProductShowcaseWrapper/>
+    <ModuleWrapper/>
     <CallToAction/>
     <Footer/>
     

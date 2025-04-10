@@ -1,0 +1,32 @@
+{
+    "HomePage": {
+      "header": "Safety first, compliance always.",
+      "demo":"request a demo.",
+      "uns":"about us",
+      "modules":"Modules",
+      "help":"Help",
+      "contact":"Contact"
+      
+    },
+    "Main":
+    {
+      "version":"Version 2.0 is Here",
+      "title":"Safety² The most advanced EHS software for maximum occupational safety",
+      "description":"safety² is the flexible, browser- and cloud-based EHS software that adapts seamlessly to your company's requirements. Thanks to its modular structure, you decide which features you need. Audit-proof, standards-compliant, and always up-to-date – for a safe working environment that makes no compromises.",
+      "demo":"request a demo.",
+      "learn":"learn more"
+    },
+    "Showcase":
+    {
+      "header":"Safety first, compliance always.",
+      "header2":"Maximum security, smarter, faster, more reliable.",
+      "header3":"Safety Efficiency. Compliance",
+      "description":"Create a safe and compliant work environment without compromise. Our EHS software helps you identify risks early, comply with regulations effortlessly, and manage processes efficiently."
+    },
+    "Modules":
+    {
+      
+    }
+
+    
+  }

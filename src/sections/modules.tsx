@@ -22,6 +22,29 @@ import audit1 from '@/assets/audit1.jpg';
 import Image from 'next/image';
 import { useState } from 'react';
 import ModuleModal from '@/sections/ModuleModal';
+
+
+type Module = {
+  title: string;
+  buttonText: string;
+  Logo: any;
+  isSvg: boolean;
+  screenshots: any[];
+  description: string;
+  alt: string;
+  features: string[];
+};
+
+
+type Props = {
+  modules: Module[];
+
+
+  };
+
+
+
+
 const fachmodules = [
   {
     title: "EHS-Basis",
@@ -145,7 +168,7 @@ const fachmodules = [
   
 ];
 
-export const Modules = () => {
+export const Modules = ({ modules }: Props) => {
   const [selectedModule, setSelectedModule] = useState(null);
   const [isModalOpen, setIsModalOpen] = useState(false);
 

@@ -1,0 +1,38 @@
+{
+    "HomePage": {
+      "header": "Sicherheit zuerst, Compliance stets.",
+      "demo":"Demo anfordern",
+      "uns":"Über uns",
+      "modules":"Fachmodule",
+      "help":"Hilfe",
+      "contact":"Kontakt"
+      
+    },
+    "Main":
+    {
+      "version":"Version 2.0 ist Hier.",
+      "title":"Safety² Die fortschrittlichste EHS-Software für maximale Arbeitssicherheit",
+      "description":"safety² ist die flexible, browser- und cloudbasierte EHS-Software, die sich nahtlos an Ihre Unternehmensanforderungen anpasst. Dank des modularen Aufbaus bestimmen Sie selbst, welche Funktionen Sie benötigen. Revisionssicher, normgerecht und stets auf dem neuesten Stand – für ein sicheres Arbeitsumfeld, das keine Kompromisse macht.",
+      "demo":"Demo anfordern",
+      "learn":"Mehr erfahren"
+    },
+    "Showcase":
+    {
+      "header":"Sicherheit zuerst, Compliance stets.",
+      "header2":"Maximale Sicherheit intelligenter schneller zuverlässiger.",
+      "header3":"Sicherheit Effizienz. Compliance",
+      "description":"Schaffen Sie eine sichere und regelkonforme Arbeitsumgebung ohne Kompromisse. Unsere EHS-Software hilft Ihnen, Risiken frühzeitig zu erkennen, Vorschriften mühelos einzuhalten und Prozesse effizient zu steuern."
+
+    },
+    "Modules":
+    {
+     "EHS-Basis":
+     {
+      "title":"EHS-Basis",
+      "buttonText":"Mehr erfahren",
+      "description":"Die safety² EHS-Basis – Ihre zentrale Plattform für ein strukturiertes und effizientes Gesundheits- und Arbeitsschutzmanagement. Alle relevanten Daten werden zentral gebündelt, kontinuierlich aktualisiert und nahtlos mit weiteren Modulen verknüpft. Flexible Berechtigungsstrukturen gewährleisten höchste Datenschutz- und Sicherheitsstandards. Das individuell anpassbare Dokumentenmanagementsystem (DMS) sorgt für eine konsistente Dokumentation und ermöglicht allen Mitarbeitenden – standortübergreifend – den schnellen Zugriff auf aktuelle Richtlinien und Verfahren. Selbstverständlich ist safety² in mehreren Sprachen verfügbar.",
+      "alt":"Umwelt und sicherheit",
+      "features":"safety² EHS-Basis zentralisiert Ihre Daten, hält sie aktuell und verknüpft sie intelligent mit allen Modulen. Anpassbare Berechtigungen gewährleisten höchste Datensicherheit."
+     }
+    }
+  }

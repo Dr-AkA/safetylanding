@@ -25,7 +25,10 @@
     }
 
     .tag{
-        @apply text-sm inline-flex border border-[#222]/10 px-3 py-1 rounded-lg tracking-tight
+        @apply text-sm text-[white] inline-flex border border-[white]/20 px-3 py-1 rounded-lg tracking-tight
+    }
+    .tag1{
+        @apply text-sm  inline-flex border border-[black]/10 px-3 py-1 rounded-lg tracking-tight
     }
     .section-title
     {
