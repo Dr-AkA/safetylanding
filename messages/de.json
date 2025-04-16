@@ -33,6 +33,46 @@
       "description":"Die safety² EHS-Basis – Ihre zentrale Plattform für ein strukturiertes und effizientes Gesundheits- und Arbeitsschutzmanagement. Alle relevanten Daten werden zentral gebündelt, kontinuierlich aktualisiert und nahtlos mit weiteren Modulen verknüpft. Flexible Berechtigungsstrukturen gewährleisten höchste Datenschutz- und Sicherheitsstandards. Das individuell anpassbare Dokumentenmanagementsystem (DMS) sorgt für eine konsistente Dokumentation und ermöglicht allen Mitarbeitenden – standortübergreifend – den schnellen Zugriff auf aktuelle Richtlinien und Verfahren. Selbstverständlich ist safety² in mehreren Sprachen verfügbar.",
       "alt":"Umwelt und sicherheit",
       "features":"safety² EHS-Basis zentralisiert Ihre Daten, hält sie aktuell und verknüpft sie intelligent mit allen Modulen. Anpassbare Berechtigungen gewährleisten höchste Datensicherheit."
-     }
+     },
+     "Betriebsanweisung":
+     {
+      "title":"Betriebsanweisung",
+      "buttonText":"Mehr erfahren",
+      "description":"Mit dem safety²-Modul Betriebsanweisungen erfüllen Sie Ihre Informationspflicht rechtssicher und standardisiert. Nutzen Sie praxisbewährte Vorlagen oder erstellen Sie individuelle Anweisungen, passgenau auf Ihr Unternehmen zugeschnitten. Integrieren Sie relevante Sicherheitsrichtlinien, Prozesse und Schutzmaßnahmen – für eine wirksame Risikominimierung und die zuverlässige Einhaltung gesetzlicher Vorgaben.",
+      "alt":"Betriebsanweisung online erstellen",
+      "features":"Erstellen Sie Betriebsanweisungen effizient mit vordefinierten oder anpassbaren Bausteinen. Dank intelligenter Verknüpfung erfolgt die Generierung automatisch – strukturiert, zeitsparend und normgerecht."
+    },
+    "Qualifkationen":
+    {
+      "title":"Qualifkationen",
+      "buttonText":"Mehr erfahren",
+      "description":"Gezielte Aufgabenvergabe basierend auf individuellen Qualifikationen – mit dem safety² Modul Qualifikationen. Das Modul unterstützt Sie dabei, Mitarbeitende passgenau gemäß ihrer Kompetenzen einzusetzen. So steigern Sie nicht nur die betriebliche Effizienz, sondern reduzieren gleichzeitig sicherheitsrelevante Risiken und verbessern den Arbeitsschutz nachhaltig. Durch die automatische Verknüpfung mit dem Modul Unterweisungen behalten Sie stets den Überblick über erforderliche Schulungen und ablaufende Zertifikate – und werden rechtzeitig erinnert.",
+      "alt":"Compliance Zertifikaten",
+      "features":"Zentrales, digitales Kompetenzmanagement mit umfassender Übersicht aller Mitarbeiterqualifikationen. Ermöglicht gezielte Filterung nach spezifischen Fachkompetenzen und Expertisen für optimale Ressourcenplanung."
+    },
+    "Gefahrdungsbeurteilungen":
+    {
+      "title":"Gefahrdungsbeurteilungen",
+      "buttonText":"Mehr erfahren",
+      "description":"Gefahren frühzeitig erkennen und wirksam vorbeugen – mit dem safety² Modul Gefährdungsbeurteilungen. Bewerten Sie Gefährdungen systematisch und stellen Sie sicher, dass geeignete Schutzmaßnahmen rechtzeitig umgesetzt werden. Das Modul unterstützt Sie bei der ganzheitlichen Risikobewertung und hilft, potenzielle Gefahrenquellen frühzeitig zu identifizieren – bevor sie zum Problem werden.",
+      "alt":"Risikomanagement",
+      "features":"Umfassende digitale Risikoerfassung und -management mit safety² - identifiziert, dokumentiert und bewertet systematisch alle betrieblichen Gefährdungspotenziale für maximale Arbeitssicherheit und Compliance."
+    },
+    "Maßnahmen":
+    {
+      "title":"Maßnahmen",
+      "buttonText":"Mehr erfahren",
+      "description":"Effizientes Maßnahmenmanagement – klar, zentral, transparent. Mit dem safety² Modul Maßnahmen behalten Sie sämtliche betrieblichen Maßnahmen im Blick. Erstellen Sie neue Maßnahmen mit wenigen Klicks und weisen Sie diese gezielt Verantwortlichen oder Abteilungen zu. Dank zentraler Übersicht und automatisierter Benachrichtigungen über Fristen, Änderungen und Statusupdates sorgen Sie für maximale Sicherheit, Transparenz und Nachverfolgbarkeit – ganz ohne Mehraufwand.",
+      "alt":"Audit-Management",
+      "features":"Zentrales digitales Maßnahmenmanagement mit safety² – ermöglicht lückenlose Planung, Verfolgung und Dokumentation aller unternehmensweiten Maßnahmen. Inklusive intelligentem Erinnerungssystem für termingerechte Umsetzung und automatischen Benachrichtigungen zu kritischen Änderungen."
+    },
+    "Prüf & Wartungsplaner":
+    {
+      "title":"Prüf & Wartungsplaner",
+      "buttonText":"Mehr erfahren",
+      "description":"Zuverlässigkeit mit System – dank digitalem Prüf- und Wartungsmanagement. Mit dem safety² Modul Prüf- & Wartungsplaner erfassen Sie alle prüfpflichtigen Objekte und Arbeitsmittel zentral und digital. Hinterlegen Sie individuelle Checklisten und planen Sie automatische Zuweisungen in definierten Intervallen. Das integrierte Erinnerungssystem stellt sicher, dass alle gesetzlichen Prüfzyklen eingehalten werden – lückenlos, termingerecht und revisionssicher.",
+      "alt":"Gesetzliche Vorschriften",
+      "features":"Zentrale digitale Erfassung und Überwachung aller prüfpflichtigen Objekte und Arbeitsmittel. Gewährleistet maximale Sicherheit und lückenlose Compliance durch strukturierte Verwaltung von Prüfmitteln und Wartungsaktivitäten mit automatisierter Fristenkontrolle."
+    }
     }
   }
