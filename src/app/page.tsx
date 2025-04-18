@@ -4,7 +4,7 @@ import Head from "next/head";
 import {LogoTicker} from '@/sections/LogoTicker';
 import ProductShowcaseWrapper from "@/components/ProductShowCaseWrapper"
 import ModuleWrapper from '@/components/ModuleWrapper';
-import {CallToAction} from '@/sections/CallToAction';
+import CallToActionWrapper from '@/components/CallToActionWrapper';
 import {Footer} from '@/sections/Footer';
 
 
@@ -27,7 +27,7 @@ export default  function Home() {
     <LogoTicker/>
     <ProductShowcaseWrapper/>
     <ModuleWrapper/>
-    <CallToAction/>
+    <CallToActionWrapper/>
     <Footer/>
     
     </>);

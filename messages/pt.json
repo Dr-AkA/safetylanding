@@ -1,0 +1,124 @@
+{
+    "HomePage": {
+      "header": "Segurança em primeiro lugar, conformidade sempre.",
+      "demo":"solicitar uma demonstração.",
+      "uns":"sobre nós",
+      "modules":"Módulos",
+      "help":"Ajuda",
+      "contact":"Contato"
+      
+    },
+    "Main":
+    {
+      "version":"A versão 2.0 está aqui",
+      "title":"Safety² O software EHS mais avançado para máxima segurança ocupacional",
+      "description":"safety² é o software EHS flexível, baseado em navegador e nuvem que se adapta perfeitamente aos requisitos da sua empresa. Graças à sua estrutura modular, você decide quais recursos precisa. À prova de auditoria, em conformidade com as normas e sempre atualizado – para um ambiente de trabalho seguro que não faz concessões.",
+      "demo":"solicitar uma demonstração.",
+      "learn":"saiba mais"
+    },
+    "Showcase":
+    {
+      "header":"Segurança em primeiro lugar, conformidade sempre.",
+      "header2":"Máxima segurança, mais inteligente, mais rápida, mais confiável.",
+      "header3":"Segurança Eficiência. Conformidade",
+      "description":"Crie um ambiente de trabalho seguro e conforme sem compromissos. Nosso software EHS ajuda você a identificar riscos precocemente, cumprir regulamentos sem esforço e gerenciar processos com eficiência."
+    },
+    "Modules":
+    {
+     "EHS-Basis":
+     {
+      "title":"Base EHS",
+      "buttonText":"Saiba mais",
+      "description":"A base safety² EHS – Sua plataforma central para gestão estruturada e eficiente de saúde e segurança. Todos os dados relevantes são centralizados, continuamente atualizados e perfeitamente conectados com outros módulos. Estruturas de permissão flexíveis garantem os mais altos padrões de proteção de dados e segurança. O sistema de gerenciamento de documentos personalizável (GED) assegura uma documentação consistente e proporciona a todos os funcionários – em todas as localizações – acesso rápido às diretrizes e procedimentos atuais. Naturalmente, safety² está disponível em vários idiomas.",
+      "alt":"Meio ambiente e segurança",
+      "features":"A base safety² EHS centraliza seus dados, mantém-nos atualizados e conecta-os inteligentemente com todos os módulos. Permissões personalizáveis garantem a máxima segurança dos dados."
+     },
+     "Betriebsanweisung":
+     {
+      "title":"Instruções de operação",
+      "buttonText":"Saiba mais",
+      "description":"Com o módulo de Instruções de Operação do safety², você cumpre suas obrigações de informação de maneira legalmente segura e padronizada. Use modelos comprovados ou crie instruções individuais, adaptadas precisamente à sua empresa. Integre diretrizes de segurança relevantes, processos e medidas de proteção – para uma minimização eficaz de riscos e conformidade confiável com requisitos legais.",
+      "alt":"Criar instruções de operação online",
+      "features":"Crie instruções de operação eficientemente com componentes predefinidos ou personalizáveis. Graças à conexão inteligente, a geração acontece automaticamente – estruturada, economizando tempo e em conformidade com os padrões."
+    },
+    "Qualifkationen":
+    {
+      "title":"Qualificações",
+      "buttonText":"Saiba mais",
+      "description":"Atribuição direcionada de tarefas baseada em qualificações individuais – com o módulo de Qualificações do safety². O módulo apoia você na implantação de funcionários precisamente de acordo com suas competências. Isso não apenas aumenta a eficiência operacional, mas também reduz riscos relevantes para a segurança e melhora sustentavelmente a segurança ocupacional. Através da conexão automática com o módulo de Treinamento, você mantém sempre uma visão geral dos treinamentos necessários e certificados a expirar – e recebe lembretes oportunos.",
+      "alt":"Certificados de conformidade",
+      "features":"Gerenciamento central e digital de competências com visão abrangente de todas as qualificações dos funcionários. Permite filtragem direcionada por competências profissionais específicas e expertise para planejamento ideal de recursos."
+    },
+    "Gefahrdungsbeurteilungen":
+    {
+      "title":"Avaliações de risco",
+      "buttonText":"Saiba mais",
+      "description":"Identifique perigos precocemente e previna-os eficazmente – com o módulo de Avaliação de Riscos do safety². Avalie sistematicamente os perigos e garanta que medidas de proteção apropriadas sejam implementadas em tempo hábil. O módulo apoia você na avaliação holística de riscos e ajuda a identificar fontes potenciais de perigo precocemente – antes que se tornem um problema.",
+      "alt":"Gestão de riscos",
+      "features":"Registro e gerenciamento digital abrangente de riscos com safety² - identifica, documenta e avalia sistematicamente todos os potenciais de perigo operacionais para máxima segurança ocupacional e conformidade."
+    },
+    "Maßnahmen":
+    {
+      "title":"Medidas",
+      "buttonText":"Saiba mais",
+      "description":"Gerenciamento eficiente de medidas – claro, central, transparente. Com o módulo de Medidas do safety², você mantém o controle de todas as medidas operacionais. Crie novas medidas com apenas alguns cliques e atribua-as especificamente a pessoas ou departamentos responsáveis. Graças a uma visão geral central e notificações automatizadas sobre prazos, alterações e atualizações de status, você garante máxima segurança, transparência e rastreabilidade – sem qualquer esforço adicional.",
+      "alt":"Gestão de auditorias",
+      "features":"Gerenciamento central digital de medidas com safety² – permite planejamento, acompanhamento e documentação sem falhas de todas as medidas em toda a empresa. Inclui sistema inteligente de lembretes para implementação oportuna e notificações automáticas de alterações críticas."
+    },
+    "Prüf & Wartungsplaner":
+    {
+      "title":"Planejador de inspeção e manutenção",
+      "buttonText":"Saiba mais",
+      "description":"Confiabilidade com sistema – graças ao gerenciamento digital de inspeção e manutenção. Com o módulo Planejador de Inspeção e Manutenção do safety², você registra todos os itens e equipamentos de trabalho que requerem inspeção de forma centralizada e digital. Configure listas de verificação individuais e planeje atribuições automáticas em intervalos definidos. O sistema integrado de lembretes garante que todos os ciclos de inspeção legais sejam cumpridos – sem falhas, no prazo e à prova de auditoria.",
+      "alt":"Regulamentações legais",
+      "features":"Registro e monitoramento digital centralizado de todos os objetos e equipamentos de trabalho que requerem inspeção. Garante máxima segurança e conformidade perfeita através do gerenciamento estruturado de equipamentos de teste e atividades de manutenção com controle automatizado de prazos."
+    },
+    "Umfallmanagement":
+    {
+      "title":"Gestão de incidentes",
+      "buttonText":"Saiba mais",
+      "description":"Gerenciamento abrangente de acidentes para mais segurança e menos risco. Com o módulo de Gestão de Acidentes do safety², você registra e gerencia quase-acidentes, acidentes de trajeto e acidentes de trabalho de forma digital e estruturada. Eventos críticos são sistematicamente avaliados, documentados e traduzidos em medidas concretas de prevenção. A máscara intuitiva de entrada rápida permite processamento eficiente, enquanto a função integrada de relatório de acidente reduz significativamente o esforço administrativo.",
+      "alt":"Gestão de incidentes",
+      "features":"Documentação inteligente de segurança ocupacional: Registro e análise digital de acidentes de trabalho para um ambiente de trabalho mais seguro."
+    },
+    "Digitale Unterweisungen":
+    {
+      "title":"Instruções digitais",
+      "buttonText":"Saiba mais",
+      "description":"Treinamento 100% legalmente seguro – automatizado, verificável e individual. Com o módulo de Treinamento do safety², você cumpre suas obrigações de treinamento sem problemas e eficientemente – tanto para funcionários internos quanto externos. Crie tópicos e planos de treinamento individuais, realize verificações de sucesso de aprendizagem e gere certificados legalmente seguros. O módulo permite criação e gerenciamento simples de sessões de treinamento, incluindo lembretes automatizados, consultas de status e documentação abrangente de evidências.",
+      "alt":"Criar treinamento digital",
+      "features":"Treinamento online eficiente que cumpre suas obrigações legais de instrução de forma simples e verificável."
+     },
+     "Sicherheits-Beobachtungen":
+    {
+      "title":"Observações de segurança",
+      "buttonText":"Saiba mais",
+      "description":"Detecte riscos de segurança precocemente – com o módulo de Observações do safety². Promova uma cultura de segurança ativa através de observações direcionadas e documentação digital. O módulo permite que os funcionários relatem fácil e diretamente comportamentos inseguros ou violações de regras aos departamentos responsáveis – através de departamentos e localizações. Fontes potenciais de perigo como equipamentos de trabalho defeituosos ou ambientes inadequados são registrados de forma estruturada. Em combinação com outros módulos do safety², planos de ação ou instruções de operação podem ser automaticamente derivados – para mais segurança e menos risco no trabalho diário.",
+      "alt":"Observações de segurança",
+      "features":"Registro digital de comportamento e condições do local de trabalho para medidas de prevenção direcionadas e melhoria contínua."
+    },
+    "Intelligente Audits & Begehungen":
+    {
+      "title":"Auditorias e inspeções inteligentes",
+      "buttonText":"Saiba mais",
+      "description":"Excelente segurança ocupacional através de gerenciamento sistemático de auditorias e inspeções. Com o módulo de Auditorias e Inspeções do safety², você organiza todas as verificações de segurança de forma centralizada e eficiente – para máxima segurança e conformidade. Registre observações diretamente no local, documente-as digitalmente em tempo real, avalie resultados especificamente e inicie imediatamente as medidas necessárias. Dessa forma, você otimiza sustentavelmente seus padrões de segurança e cumpre proativamente todos os requisitos regulatórios.",
+       "alt":"Gestão de auditorias",
+      "features":"Otimize seus processos de conformidade através de documentação digital em tempo real durante as inspeções. Nosso conjunto de ferramentas integrado garante conformidade com diretrizes, detecção proativa de perigos e agendamento automatizado – transformando inspeções de rotina em inteligência estratégica de segurança."
+     }
+  },
+  "callToAction":
+  {
+   "Title":"Registre-se gratuitamente hoje",
+   "paragraph":"Use nosso avançado sistema EHS agora e melhore sua gestão de saúde, segurança e meio ambiente ocupacional. Nossa plataforma ajuda você a atender requisitos de conformidade, minimizar riscos e aumentar a segurança no local de trabalho. Com painéis intuitivos, relatórios automatizados e ferramentas de análise abrangentes, você pode otimizar seus processos EHS e proteger tanto seus funcionários quanto o meio ambiente. Nossa equipe de especialistas irá apoiá-lo com integração perfeita em seus processos existentes – sem custo inicial.",
+   "button":"solicitar uma demonstração",
+   "button2":"saiba mais"
+  },
+  "footer":
+  {
+  
+    "uns":"sobre nós",
+    "modules":"Módulos",
+    "help":"Ajuda",
+    "contact":"Contato"
+  }
+}

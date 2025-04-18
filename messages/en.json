@@ -25,57 +25,102 @@
     },
     "Modules":
     {
-      "EHS-Basis":
+     "EHS-Basis":
      {
       "title":"EHS-Basis",
-      "buttonText":"learn more",
-      "description":"The safety² EHS Basis – your central platform for structured and efficient health and safety management. All relevant data is centrally consolidated, continuously updated, and seamlessly linked to other modules. Flexible authorization structures ensure the highest data protection and security standards. The individually adaptable document management system (DMS) ensures consistent documentation and provides all employees – across all locations – with quick access to current policies and procedures. Of course, safety² is available in several languages.",
+      "buttonText":"Learn more",
+      "description":"The safety² EHS-Basis – Your central platform for structured and efficient health and safety management. All relevant data is centrally bundled, continuously updated, and seamlessly linked with other modules. Flexible permission structures ensure the highest data protection and security standards. The customizable document management system (DMS) ensures consistent documentation and provides all employees – across locations – with quick access to current guidelines and procedures. Of course, safety² is available in multiple languages.",
       "alt":"Environment and safety",
-      "features":"safety² EHS Basis centralizes your data, keeps it up-to-date, and intelligently links it across all modules. Customizable permissions ensure maximum data security."
+      "features":"safety² EHS-Basis centralizes your data, keeps it current, and intelligently connects it with all modules. Customizable permissions ensure the highest data security."
      },
      "Betriebsanweisung":
      {
       "title":"Operating instructions",
-      "buttonText":"learn more",
-      "description":"With the safety² Operating Instructions module, you can fulfill your information obligations in a legally compliant and standardized manner. Use proven templates or create customized instructions tailored specifically to your company. Integrate relevant safety policies, processes, and protective measures – for effective risk minimization and reliable compliance with legal requirements.",
+      "buttonText":"Learn more",
+      "description":"With the safety² Operating Instructions module, you fulfill your information obligations in a legally secure and standardized manner. Use proven templates or create individual instructions, tailored precisely to your company. Integrate relevant safety guidelines, processes, and protective measures – for effective risk minimization and reliable compliance with legal requirements.",
       "alt":"Create operating instructions online",
-      "features":"Create operating instructions efficiently using predefined or customizable building blocks. Thanks to intelligent linking, generation is automatic – structured, time-saving, and compliant with standards."
+      "features":"Create operating instructions efficiently with predefined or customizable components. Thanks to intelligent linking, generation happens automatically – structured, time-saving, and standards-compliant."
     },
     "Qualifkationen":
     {
       "title":"Qualifications",
-      "buttonText":"learn more",
-      "description":"Targeted task allocation based on individual qualifications – with the safety² Qualifications module. This module supports you in deploying employees precisely according to their skills. This not only increases operational efficiency, but also reduces safety-related risks and sustainably improves occupational health and safety. Thanks to the automatic link to the Training module, you always maintain an overview of required training courses and expiring certificates – and receive timely reminders.",
+      "buttonText":"Learn more",
+      "description":"Targeted task assignment based on individual qualifications – with the safety² Qualifications module. The module supports you in deploying employees precisely according to their competencies. This not only increases operational efficiency but also reduces safety-relevant risks and sustainably improves occupational safety. Through automatic linking with the Training module, you always maintain an overview of required training and expiring certificates – and receive timely reminders.",
       "alt":"Compliance certificates",
-      "features":"Centralized, digital competency management with a comprehensive overview of all employee qualifications. Enables targeted filtering by specific professional skills and expertise for optimal resource planning."
+      "features":"Central, digital competency management with comprehensive overview of all employee qualifications. Enables targeted filtering by specific professional competencies and expertise for optimal resource planning."
     },
     "Gefahrdungsbeurteilungen":
     {
       "title":"Risk assessments",
-      "buttonText":"learn more",
-      "description":"Detect hazards early and prevent them effectively – with the safety² Risk Assessment module. Systematically assess hazards and ensure that appropriate protective measures are implemented in a timely manner. The module supports you in holistic risk assessment and helps identify potential sources of danger early on – before they become a problem.",
-      "alt":"Risk Management",
-      "features":"Comprehensive digital risk assessment and management with safety² - systematically identifies, documents and evaluates all operational hazard potentials for maximum occupational safety and compliance."
+      "buttonText":"Learn more",
+      "description":"Identify hazards early and prevent them effectively – with the safety² Risk Assessment module. Systematically evaluate hazards and ensure that appropriate protective measures are implemented in a timely manner. The module supports you in holistic risk assessment and helps to identify potential sources of danger early – before they become a problem.",
+      "alt":"Risk management",
+      "features":"Comprehensive digital risk recording and management with safety² - systematically identifies, documents, and evaluates all operational hazard potentials for maximum occupational safety and compliance."
     },
     "Maßnahmen":
     {
-      "title":"Maßnahmen",
-      "buttonText":"learn more",
-      "description":"Systematic reliability – thanks to digital inspection and maintenance management. With the safety² Inspection & Maintenance Planner module, you can centrally and digitally record all objects and work equipment subject to inspection. Create customized checklists and schedule automatic assignments at defined intervals. The integrated reminder system ensures that all statutory inspection cycles are adhered to – seamlessly, on time, and audit-compliant.",
-      "alt":"audit management",
-      "features":"Centralized digital recording and monitoring of all objects and work equipment subject to inspection. Ensures maximum safety and seamless compliance through structured management of inspection equipment and maintenance activities with automated deadline monitoring."
+      "title":"Measures",
+      "buttonText":"Learn more",
+      "description":"Efficient measure management – clear, central, transparent. With the safety² Measures module, you keep track of all operational measures. Create new measures with just a few clicks and assign them specifically to responsible persons or departments. Thanks to a central overview and automated notifications about deadlines, changes, and status updates, you ensure maximum security, transparency, and traceability – without any additional effort.",
+      "alt":"Audit management",
+      "features":"Central digital measures management with safety² – enables seamless planning, tracking, and documentation of all company-wide measures. Includes intelligent reminder system for timely implementation and automatic notifications of critical changes."
     },
     "Prüf & Wartungsplaner":
     {
-      "title":"Prüf & Wartungsplaner",
-      "buttonText":"learn more",
-      "description":"Systematic reliability – thanks to digital inspection and maintenance management. With the safety² Inspection & Maintenance Planner module, you can centrally and digitally record all objects and work equipment subject to inspection. Create customized checklists and schedule automatic assignments at defined intervals. The integrated reminder system ensures that all statutory inspection cycles are adhered to – seamlessly, on time, and audit-compliant.",
+      "title":"Inspection & Maintenance Planner",
+      "buttonText":"Learn more",
+      "description":"Reliability with a system – thanks to digital inspection and maintenance management. With the safety² Inspection & Maintenance Planner module, you record all items and work equipment requiring inspection centrally and digitally. Set up individual checklists and plan automatic assignments at defined intervals. The integrated reminder system ensures that all legal inspection cycles are met – seamlessly, on time, and audit-proof.",
       "alt":"Legal regulations",
-      "features":"Centralized digital recording and monitoring of all objects and work equipment subject to inspection. Ensures maximum safety and seamless compliance through structured management of inspection equipment and maintenance activities with automated deadline monitoring."
-    }
+      "features":"Central digital recording and monitoring of all inspection-required objects and work equipment. Ensures maximum safety and seamless compliance through structured management of test equipment and maintenance activities with automated deadline control."
+    },
+    "Umfallmanagement":
+    {
+      "title":"Incident management",
+      "buttonText":"Learn more",
+      "description":"Comprehensive accident management for more safety and less risk. With the safety² Accident Management module, you record and manage near-misses, commuting accidents, and workplace accidents digitally and in a structured manner. Critical events are systematically evaluated, documented, and translated into concrete prevention measures. The intuitive quick entry mask enables efficient processing, while the integrated accident report function significantly reduces administrative effort.",
+      "alt":"Incident management",
+      "features":"Smart occupational safety documentation: Digital recording and analysis of workplace accidents for a safer working environment."
+    },
+    "Digitale Unterweisungen":
+    {
+      "title":"Digital instructions",
+      "buttonText":"Learn more",
+      "description":"100% legally secure training – automated, verifiable, and individual. With the safety² Training module, you fulfill your training obligations seamlessly and efficiently – for both internal and external employees. Create individual training topics and plans, conduct learning success checks, and generate legally secure certificates. The module enables simple creation and management of training sessions, including automated reminders, status queries, and comprehensive documentation of evidence.",
+      "alt":"Create digital training",
+      "features":"Efficient online training that fulfills your legal instruction obligations simply and verifiably."
+     },
+     "Sicherheits-Beobachtungen":
+    {
+      "title":"Security observations",
+      "buttonText":"Learn more",
+      "description":"Detect safety risks early – with the safety² Observations module. Promote an active safety culture through targeted observations and digital documentation. The module enables employees to easily and directly report unsafe behavior or rule violations to the responsible departments – across departments and locations. Potential sources of danger such as defective work equipment or unsuitable environments are recorded in a structured manner. In combination with other safety² modules, action plans or operating instructions can be automatically derived – for more safety and less risk in everyday work.",
+      "alt":"Safety observations",
+      "features":"Digital recording of workplace behavior and conditions for targeted prevention measures and continuous improvement."
+    },
+    "Intelligente Audits & Begehungen":
+    {
+      "title":"Intelligent audits & inspections",
+      "buttonText":"Learn more",
+      "description":"Excellent occupational safety through systematic audit and inspection management. With the safety² Audits & Inspections module, you organize all safety checks centrally and efficiently – for maximum safety and compliance. Record observations directly on site, document them digitally in real time, evaluate results specifically, and immediately initiate necessary measures. This way you sustainably optimize your safety standards and proactively fulfill all regulatory requirements.",
+       "alt":"Audit management",
+      "features":"Optimize your compliance processes through digital real-time documentation during inspections. Our integrated toolkit ensures compliance with guidelines, proactive hazard detection, and automated scheduling – transforming routine inspections into strategic safety intelligence."
+     }
+  },
+  "callToAction":
+  {
+   "Title":"Register for free today",
+   "paragraph":"Use our advanced EHS system now and improve your occupational health, safety, and environmental management. Our platform helps you meet compliance requirements, minimize risks, and increase workplace safety. With intuitive dashboards, automated reports, and comprehensive analytics tools, you can optimize your EHS processes and protect both your employees and the environment. Our team of experts will support you with seamless integration into your existing processes – at no upfront cost.",
+   "button":"request a demo",
+   "button2":"learn more"
+  },
+  "footer":
+  {
   
-      
-    }
+    "uns":"about us",
+    "modules":"Modules",
+    "help":"Help",
+    "contact":"Contact"
+  }
 
     
   }

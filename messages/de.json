@@ -73,6 +73,54 @@
       "description":"Zuverlässigkeit mit System – dank digitalem Prüf- und Wartungsmanagement. Mit dem safety² Modul Prüf- & Wartungsplaner erfassen Sie alle prüfpflichtigen Objekte und Arbeitsmittel zentral und digital. Hinterlegen Sie individuelle Checklisten und planen Sie automatische Zuweisungen in definierten Intervallen. Das integrierte Erinnerungssystem stellt sicher, dass alle gesetzlichen Prüfzyklen eingehalten werden – lückenlos, termingerecht und revisionssicher.",
       "alt":"Gesetzliche Vorschriften",
       "features":"Zentrale digitale Erfassung und Überwachung aller prüfpflichtigen Objekte und Arbeitsmittel. Gewährleistet maximale Sicherheit und lückenlose Compliance durch strukturierte Verwaltung von Prüfmitteln und Wartungsaktivitäten mit automatisierter Fristenkontrolle."
-    }
-    }
+    },
+    "Umfallmanagement":
+    {
+      "title":"Umfallmanagement",
+      "buttonText":"Mehr erfahren",
+      "description":"Ganzheitliches Unfallmanagement für mehr Sicherheit und weniger Risiko Mit dem safety² Modul Unfallmanagement erfassen und verwalten Sie Beinahe-Unfälle, Wegeunfälle und Arbeitsunfälle digital und strukturiert. Kritische Ereignisse werden systematisch bewertet, dokumentiert und in konkrete Maßnahmen zur Prävention überführt. Die intuitive Schnellerfassungsmaske ermöglicht eine effiziente Bearbeitung, während die integrierte Unfallanzeige-Funktion den Verwaltungsaufwand deutlich reduziert.",
+      "alt":"Vorfallmanagement",
+      "features":"Smarte Arbeitsschutz-Dokumentation: Digitale Erfassung und Analyse von Arbeitsplatzunfällen für ein sichereres Arbeitsumfeld."
+    },
+    "Digitale Unterweisungen":
+    {
+      "title":"Digitale Unterweisungen",
+      "buttonText":"Mehr erfahren",
+      "description":"100 % rechtssichere Unterweisung – automatisiert, nachweisbar und individuell Mit dem safety² Modul Unterweisungen erfüllen Sie Ihre Unterweisungspflicht lückenlos und effizient – für interne wie externe Mitarbeitende. Erstellen Sie individuelle Schulungsthemen und -pläne, führen Sie Lernerfolgskontrollen durch und generieren Sie rechtssichere Zertifikate. Das Modul ermöglicht eine einfache Erstellung und Verwaltung von Unterweisungen, inklusive automatisierter Erinnerungen, Statusabfragen und umfassender Nachweisdokumentation.",
+      "alt":"Digitale Unterweisungen erstellen",
+      "features":"Effiziente Online-Schulungen, die Ihre gesetzlichen Unterweisungspflichten einfach und nachweisbar erfüllen."
+     },
+     "Sicherheits-Beobachtungen":
+    {
+      "title":"Sicherheits-Beobachtungen",
+      "buttonText":"Mehr erfahren",
+      "description":"Sicherheitsrisiken früh erkennen – mit dem safety² Modul Beobachtungen. Fördern Sie eine aktive Sicherheitskultur durch gezielte Beobachtungen und digitale Dokumentation. Das Modul ermöglicht es Mitarbeitenden, unsicheres Verhalten oder Regelverstöße einfach und direkt an die zuständigen Stellen zu melden – abteilungsübergreifend und standortunabhängig. Potenzielle Gefahrenquellen wie defekte Arbeitsmittel oder ungeeignete Umgebungen werden strukturiert erfasst. In Kombination mit weiteren safety² Modulen lassen sich daraus automatisch Maßnahmenpläne oder Betriebsanweisungen ableiten – für mehr Sicherheit und weniger Risiko im Arbeitsalltag.",
+      "alt":"Sichere Beobachtungen",
+      "features":"Digitale Erfassung von Arbeitsplatzverhalten und -bedingungen für gezielte Präventionsmaßnahmen und kontinuierliche Verbesserung."
+    },
+    "Intelligente Audits & Begehungen":
+    {
+      "title":"Intelligente Audits & Begehungen",
+      "buttonText":"Mehr erfahren",
+      "description":"Exzellente Arbeitssicherheit durch systematisches Audit- und Begehungsmanagement. Mit dem safety² Modul Audits & Begehungen organisieren Sie alle Sicherheitsüberprüfungen zentral und effizient – für maximale Sicherheit und Compliance. Erfassen Sie Beobachtungen direkt vor Ort, dokumentieren Sie diese digital in Echtzeit, werten Sie Ergebnisse gezielt aus und leiten Sie sofort notwendige Maßnahmen ein. So optimieren Sie Ihre Sicherheitsstandards nachhaltig und erfüllen alle regulatorischen Anforderungen proaktiv.",
+       "alt":"Audit-Management",
+      "features":" Optimieren Sie Ihre Compliance-Prozesse durch digitale Echtzeit-Dokumentation während der Begehungen. Unser integriertes Toolkit gewährleistet Richtlinienkonformität, proaktive Gefahrenerkennung und automatisierte Terminplanung – und verwandelt Routineinspektionen in strategische Sicherheitsintelligenz."
+     }
+
+  },
+  "callToAction":
+  {
+   "Title":"Melden Sie sich noch heute kostenlos an",
+   "paragraph":"Nutzen Sie jetzt unser fortschrittliches EHS-System und verbessern Sie Ihr Arbeitsschutz-, Gesundheits- und Umweltmanagement. Unsere Plattform hilft Ihnen, Compliance-Anforderungen zu erfüllen, Risiken zu minimieren und die Sicherheit am Arbeitsplatz zu erhöhen. Mit intuitiven Dashboards, automatisierten Berichten und umfassenden Analysetools optimieren Sie Ihre EHS-Prozesse und schützen sowohl Ihre Mitarbeiter als auch die Umwelt. Unser Expertenteam unterstützt Sie bei der nahtlosen Integration in Ihre bestehenden Abläufe – ganz ohne anfängliche Kosten.",
+   "button":"demo anfordern",
+   "button2":"Mehr erfahren"
+  },
+  "footer":
+  {
+  
+    "uns":"Über uns",
+    "modules":"Fachmodule",
+    "help":"Hilfe",
+    "contact":"Kontakt"
   }
+}
