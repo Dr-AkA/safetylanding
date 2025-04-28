@@ -4,6 +4,8 @@ import "./globals.css";
 import clsx from "clsx";
 import { createTranslator, NextIntlClientProvider } from 'next-intl';
 import { getMessages, getLocale } from 'next-intl/server';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher';
+import { LanguageDetector } from '@/components/LanguageDetector';
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -38,7 +40,11 @@ export default async function RootLayout({
       
       
       <body className={clsx(dmSans.className, "antialiased bg-[#EAEEFE]")}>
-        <NextIntlClientProvider>
+       <div className="absolute text-[10px]  top-2 right-4 z-50">
+        <LanguageSwitcher/>
+       </div>
+       <LanguageDetector/>
+        <NextIntlClientProvider locale={locale} messages={messages}>
         {children}
         </NextIntlClientProvider>
       </body>
