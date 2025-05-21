@@ -119,6 +119,15 @@
     "uns":"à propos de nous",
     "modules":"Modules",
     "help":"Aide",
-    "contact":"Contact"
+    "contact":"Contact",
+    "privacy":"politique de confidentialité"
+
+  },
+  "Cookie":
+  {
+   "privacy":"politique de confidentialité",
+   "paragraph":"Ce site utilise des cookies pour améliorer votre expérience. Pour plus d'informations, veuillez consulter notre",
+   "button":"accepte tout",
+   "button2":"Annuler"
   }
 }

@@ -24,13 +24,16 @@ export  const Footer = async () => {
         <a href='#'>{t('modules')}</a>
         <a href='#'>{t('help')}</a>
         <a href='#'>{t('contact')}</a>
+        <a href='#'>{t('privacy')}</a>
        </nav>
         <div className='flex justify-center gap-6 mt-6 '>
           <SocialX/>
           <SocialInsta/>
           <SocialLinkedIn/>
           <SocialYouyube/>
-          <Image src={Location} className='h-[23px] w-[23px]' alt='Ruhenhof 4 48565 Steinfurt'/> 
+          <a href='https://www.google.com/maps/place/Ruhenhof+4,+48565+Steinfurt/@52.1555973,7.3198097,17z/data=!3m1!4b1!4m6!3m5!1s0x47b835e77d3aef1b:0xb7dca09b3305d0c6!8m2!3d52.1555973!4d7.3198097!16s%2Fg%2F11c4kpyb2n?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoASAFQAw%3D%3D' target='_blank'>
+          <Image src={Location} className='h-[23px] w-[23px]' alt='Ruhenhof 4 48565 Steinfurt'/>
+          </a> 
           </div>
           <p className='mt-5'>Ruhenhof 4,48565 Steinfurt, Germany</p>
 

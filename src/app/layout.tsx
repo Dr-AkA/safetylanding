@@ -6,6 +6,7 @@ import { createTranslator, NextIntlClientProvider } from 'next-intl';
 import { getMessages, getLocale } from 'next-intl/server';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { LanguageDetector } from '@/components/LanguageDetector';
+import dynamic from "next/dynamic";
 const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
@@ -23,7 +24,10 @@ export const metadata: Metadata = {
     'hse uk', 'hse DE', 'hse Germany', 'hse Deutschland', 'hse planning','Safety 2.0'
   ]
 };
-
+ const CookieConsentBanner=dynamic(
+    ()=>import('@/components/CookieConsentBannerWrapper'),
+    {ssr:false}
+  );
 
 export default async function RootLayout({
   children,
@@ -47,6 +51,8 @@ export default async function RootLayout({
         <NextIntlClientProvider locale={locale} messages={messages}>
         {children}
         </NextIntlClientProvider>
+            <CookieConsentBanner/>
+
       </body>
     
 

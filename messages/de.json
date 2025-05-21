@@ -121,6 +121,14 @@
     "uns":"Über uns",
     "modules":"Fachmodule",
     "help":"Hilfe",
-    "contact":"Kontakt"
+    "contact":"Kontakt",
+     "privacy":"Datenschutzrichtlinie"
+  },
+  "Cookie":
+  {
+   "privacy":"Datenschutzrichtlinie",
+   "paragraph":"Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern. Weitere Informationen finden Sie in unserer",
+   "button":"Alle akzeptieren",
+   "button2":"abbrechen"
   }
 }

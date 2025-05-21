@@ -7,9 +7,10 @@ import ModuleWrapper from '@/components/ModuleWrapper';
 import CallToActionWrapper from '@/components/CallToActionWrapper';
 import {Footer} from '@/sections/Footer';
 
-
 export default  function Home() {
+ 
   return (<>
+  
     <Head>
       <title>BetriebAnweisung</title>
 
