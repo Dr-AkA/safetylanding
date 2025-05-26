@@ -27,7 +27,9 @@ export default  function Home() {
     <Main/>
     <LogoTicker/>
     <ProductShowcaseWrapper/>
+    <div id="module" className="scroll-mt-20">
     <ModuleWrapper/>
+    </div>
     <CallToActionWrapper/>
     <Footer/>
     

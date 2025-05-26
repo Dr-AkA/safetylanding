@@ -2,6 +2,7 @@
     "HomePage": {
       "header": "Safety first, compliance always.",
       "demo":"request a demo.",
+      "home":"Home",
       "uns":"about us",
       "modules":"Modules",
       "help":"Help",
@@ -128,6 +129,13 @@
    "paragraph":"This Website uses cookies to enhance your experince you can read it more in our",
    "button":"Accept All",
    "button2":"Decline"
+  },
+  "aboutUs":
+  {
+    "title":"Who are we?",
+    "description":"At Safety2, we are dedicated to empowering organizations with cutting-edge software solutions in Environment, Health, and Safety (EHS) management. Our platform is designed to simplify compliance, enhance workplace safety, and support sustainable environmental practices across industries. What sets us apart is not just our technology, but our commitment to partnership. We don’t simply deliver software—we stay with our clients every step of the way, offering continuous support to ensure long-term success and measurable impact. Our strength lies in our diverse and international team, where every voice matters. We believe innovation thrives when ideas are shared, and we foster a collaborative culture that values input from both our team members and our clients. Customer feedback is central to how we evolve—our product roadmap is shaped by real-world needs and insights. With Safety2, you’re not just getting a solution—you’re gaining a trusted partner in building a safer, healthier, and more sustainable future.",
+    "demo":"request a demo.",
+    "learn":"learn more"
   }
 
 

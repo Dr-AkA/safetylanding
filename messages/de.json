@@ -1,6 +1,7 @@
 {
     "HomePage": {
       "header": "Sicherheit zuerst, Compliance stets.",
+      "home":"Startseite",
       "demo":"Demo anfordern",
       "uns":"Über uns",
       "modules":"Fachmodule",
@@ -130,5 +131,13 @@
    "paragraph":"Diese Website verwendet Cookies, um Ihr Erlebnis zu verbessern. Weitere Informationen finden Sie in unserer",
    "button":"Alle akzeptieren",
    "button2":"abbrechen"
+  },
+  "aboutUs":
+  {
+    "title":"Wer sind wir?",
+    "description":"Bei Safety2 unterstützen wir Unternehmen mit innovativen Softwarelösungen im Umwelt-, Gesundheits- und Sicherheitsmanagement (EHS). Unsere Plattform vereinfacht die Einhaltung von Vorschriften, verbessert die Sicherheit am Arbeitsplatz und unterstützt branchenübergreifend nachhaltige Umweltpraktiken. Was uns auszeichnet, ist nicht nur unsere Technologie, sondern auch unser Engagement für partnerschaftliche Zusammenarbeit. Wir liefern nicht einfach nur Software – wir begleiten unsere Kunden bei jedem Schritt und bieten kontinuierliche Unterstützung, um langfristigen Erfolg und messbare Wirkung zu gewährleisten. Unsere Stärke liegt in unserem vielfältigen und internationalen Team, in dem jede Stimme zählt. Wir glauben, dass Innovation durch den Austausch von Ideen entsteht, und wir fördern eine kollaborative Kultur, die den Input unserer Teammitglieder und unserer Kunden wertschätzt. Kundenfeedback ist entscheidend für unsere Weiterentwicklung – unsere Produkt-Roadmap orientiert sich an realen Bedürfnissen und Erkenntnissen. Mit Safety2 erhalten Sie nicht nur eine Lösung, sondern einen vertrauenswürdigen Partner für eine sicherere, gesündere und nachhaltigere Zukunft.",
+    "demo":"Demo anfordern",
+    "learn":"Mehr erfahren"
   }
+
 }

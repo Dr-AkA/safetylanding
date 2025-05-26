@@ -1,6 +1,7 @@
 {
     "HomePage": {
       "header": "La sécurité d'abord, la conformité toujours.",
+      "home":"page d'accueil",
       "demo":"demander une démonstration.",
       "uns":"à propos de nous",
       "modules":"Modules",
@@ -129,5 +130,14 @@
    "paragraph":"Ce site utilise des cookies pour améliorer votre expérience. Pour plus d'informations, veuillez consulter notre",
    "button":"accepte tout",
    "button2":"Annuler"
+  },
+   "aboutUs":
+  {
+    "title":"Qui sommes-nous ?",
+    "description":"Chez Safety2, nous nous engageons à fournir aux organisations des solutions logicielles de pointe en matière de gestion de l'environnement, de la santé et de la sécurité (EHS). Notre plateforme est conçue pour simplifier la conformité, améliorer la sécurité au travail et soutenir des pratiques environnementales durables dans tous les secteurs. Ce qui nous distingue, ce n'est pas seulement notre technologie, mais aussi notre engagement envers le partenariat. Nous ne nous contentons pas de fournir des logiciels : nous accompagnons nos clients à chaque étape de leur développement, leur offrant un soutien continu pour garantir leur réussite à long terme et un impact mesurable. Notre force réside dans notre équipe diversifiée et internationale, où chaque voix compte. Nous sommes convaincus que l'innovation prospère grâce au partage des idées et nous favorisons une culture collaborative qui valorise les contributions de nos équipes et de nos clients. Les retours clients sont au cœur de notre évolution : notre feuille de route produit est façonnée par des besoins et des connaissances concrets. Avec Safety2, vous n'obtenez pas seulement une solution, vous bénéficiez d'un partenaire de confiance pour bâtir un avenir plus sûr, plus sain et plus durable.",
+    "demo":"demander une démo.",
+    "learn":"apprendre encore plus"
   }
+
+  
 }

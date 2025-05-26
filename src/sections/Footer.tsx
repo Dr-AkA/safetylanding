@@ -6,6 +6,7 @@ import SocialLinkedIn from '@/assets/social-linkedin.svg';
 import SocialYouyube from '@/assets/social-youtube.svg';
 import Location from '@/assets/location.png';
 import {getTranslations} from 'next-intl/server';
+import Link from 'next/link';
 
 export  const Footer = async () => {
   const t = await getTranslations('footer');
@@ -20,8 +21,8 @@ export  const Footer = async () => {
       <Logo height={100}  alt='safety-ehs'/>
       </div>
       <nav  className='flex flex-col gap-6 mt-6 md:flex-row md:justify-center'>
-        <a href='#'>{t('uns')}</a>
-        <a href='#'>{t('modules')}</a>
+        <Link href='/about'>{t('uns')}</Link>
+        <Link href="/#module" scroll={true}>{t('modules')}</Link>
         <a href='#'>{t('help')}</a>
         <a href='#'>{t('contact')}</a>
         <a href='#'>{t('privacy')}</a>

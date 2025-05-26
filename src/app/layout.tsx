@@ -1,3 +1,4 @@
+// src/app/layout.tsx
 import type { Metadata } from "next";
 import { DM_Sans } from "next/font/google";
 import "./globals.css";
@@ -7,7 +8,11 @@ import { getMessages, getLocale } from 'next-intl/server';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { LanguageDetector } from '@/components/LanguageDetector';
 import dynamic from "next/dynamic";
+import ClientLayout from "@/components/ClientLayout"; 
+
 const dmSans = DM_Sans({ subsets: ["latin"] });
+
+const CookieConsentBanner = dynamic(() => import('@/components/CookieConsentBannerWrapper'), { ssr: false });
 
 export const metadata: Metadata = {
   title: "Safety",
@@ -24,10 +29,6 @@ export const metadata: Metadata = {
     'hse uk', 'hse DE', 'hse Germany', 'hse Deutschland', 'hse planning','Safety 2.0'
   ]
 };
- const CookieConsentBanner=dynamic(
-    ()=>import('@/components/CookieConsentBannerWrapper'),
-    {ssr:false}
-  );
 
 export default async function RootLayout({
   children,
@@ -38,25 +39,19 @@ export default async function RootLayout({
   const messages = await getMessages();
 
   return (
-
-    
     <html lang={locale} className="relative">
-      
-      
       <body className={clsx(dmSans.className, "antialiased bg-[#EAEEFE]")}>
-       <div className="absolute text-[10px]  top-2 right-4 z-50">
-        <LanguageSwitcher/>
-       </div>
-       <LanguageDetector/>
+        <div className="absolute text-[10px] top-2 right-4 z-50">
+          <LanguageSwitcher />
+        </div>
+        <LanguageDetector />
         <NextIntlClientProvider locale={locale} messages={messages}>
-        {children}
+          <ClientLayout>
+            {children}
+          </ClientLayout>
         </NextIntlClientProvider>
-            <CookieConsentBanner/>
-
+        <CookieConsentBanner />
       </body>
-    
-
     </html>
-    
   );
 }

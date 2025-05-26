@@ -6,6 +6,7 @@ import Logo from '@/assets/safety2_logo.svg';
 import MenuIcon from '@/assets/menu.svg';
 import Head from 'next/head';
 import { useTranslations } from 'next-intl'; // Changed from getTranslations for client component
+import Link from 'next/link';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,8 +33,9 @@ export const Header = () => {
               <MenuIcon className="h-7 w-7"/>
             </button>
             <nav className={`md:flex gap-6 text-black/80 items-center ${isMenuOpen ? 'flex flex-col absolute top-24 left-0 right-0 bg-white shadow-lg py-4 z-30' : 'hidden'}`}>
-              <a href='#'>{t('uns')}</a>
-              <a href='#'>{t('modules')}</a>
+              <Link href='/'>{t('home')}</Link>
+              <Link href='/about'>{t('uns')}</Link>
+              <Link href='/#module' scroll={true}>{t('modules')}</Link>
               <a href='#'>{t('help')}</a>
               <a href='#'>{t('contact')}</a>
               <button className='bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight'>{t('demo')}</button>
