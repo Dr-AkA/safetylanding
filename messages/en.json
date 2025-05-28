@@ -5,7 +5,7 @@
       "home":"Home",
       "uns":"about us",
       "modules":"Modules",
-      "help":"Help",
+      "vision":"Our Vision",
       "contact":"Contact"
       
     },
@@ -119,7 +119,7 @@
   
     "uns":"about us",
     "modules":"Modules",
-    "help":"Help",
+    "help":"Our Vision",
     "contact":"Contact",
     "privacy":"Privacy Policy"
   },

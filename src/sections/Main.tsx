@@ -21,10 +21,20 @@ export const Main = async () => {
     <Arrowright className="h-5 w-5"/></button>
     </div>
     </div>
-    <div className='mt-20 md:mt-0 md:h-[648px] md:flex-1 relative h-[300px] w-full'>
-      <Image src={PlaceHolder} alt='gefahrbeurteilung' className='md:absolute md:h-full md:w-auto md:max-w-none md:left-6 object-contain h-full w-auto'/> 
-     </div>
-    </div>
+  <div 
+  className="mt-20 md:mt-0 md:h-[648px] md:flex-1 relative h-[300px] w-full
+             animate-[float_3s_ease-in-out_infinite] 
+             shadow-[0_15px_30px_rgba(0,0,0,0.1)] 
+             transform-gpu rounded-2xl">
+  
+  <Image 
+    src={PlaceHolder} 
+    alt="gefahrbeurteilung" 
+    className="md:absolute md:h-full md:w-auto md:max-w-none md:top-[50px] md:left-[-100px] object-contain h-full w-auto" 
+  />
+</div>
+
+ </div>
     </div>
   </section>);
 };

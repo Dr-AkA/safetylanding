@@ -40,6 +40,15 @@
         @apply md:text-[14px] md:text-wrap sm:text-wrap sm:text-[10px] text-center text-[22px] leading-[30px] tracking-tight text-green-800;
     }
 
+    @keyframes float {
+          0%, 100% {
+                    transform: translateY(0) rotateX(0deg) rotateY(0deg);
+                    }
+         50% {
+                transform: translateY(-5px) rotateX(1deg) rotateY(-1deg);
+  }
+}
+
 
     html {
   scroll-behavior: smooth;
