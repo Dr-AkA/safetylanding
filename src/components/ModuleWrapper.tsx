@@ -13,5 +13,5 @@ export default async function ModuleWrapper() {
       alt:t('EHS-Basis.alt')
     },
   ];
-  return <Modules translations={translations} />;
+  return <Modules/>;
 }

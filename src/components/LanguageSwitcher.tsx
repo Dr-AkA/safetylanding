@@ -4,7 +4,7 @@ import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Image from 'next/image';
 
-const supportedLocales = ['en', 'de', 'pt', 'es', 'fr', 'pt'];
+const supportedLocales = ['en', 'de', 'pt', 'es', 'fr', 'pl','ro'];
 
 export function LanguageSwitcher() {
   const router = useRouter();

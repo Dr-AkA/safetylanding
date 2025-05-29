@@ -8,7 +8,7 @@ export function LanguageDetector() {
 
     if (!storedLocale) {
       const navigatorLocale = navigator.language.split('-')[0];
-      const supportedLocales = ['en', 'de', 'pt', 'es'];
+      const supportedLocales = ['en', 'de', 'pt', 'es','fr','ro'];
       const fallbackLocale = 'en';
 
       const selectedLocale = supportedLocales.includes(navigatorLocale)

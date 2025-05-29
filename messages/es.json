@@ -6,7 +6,8 @@
       "uns":"sobre nosotros",
       "modules":"Módulos",
       "vision":"nuestra visión",
-      "contact":"Contacto"
+      "contact":"Contacto",
+      "career":"carrera"
       
     },
     "Main":
@@ -121,7 +122,8 @@
     "modules":"Módulos",
     "vision":"nuestra visión",
     "contact":"Contacto",
-    "privacy":"política de privacidad"
+    "privacy":"política de privacidad",
+    "career":"carrera"
 
   },
   "Cookie":

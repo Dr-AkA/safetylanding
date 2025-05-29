@@ -26,6 +26,8 @@ export  const Footer = async () => {
         <a href='#'>{t('help')}</a>
         <a href='#'>{t('contact')}</a>
         <a href='#'>{t('privacy')}</a>
+        <Link href='/vision'>{t('help')}</Link>
+        <Link href='#'>{t('career')}</Link>
        </nav>
         <div className='flex justify-center gap-6 mt-6 '>
           <SocialX/>

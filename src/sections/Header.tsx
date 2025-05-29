@@ -36,8 +36,10 @@ export const Header = () => {
               <Link href='/'>{t('home')}</Link>
               <Link href='/about'>{t('uns')}</Link>
               <Link href='/#module' scroll={true}>{t('modules')}</Link>
-              <a href='#'>{t('vision')}</a>
-              <a href='#'>{t('contact')}</a>
+              <Link href='/vision'>{t('vision')}</Link>
+              <Link href='#'>{t('contact')}</Link>
+              <Link href='#'>{t('career')}</Link>
+
               <button className='bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight'>{t('demo')}</button>
             </nav>
           </div>

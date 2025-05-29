@@ -1,0 +1,123 @@
+{
+  "HomePage": {
+    "header": "Siguranța pe primul loc, conformitatea mereu.",
+    "demo": "solicită un demo.",
+    "home": "Acasă",
+    "uns": "despre noi",
+    "modules": "Module",
+    "vision": "Viziunea noastră",
+    "contact": "Contact",
+    "career": "Carieră"
+  },
+  "Main": {
+    "version": "Versiunea 2.0 este aici",
+    "title": "Safety² Cel mai avansat software EHS pentru siguranță ocupațională maximă",
+    "description": "safety² este un software EHS flexibil, bazat pe browser și cloud, care se adaptează perfect cerințelor companiei tale. Datorită structurii modulare, tu decizi ce funcții ai nevoie. Sigur împotriva auditului, conform standardelor și mereu actualizat – pentru un mediu de lucru sigur, fără compromisuri.",
+    "demo": "solicită un demo.",
+    "learn": "află mai multe"
+  },
+  "Showcase": {
+    "header": "Siguranța pe primul loc, conformitatea mereu.",
+    "header2": "Securitate maximă, mai inteligent, mai rapid, mai fiabil.",
+    "header3": "Eficiență în siguranță. Conformitate",
+    "description": "Creează un mediu de lucru sigur și conform, fără compromisuri. Software-ul nostru EHS te ajută să identifici riscurile din timp, să respecți reglementările fără efort și să gestionezi eficient procesele."
+  },
+  "Modules": {
+    "EHS-Basis": {
+      "title": "EHS-Bază",
+      "buttonText": "Află mai multe",
+      "description": "Safety² EHS-Bază – Platforma ta centrală pentru o gestionare structurată și eficientă a sănătății și siguranței. Toate datele relevante sunt centralizate, actualizate continuu și conectate perfect cu alte module. Structurile flexibile de permisiuni asigură cele mai înalte standarde de protecție și securitate a datelor. Sistemul personalizabil de management al documentelor (DMS) asigură o documentație coerentă și oferă acces rapid tuturor angajaților – indiferent de locație – la ghidurile și procedurile actuale. Desigur, safety² este disponibil în mai multe limbi.",
+      "alt": "Mediu și siguranță",
+      "features": "safety² EHS-Bază centralizează datele, le menține actualizate și le conectează inteligent cu toate modulele. Permisiunile personalizabile asigură cea mai înaltă securitate a datelor."
+    },
+    "Betriebsanweisung": {
+      "title": "Instrucțiuni de operare",
+      "buttonText": "Află mai multe",
+      "description": "Cu modulul Instrucțiuni de operare safety², îți îndeplinești obligațiile informaționale într-un mod legal și standardizat. Utilizează șabloane dovedite sau creează instrucțiuni personalizate, adaptate exact companiei tale. Integrează ghiduri de siguranță relevante, procese și măsuri de protecție – pentru reducerea eficientă a riscurilor și conformitate fiabilă cu cerințele legale.",
+      "alt": "Creează instrucțiuni online",
+      "features": "Creează instrucțiuni de operare eficient cu componente predefinite sau personalizabile. Datorită legăturii inteligente, generarea are loc automat – structurată, economisind timp și conformă cu standardele."
+    },
+    "Qualifkationen": {
+      "title": "Calificări",
+      "buttonText": "Află mai multe",
+      "description": "Alocare țintită a sarcinilor pe baza calificărilor individuale – cu modulul Calificări safety². Modulul te sprijină să aloci angajații în funcție de competențele lor. Aceasta crește eficiența operațională, reduce riscurile relevante pentru siguranță și îmbunătățește durabil siguranța ocupațională. Prin legătura automată cu modulul de Instruire, ai mereu o imagine de ansamblu asupra instruirilor necesare și certificatelor care expiră – și primești notificări la timp.",
+      "alt": "Certificate de conformitate",
+      "features": "Management digital centralizat al competențelor cu imagine de ansamblu completă asupra calificărilor angajaților. Permite filtrarea țintită după competențe profesionale pentru planificarea optimă a resurselor."
+    },
+    "Gefahrdungsbeurteilungen": {
+      "title": "Evaluări de risc",
+      "buttonText": "Află mai multe",
+      "description": "Identifică pericolele din timp și previne-le eficient – cu modulul Evaluare de risc safety². Evaluează sistematic pericolele și asigură-te că măsurile de protecție adecvate sunt implementate la timp. Modulul te sprijină în evaluarea holistică a riscurilor și ajută la identificarea din timp a surselor potențiale de pericol – înainte de a deveni o problemă.",
+      "alt": "Managementul riscului",
+      "features": "Înregistrare și gestionare digitală completă a riscurilor cu safety² – identifică, documentează și evaluează sistematic toate potențialele pericole operaționale pentru o siguranță ocupațională maximă și conformitate."
+    },
+    "Maßnahmen": {
+      "title": "Măsuri",
+      "buttonText": "Află mai multe",
+      "description": "Management eficient al măsurilor – clar, central, transparent. Cu modulul Măsuri safety², ai controlul asupra tuturor măsurilor operaționale. Creează noi măsuri cu doar câteva clicuri și alocă-le persoanelor sau departamentelor responsabile. Datorită unei vederi centrale și notificărilor automate privind termenele, modificările și actualizările de stare, asiguri securitate maximă, transparență și trasabilitate – fără efort suplimentar.",
+      "alt": "Management audit",
+      "features": "Management digital central al măsurilor cu safety² – permite planificarea, urmărirea și documentarea fără întreruperi a tuturor măsurilor din companie. Include sistem de memento inteligent pentru implementare la timp și notificări automate pentru modificări critice."
+    },
+    "Prüf & Wartungsplaner": {
+      "title": "Planificator inspecții și întreținere",
+      "buttonText": "Află mai multe",
+      "description": "Fiabilitate cu sistem – datorită managementului digital al inspecțiilor și întreținerii. Cu modulul Planificator Inspecții & Întreținere safety², înregistrezi central și digital toate obiectele și echipamentele care necesită inspecție. Creează liste de verificare individuale și planifică atribuiri automate la intervale definite. Sistemul de memento integrat asigură respectarea tuturor ciclurilor legale de inspecție – fără întreruperi, la timp și verificabil.",
+      "alt": "Reglementări legale",
+      "features": "Înregistrare și monitorizare digitală centrală a tuturor obiectelor și echipamentelor de lucru care necesită inspecție. Asigură siguranță maximă și conformitate fără întreruperi prin management structurat al echipamentelor și activităților de întreținere, cu control automat al termenelor."
+    },
+    "Umfallmanagement": {
+      "title": "Management incidente",
+      "buttonText": "Află mai multe",
+      "description": "Management cuprinzător al accidentelor pentru mai multă siguranță și mai puțin risc. Cu modulul de Management al accidentelor safety², înregistrezi și gestionezi digital și structurat accidentele de muncă, accidentele în trafic și incidentele. Evenimentele critice sunt evaluate sistematic, documentate și transformate în măsuri concrete de prevenție. Masca intuitivă de introducere rapidă permite procesare eficientă, iar funcția de raportare a accidentelor reduce semnificativ efortul administrativ.",
+      "alt": "Management incidente",
+      "features": "Documentare inteligentă a siguranței ocupaționale: Înregistrare și analiză digitală a accidentelor de muncă pentru un mediu de lucru mai sigur."
+    },
+    "Digitale Unterweisungen": {
+      "title": "Instruiri digitale",
+      "buttonText": "Află mai multe",
+      "description": "Instruire 100% legală – automată, verificabilă și individuală. Cu modulul Instruire safety², îți îndeplinești obligațiile de instruire complet și eficient – pentru angajați interni și externi. Creează subiecte și planuri de instruire individuale, efectuează verificări ale învățării și generează certificate legale. Modulul permite crearea și gestionarea ușoară a instruirilor, inclusiv memento-uri automate, interogări de stare și documentație completă a dovezilor.",
+      "alt": "Creează instruiri digitale",
+      "features": "Instruire online eficientă care îți îndeplinește obligațiile legale de instruire simplu și verificabil."
+    },
+    "Sicherheits-Beobachtungen": {
+      "title": "Observații de siguranță",
+      "buttonText": "Află mai multe",
+      "description": "Detectează riscurile de siguranță din timp – cu modulul Observații safety². Promovează o cultură activă a siguranței prin observații țintite și documentare digitală. Modulul permite angajaților să raporteze simplu și direct comportamente nesigure sau încălcări ale regulilor – între departamente și locații. Sursele potențiale de pericol, cum ar fi echipamentele defecte sau mediile nepotrivite, sunt înregistrate structurat. În combinație cu alte module safety², se pot genera automat planuri de acțiune sau instrucțiuni de operare – pentru mai multă siguranță și mai puține riscuri.",
+      "alt": "Observații de siguranță",
+      "features": "Înregistrare digitală a comportamentului și condițiilor la locul de muncă pentru măsuri de prevenție țintite și îmbunătățire continuă."
+    },
+    "Intelligente Audits & Begehungen": {
+      "title": "Audituri și inspecții inteligente",
+      "buttonText": "Află mai multe",
+      "description": "Siguranță ocupațională excelentă prin management sistematic al auditului și inspecțiilor. Cu modulul Audits & Inspections safety², organizezi toate verificările de siguranță central și eficient – pentru siguranță și conformitate maxime. Înregistrează observațiile direct la fața locului, documentează-le digital în timp real, evaluează rezultatele țintit și inițiază imediat măsurile necesare. Astfel, îți optimizezi standardele de siguranță și îndeplinești proactiv toate cerințele legale.",
+      "alt": "Management audit",
+      "features": "Optimizează-ți procesele de conformitate prin documentare digitală în timp real în timpul inspecțiilor. Trusa noastră de unelte integrată asigură respectarea ghidurilor, detectarea proactivă a pericolelor și programarea automată – transformând inspecțiile de rutină în inteligență strategică de siguranță."
+    }
+  },
+  "callToAction": {
+    "Title": "Înregistrează-te gratuit astăzi",
+    "paragraph": "Folosește acum sistemul nostru EHS avansat și îmbunătățește gestionarea sănătății ocupaționale, a siguranței și a mediului. Platforma noastră te ajută să îndeplinești cerințele de conformitate, să minimizezi riscurile și să crești siguranța la locul de muncă. Cu tablouri de bord intuitive, rapoarte automate și instrumente analitice complete, îți poți optimiza procesele EHS și proteja atât angajații, cât și mediul. Echipa noastră de experți te sprijină cu integrarea fără probleme în procesele existente – fără costuri inițiale.",
+    "button": "solicită un demo",
+    "button2": "află mai multe"
+  },
+  "footer": {
+    "uns": "despre noi",
+    "modules": "Module",
+    "help": "Viziunea noastră",
+    "contact": "Contact",
+    "privacy": "Politica de confidențialitate",
+    "career": "Carieră"
+  },
+  "Cookie": {
+    "privacy": "Politica de confidențialitate",
+    "paragraph": "Acest site folosește cookie-uri pentru a-ți îmbunătăți experiența, poți citi mai multe în",
+    "button": "Acceptă tot",
+    "button2": "Refuză"
+  },
+  "aboutUs": {
+    "title": "Cine suntem?",
+    "description": "La Safety2, ne dedicăm să oferim organizațiilor soluții software de ultimă generație pentru gestionarea mediului, sănătății și siguranței (EHS). Platforma noastră este concepută pentru a simplifica conformitatea, a îmbunătăți siguranța la locul de muncă și a sprijini practicile durabile în toate industriile. Ce ne diferențiază nu este doar tehnologia noastră, ci și angajamentul față de parteneriat. Nu livrăm doar software – suntem alături de clienții noștri la fiecare pas, oferind suport continuu pentru a asigura succesul pe termen lung și un impact măsurabil. Puterea noastră stă în echipa noastră diversificată și internațională, unde fiecare voce contează. Credem că inovația prosperă atunci când ideile sunt împărtășite și cultivăm o cultură colaborativă care valorizează contribuțiile membrilor echipei și ale clienților noștri. Feedback-ul clienților este central pentru modul în care evoluăm – planul nostru de dezvoltare este modelat de nevoi și perspective reale. Cu Safety2, nu primești doar o soluție – câștigi un partener de încredere în construirea unui viitor mai sigur, mai sănătos și mai sustenabil.",
+    "demo": "solicită un demo.",
+    "learn": "află mai multe"
+  }
+}
