@@ -9,8 +9,10 @@ import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { LanguageDetector } from '@/components/LanguageDetector';
 import dynamic from "next/dynamic";
 import ClientLayout from "@/components/ClientLayout"; 
+import icon from "@/app/icon.svg";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
+
 
 const CookieConsentBanner = dynamic(() => import('@/components/CookieConsentBannerWrapper'), { ssr: false });
 
@@ -42,6 +44,8 @@ export default async function RootLayout({
     <html lang={locale} className="relative">
       <body className={clsx(dmSans.className, "antialiased bg-[#EAEEFE]")}>
         <div className="absolute text-[10px] top-2 right-4 z-50">
+          <link rel="icon" type="image/svg+xml" href={icon} />
+
           <LanguageSwitcher />
         </div>
         <LanguageDetector />
