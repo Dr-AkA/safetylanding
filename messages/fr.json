@@ -106,7 +106,14 @@
       "description":"Excellente sécurité au travail grâce à une gestion systématique des audits et des inspections. Avec le module Audits et inspections de safety², vous organisez tous les contrôles de sécurité de manière centralisée et efficace – pour une sécurité et une conformité maximales. Enregistrez les observations directement sur place, documentez-les numériquement en temps réel, évaluez spécifiquement les résultats et initiez immédiatement les mesures nécessaires. De cette façon, vous optimisez durablement vos normes de sécurité et remplissez de manière proactive toutes les exigences réglementaires.",
        "alt":"Gestion des audits",
       "features":"Optimisez vos processus de conformité grâce à une documentation numérique en temps réel pendant les inspections. Notre boîte à outils intégrée garantit la conformité aux directives, la détection proactive des dangers et la planification automatisée – transformant les inspections de routine en intelligence stratégique de sécurité."
+     },
+      "section":
+     {
+      "title":"Tous les processus EHS, une seule solution – Contrôle maximal en un clic",
+      "paragraph":"Nos divers modules spécialisés vous permettent de gérer de manière centralisée tous les processus EHS importants..."
      }
+
+
   },
   "callToAction":
   {
@@ -120,7 +127,7 @@
   
     "uns":"à propos de nous",
     "modules":"Modules",
-    "vision":"notre vision",
+    "help":"notre vision",
     "contact":"Contact",
     "privacy":"politique de confidentialité",
     "career":"carrière"
@@ -140,6 +147,5 @@
     "demo":"demander une démo.",
     "learn":"apprendre encore plus"
   }
-
   
 }

@@ -92,7 +92,13 @@
       "description": "Siguranță ocupațională excelentă prin management sistematic al auditului și inspecțiilor. Cu modulul Audits & Inspections safety², organizezi toate verificările de siguranță central și eficient – pentru siguranță și conformitate maxime. Înregistrează observațiile direct la fața locului, documentează-le digital în timp real, evaluează rezultatele țintit și inițiază imediat măsurile necesare. Astfel, îți optimizezi standardele de siguranță și îndeplinești proactiv toate cerințele legale.",
       "alt": "Management audit",
       "features": "Optimizează-ți procesele de conformitate prin documentare digitală în timp real în timpul inspecțiilor. Trusa noastră de unelte integrată asigură respectarea ghidurilor, detectarea proactivă a pericolelor și programarea automată – transformând inspecțiile de rutină în inteligență strategică de siguranță."
-    }
+    },
+       "section":
+     {
+      "title":"Toate procesele EHS, o singură soluție – Control maxim cu un singur clic",
+      "paragraph":"Diversele noastre module de specialitate vă permit să gestionați centralizat toate procesele EHS importante..."
+     }
+
   },
   "callToAction": {
     "Title": "Înregistrează-te gratuit astăzi",

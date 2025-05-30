@@ -106,7 +106,13 @@
       "description":"Excelente seguridad ocupacional a través de la gestión sistemática de auditorías e inspecciones. Con el módulo de Auditorías e Inspecciones de safety², organiza todas las verificaciones de seguridad de manera centralizada y eficiente – para máxima seguridad y cumplimiento. Registre observaciones directamente en el sitio, documéntelas digitalmente en tiempo real, evalúe resultados específicamente e inicie inmediatamente las medidas necesarias. De esta manera, optimiza de forma sostenible sus estándares de seguridad y cumple proactivamente con todos los requisitos regulatorios.",
        "alt":"Gestión de auditorías",
       "features":"Optimice sus procesos de cumplimiento mediante documentación digital en tiempo real durante las inspecciones. Nuestro conjunto de herramientas integrado garantiza el cumplimiento de directrices, detección proactiva de peligros y programación automatizada – transformando las inspecciones rutinarias en inteligencia estratégica de seguridad."
+     },
+      "section":
+     {
+      "title":"Todos los procesos EHS, una solución: máximo control con un clic",
+      "paragraph":"Nuestros diversos módulos especializados le permiten gestionar de forma centralizada todos los procesos EHS importantes..."
      }
+
   },
   "callToAction":
   {
@@ -120,7 +126,7 @@
   
     "uns":"sobre nosotros",
     "modules":"Módulos",
-    "vision":"nuestra visión",
+    "help":"nuestra visión",
     "contact":"Contacto",
     "privacy":"política de privacidad",
     "career":"carrera"

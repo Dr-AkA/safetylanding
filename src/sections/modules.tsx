@@ -36,6 +36,7 @@ type Module = {
   description: string;
   title:string;
   alt:string;
+
 };
 
 type Props = {
@@ -56,7 +57,9 @@ const fachmodules: Module[] = [
     screenshots: [EHSTAB],
     description: t('EHS-Basis.description'),
     title:t('EHS-Basis.title'),
-    alt:t('EHS-Basis.alt')
+    alt:t('EHS-Basis.alt'),
+  
+  
   },
   {
     key: 'Betriebsanweisung',
@@ -65,7 +68,8 @@ const fachmodules: Module[] = [
     screenshots: [Betriebanweisungtab],
     description: t('Betriebsanweisung.description'),
      title:t('Betriebsanweisung.title'),
-    alt:t('Betriebsanweisung.alt')
+    alt:t('Betriebsanweisung.alt'),
+     
   },
   {
     key: 'Qualifkationen',
@@ -74,7 +78,8 @@ const fachmodules: Module[] = [
     screenshots: [QualificationTab],
     description: t('Qualifkationen.description'),
      title:t('Qualifkationen.title'),
-    alt:t('Qualifkationen.alt')
+    alt:t('Qualifkationen.alt'),
+    
   },
   {
     key: 'Gefahrdungsbeurteilungen',
@@ -83,7 +88,8 @@ const fachmodules: Module[] = [
     screenshots: [Gefahr],
     description: t('Gefahrdungsbeurteilungen.description'),
      title:t('Gefahrdungsbeurteilungen.title'),
-    alt:t('Gefahrdungsbeurteilungen.alt')
+    alt:t('Gefahrdungsbeurteilungen.alt'),
+    
   },
   {
     key: 'Maßnahmen',
@@ -92,7 +98,8 @@ const fachmodules: Module[] = [
     screenshots: [Massnahmen],
     description: t('Maßnahmen.description'),
      title:t('Maßnahmen.title'),
-    alt:t('Maßnahmen.alt')
+    alt:t('Maßnahmen.alt'),
+ 
   },
   {
     key: 'Prüf & Wartungsplaner',
@@ -101,7 +108,8 @@ const fachmodules: Module[] = [
     screenshots: [Pruf],
     description: t('Prüf & Wartungsplaner.description'),
      title:t('Prüf & Wartungsplaner.title'),
-    alt:t('Prüf & Wartungsplaner.alt')
+    alt:t('Prüf & Wartungsplaner.alt'),
+     
   },
   {
     key: 'Umfallmanagement',
@@ -110,7 +118,8 @@ const fachmodules: Module[] = [
     screenshots: [Umfal],
     description: t('Umfallmanagement.description'),
      title:t('Umfallmanagement.title'),
-    alt:t('Umfallmanagement.alt')
+    alt:t('Umfallmanagement.alt'),
+     
   },
   {
     key: 'Digitale Unterweisungen',
@@ -119,7 +128,8 @@ const fachmodules: Module[] = [
     screenshots: [Unterweisung1],
     description: t('Digitale Unterweisungen.description'),
      title:t('Digitale Unterweisungen.title'),
-    alt:t('Digitale Unterweisungen.alt')
+    alt:t('Digitale Unterweisungen.alt'),
+   
   },
   {
     key: 'Sicherheits-Beobachtungen',
@@ -128,7 +138,8 @@ const fachmodules: Module[] = [
     screenshots: [Boebachtung],
     description: t('Sicherheits-Beobachtungen.description'),
      title:t('Sicherheits-Beobachtungen.title'),
-    alt:t('Sicherheits-Beobachtungen.alt')
+    alt:t('Sicherheits-Beobachtungen.alt'),
+   
   },
   {
     key: 'Intelligente Audits & Begehungen',
@@ -137,8 +148,8 @@ const fachmodules: Module[] = [
     screenshots: [audit1],
     description: t('Intelligente Audits & Begehungen.description'),
      title:t('Intelligente Audits & Begehungen.title'),
-    alt:t('Intelligente Audits & Begehungen.alt')
-   
+    alt:t('Intelligente Audits & Begehungen.alt'),
+    
   },
 ];
   const [selectedModule, setSelectedModule] = useState<Module | null>(null);
@@ -155,10 +166,12 @@ const fachmodules: Module[] = [
     <section className="mt-10 py-24">
       <div className="container">
         <h2 className="section-title mt-5">
-          Alle EHS-Prozesse, eine Lösung – Maximale Kontrolle mit einem Klick
+            {t('section.title')}
+
         </h2>
         <p className="section-paragraph mt-5">
-          Unsere vielfältigen Fachmodule ermöglichen es Ihnen, alle wichtigen EHS-Prozesse zentral zu steuern...
+            {t('section.paragraph')}
+
         </p>
 
         <div className="flex justify-center items-stretch flex-wrap gap-10 mt-10">
