@@ -10,11 +10,25 @@ export const Main = async () => {
   return (<section className='pt-8 pb-20 md:pt-5 md:pb-10 bg-[radial-gradient(ellipse_150%_80%_at_bottom_right,white,black_90%)] overflow-x-clip'>
     <div className="container">
       <div className='md:flex items-center'>
-      <div className='w-[478px]'>
+      <div className='w-full max-w-[478px]'>
       <div className="tag">{t('version')}</div>
       <h1 className="text-4xl  font-bold tracking-tighter bg-gradient-to-b from-white to-[#8f8382] text-transparent bg-clip-text mt-6 md:text-2xl md:text-balance sm:text-1xl">{t('title')}</h1>
-      
-      <p className="text-xl text-white tracking-tight mt-6 justify-center sm:text-balance md:text-balance md:text-2xl sm:text-1xl">{t('description')}</p>
+    <div className="w-full px-4" style={{ minWidth: 0 }}>
+  <p 
+    className="text-xl text-white tracking-tight mt-6 text-center sm:text-left sm:text-balance md:text-balance md:text-2xl" 
+    style={{
+      width: '100%',
+      minWidth: 0,
+      wordBreak: 'break-word',
+      overflowWrap: 'break-word',
+      whiteSpace: 'normal',
+      overflow: 'hidden',
+      textOverflow: 'ellipsis'
+    }}
+  >
+    {t('description')}
+  </p>
+</div>
    <div className="flex gap-1 items-center mt-[30px]">
     <button className="btn btn-primary ">{t('demo')}</button>
     <button className="btn btn-text gap-1 text-white/90"><span>{t('learn')}</span>
