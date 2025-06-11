@@ -144,7 +144,82 @@
     "description":"At Safety2, we are dedicated to empowering organizations with cutting-edge software solutions in Environment, Health, and Safety (EHS) management. Our platform is designed to simplify compliance, enhance workplace safety, and support sustainable environmental practices across industries. What sets us apart is not just our technology, but our commitment to partnership. We don’t simply deliver software—we stay with our clients every step of the way, offering continuous support to ensure long-term success and measurable impact. Our strength lies in our diverse and international team, where every voice matters. We believe innovation thrives when ideas are shared, and we foster a collaborative culture that values input from both our team members and our clients. Customer feedback is central to how we evolve—our product roadmap is shaped by real-world needs and insights. With Safety2, you’re not just getting a solution—you’re gaining a trusted partner in building a safer, healthier, and more sustainable future.",
     "demo":"request a demo.",
     "learn":"learn more"
-  }
+  },
+ 
+  "privacy": {
+    "title": "Privacy Policy",
+    "effectiveDate": "Effective Date: 11-Jun-2025",
+
+    "introTitle": "Introduction",
+    "introText": "We take data privacy seriously. This privacy policy explains what personal data we collect, how we use it, and your rights under the General Data Protection Regulation (GDPR).",
+
+    "controllerTitle": "1. Controller",
+    "controllerText": "Safety Doors GmbH, Ruhenhof 4, 48565 Steinfurt, Germany. Phone: +49 2551 835195, Email: info@safety-doors.com",
+
+    "dataCollectionTitle": "2. What Data We Collect",
+    "cookiesText": "a. Cookies (Automatically Collected): We use only one cookie to detect your preferred language (locale). We do not use tracking cookies, analytics, or other profiling technologies.",
+    "demoRequestText": "b. Demo Request (User-Submitted): When you request a product demo, we collect the following data from you: Full Name, Email Address, Phone Number, Company Name, Number of Employees.",
+
+    "purposeTitle": "3. Purpose and Legal Basis",
+    "purposeText": "The legal basis for processing this data is Art. 6 (1)(b) GDPR — steps necessary prior to entering into a contract at your request. We use your data solely to contact you and schedule a demo.",
+
+    "securityTitle": "4. Data Transmission and Security",
+    "securityText": "Your submitted data is transmitted exclusively over secure encrypted protocols and is handled only by our authorized sales team. We do not share your data with third parties or transfer it to countries outside the EU/EEA.",
+
+    "retentionTitle": "5. Data Retention",
+    "retentionText": "Your data is retained only as long as needed to fulfill your demo request or to comply with legal obligations (e.g., commercial retention laws).",
+
+    "rightsTitle": "6. Your Rights Under GDPR",
+    "rightsText": "You have the right to: Access your data (Art. 15 GDPR), Correct inaccurate data (Art. 16 GDPR), Delete your data (Art. 17 GDPR), Restrict processing (Art. 18 GDPR), Object to processing (Art. 21 GDPR), Data portability (Art. 20 GDPR). To exercise your rights, contact: info@safety-doors.com.",
+
+    "complaintTitle": "7. Right to Lodge a Complaint",
+    "complaintText": "If you believe your data is being processed unlawfully, you can file a complaint with a data protection authority. In Germany, this is: Federal Commissioner for Data Protection and Freedom of Information (BfDI). Website: https://www.bfdi.bund.de",
+
+    "changesTitle": "8. Changes to This Policy",
+    "changesText": "We may update this policy to comply with legal requirements or reflect changes in our services. The most recent version will always be published on this page.",
+
+    "legalInfoTitle": "Legal Information (§ 5 TMG)",
+
+    "impressumTitle": "Impressum (Legal Disclosure)",
+    "impressumText": "Safety Doors GmbH, Ruhenhof 4, 48565 Steinfurt, Germany",
+
+    "phoneLabel": "Phone",
+    "phoneText": "+49 2551 83 51 20",
+
+    "emailLabel": "Email",
+    "emailText": "info@safety-doors.com",
+
+    "websiteLabel": "Website",
+    "websiteText": "safety-doors.com",
+
+    "representedLabel": "Represented by",
+    "representedText": "Karl-Heinz Beier, Andreas Schuch",
+
+    "registerLabel": "Register Entry",
+    "registerText": "Register Court: Steinfurt, Commercial Register: HRB 9306",
+
+    "vatLabel": "VAT ID",
+    "vatText": "VAT identification number according to §27 a Umsatzsteuergesetz / Section 27a of the Sales Tax Law: DE278535593",
+
+    "insuranceTitle": "Professional Liability Insurance",
+    "insuranceText": "Information on professional liability insurance. Area of insurance coverage: Europe-wide.",
+
+    "disputeTitle": "EU Dispute Settlement",
+    "disputeText": "The European Commission provides a platform for online dispute resolution (ODR): https://ec.europa.eu/consumers/odr. Our email address can be found above in the imprint.",
+
+    "consumerDisputeTitle": "Consumer Dispute Resolution",
+    "consumerDisputeText": "We are not willing or obliged to participate in dispute resolution proceedings before a consumer arbitration board.",
+
+    "contentLiabilityTitle": "Liability for Content",
+    "contentLiabilityText": "As a service provider, we are responsible for our own content on these pages in accordance with Section 7 (1) of the German Telemedia Act (TMG). However, according to Sections 8 to 10 of the TMG, we are not obligated to monitor transmitted or stored third-party information or investigate illegal activity. Upon becoming aware of any such violations, we will remove the content immediately.",
+
+    "linkLiabilityTitle": "Liability for Links",
+    "linkLiabilityText": "Our website contains links to external third-party websites. We have no control over their content and therefore assume no liability for them. At the time of linking, no illegal content was identified. Permanent content monitoring of linked sites is not reasonable without specific evidence. Upon notification of violations, we will remove such links immediately.",
+
+    "copyrightTitle": "Copyright",
+    "copyrightText": "The content and works created by the site operators are subject to German copyright law. Reproduction, processing, distribution, or use beyond legal limits requires written permission. Downloads and copies are permitted for private, non-commercial use only. Third-party content is marked accordingly. If you notice a copyright infringement, inform us and we will act immediately."
+  
+}
 
 
     

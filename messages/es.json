@@ -145,6 +145,81 @@
     "description":"En Safety2, nos dedicamos a empoderar a las organizaciones con soluciones de software de vanguardia para la gestión de Medio Ambiente, Salud y Seguridad (EHS). Nuestra plataforma está diseñada para simplificar el cumplimiento normativo, mejorar la seguridad en el trabajo y promover prácticas ambientales sostenibles en todos los sectores. Lo que nos distingue no es solo nuestra tecnología, sino también nuestro compromiso con la colaboración. No nos limitamos a entregar software; acompañamos a nuestros clientes en cada paso del proceso, ofreciendo apoyo continuo para garantizar el éxito a largo plazo y un impacto medible. Nuestra fortaleza reside en nuestro equipo diverso e internacional, donde cada voz cuenta. Creemos que la innovación prospera cuando se comparten ideas y fomentamos una cultura colaborativa que valora las aportaciones tanto de los miembros de nuestro equipo como de nuestros clientes. La opinión de los clientes es fundamental para nuestra evolución: nuestra hoja de ruta de productos se basa en las necesidades y perspectivas del mundo real. Con Safety2, no solo obtiene una solución, sino un socio de confianza para construir un futuro más seguro, saludable y sostenible.",
     "demo":"solicitar una demostración.",
     "learn":"aprender más"
+  },
+  
+  "privacy": {
+    "title": "Política de Privacidad",
+    "effectiveDate": "Fecha de entrada en vigor: 11-Jun-2025",
+
+    "introTitle": "Introducción",
+    "introText": "Nos tomamos muy en serio la privacidad de los datos. Esta política de privacidad explica qué datos personales recopilamos, cómo los usamos y cuáles son sus derechos según el Reglamento General de Protección de Datos (RGPD).",
+
+    "controllerTitle": "1. Responsable",
+    "controllerText": "Safety Doors GmbH, Ruhenhof 4, 48565 Steinfurt, Alemania. Teléfono: +49 2551 835195, Correo electrónico: info@safety-doors.com",
+
+    "dataCollectionTitle": "2. Qué datos recopilamos",
+    "cookiesText": "a. Cookies (recopiladas automáticamente): Usamos solo una cookie para detectar su idioma preferido (configuración regional). No utilizamos cookies de seguimiento, análisis ni otras tecnologías de perfilado.",
+    "demoRequestText": "b. Solicitud de demostración (proporcionada por el usuario): Cuando solicita una demostración del producto, recopilamos los siguientes datos: Nombre completo, Dirección de correo electrónico, Número de teléfono, Nombre de la empresa, Número de empleados.",
+
+    "purposeTitle": "3. Finalidad y base legal",
+    "purposeText": "La base legal para procesar estos datos es el Art. 6 (1)(b) del RGPD — pasos necesarios antes de celebrar un contrato a su solicitud. Usamos sus datos únicamente para ponernos en contacto con usted y programar una demostración.",
+
+    "securityTitle": "4. Transmisión y seguridad de los datos",
+    "securityText": "Sus datos enviados se transmiten exclusivamente mediante protocolos cifrados seguros y solo los maneja nuestro equipo de ventas autorizado. No compartimos sus datos con terceros ni los transferimos a países fuera de la UE/EEE.",
+
+    "retentionTitle": "5. Conservación de los datos",
+    "retentionText": "Sus datos se conservan solo el tiempo necesario para atender su solicitud de demostración o para cumplir con obligaciones legales (por ejemplo, leyes de conservación comercial).",
+
+    "rightsTitle": "6. Sus derechos según el RGPD",
+    "rightsText": "Usted tiene derecho a: Acceder a sus datos (Art. 15 RGPD), Corregir datos inexactos (Art. 16 RGPD), Eliminar sus datos (Art. 17 RGPD), Restringir el tratamiento (Art. 18 RGPD), Oponerse al tratamiento (Art. 21 RGPD), Portabilidad de los datos (Art. 20 RGPD). Para ejercer sus derechos, contacte: info@safety-doors.com.",
+
+    "complaintTitle": "7. Derecho a presentar una reclamación",
+    "complaintText": "Si cree que sus datos están siendo tratados de forma ilegal, puede presentar una reclamación ante una autoridad de protección de datos. En Alemania, es: Comisionado Federal para la Protección de Datos y la Libertad de Información (BfDI). Sitio web: https://www.bfdi.bund.de",
+
+    "changesTitle": "8. Cambios en esta política",
+    "changesText": "Podemos actualizar esta política para cumplir con requisitos legales o reflejar cambios en nuestros servicios. La versión más reciente siempre estará publicada en esta página.",
+
+    "legalInfoTitle": "Información legal (§ 5 TMG)",
+
+    "impressumTitle": "Aviso legal (Impressum)",
+    "impressumText": "Safety Doors GmbH, Ruhenhof 4, 48565 Steinfurt, Alemania",
+
+    "phoneLabel": "Teléfono",
+    "phoneText": "+49 2551 83 51 20",
+
+    "emailLabel": "Correo electrónico",
+    "emailText": "info@safety-doors.com",
+
+    "websiteLabel": "Sitio web",
+    "websiteText": "safety-doors.com",
+
+    "representedLabel": "Representado por",
+    "representedText": "Karl-Heinz Beier, Andreas Schuch",
+
+    "registerLabel": "Registro mercantil",
+    "registerText": "Tribunal de registro: Steinfurt, Registro mercantil: HRB 9306",
+
+    "vatLabel": "ID del IVA",
+    "vatText": "Número de identificación fiscal según el §27 a de la Ley del IVA: DE278535593",
+
+    "insuranceTitle": "Seguro de responsabilidad profesional",
+    "insuranceText": "Información sobre el seguro de responsabilidad profesional. Ámbito de cobertura: en toda Europa.",
+
+    "disputeTitle": "Resolución de disputas de la UE",
+    "disputeText": "La Comisión Europea proporciona una plataforma para la resolución de disputas en línea (ODR): https://ec.europa.eu/consumers/odr. Nuestra dirección de correo electrónico se encuentra arriba en el aviso legal.",
+
+    "consumerDisputeTitle": "Resolución de disputas con consumidores",
+    "consumerDisputeText": "No estamos dispuestos ni obligados a participar en procedimientos de resolución de disputas ante una junta de arbitraje para consumidores.",
+
+    "contentLiabilityTitle": "Responsabilidad sobre los contenidos",
+    "contentLiabilityText": "Como proveedor de servicios, somos responsables de nuestros propios contenidos en estas páginas conforme al artículo 7 (1) de la Ley de Telemedios Alemana (TMG). Sin embargo, según los artículos 8 a 10 del TMG, no estamos obligados a supervisar información de terceros transmitida o almacenada ni a investigar actividades ilegales. Si se detectan infracciones, eliminaremos dicho contenido de inmediato.",
+
+    "linkLiabilityTitle": "Responsabilidad sobre enlaces",
+    "linkLiabilityText": "Nuestro sitio web contiene enlaces a sitios web externos de terceros sobre los que no tenemos control. Por tanto, no asumimos ninguna responsabilidad por su contenido. El proveedor u operador respectivo es siempre responsable de los contenidos de las páginas enlazadas. En el momento del enlace, no se detectó contenido ilegal. No se puede exigir una supervisión permanente sin indicios concretos. En caso de violaciones legales notificadas, eliminaremos dichos enlaces inmediatamente.",
+
+    "copyrightTitle": "Derechos de autor",
+    "copyrightText": "El contenido y las obras creadas por los operadores del sitio están sujetos a la ley de derechos de autor alemana. La reproducción, edición, distribución o uso fuera de los límites del derecho de autor requiere el consentimiento por escrito del autor o creador correspondiente. Las descargas y copias de este sitio solo están permitidas para uso privado y no comercial. Si el contenido no fue creado por el operador, se respetan los derechos de autor de terceros. Si observa alguna infracción de derechos, notifíquenoslo y eliminaremos el contenido de inmediato."
   }
+
 
 }

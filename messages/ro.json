@@ -125,5 +125,79 @@
     "description": "La Safety2, ne dedicăm să oferim organizațiilor soluții software de ultimă generație pentru gestionarea mediului, sănătății și siguranței (EHS). Platforma noastră este concepută pentru a simplifica conformitatea, a îmbunătăți siguranța la locul de muncă și a sprijini practicile durabile în toate industriile. Ce ne diferențiază nu este doar tehnologia noastră, ci și angajamentul față de parteneriat. Nu livrăm doar software – suntem alături de clienții noștri la fiecare pas, oferind suport continuu pentru a asigura succesul pe termen lung și un impact măsurabil. Puterea noastră stă în echipa noastră diversificată și internațională, unde fiecare voce contează. Credem că inovația prosperă atunci când ideile sunt împărtășite și cultivăm o cultură colaborativă care valorizează contribuțiile membrilor echipei și ale clienților noștri. Feedback-ul clienților este central pentru modul în care evoluăm – planul nostru de dezvoltare este modelat de nevoi și perspective reale. Cu Safety2, nu primești doar o soluție – câștigi un partener de încredere în construirea unui viitor mai sigur, mai sănătos și mai sustenabil.",
     "demo": "solicită un demo.",
     "learn": "află mai multe"
+  },
+  "privacy": {
+    "title": "Politica de Confidențialitate",
+    "effectiveDate": "Data intrării în vigoare: 11 iunie 2025",
+
+    "introTitle": "Introducere",
+    "introText": "Luăm în serios confidențialitatea datelor. Această politică de confidențialitate explică ce date personale colectăm, cum le folosim și care sunt drepturile dumneavoastră conform Regulamentului General privind Protecția Datelor (GDPR).",
+
+    "controllerTitle": "1. Operator de date",
+    "controllerText": "Safety Doors GmbH, Ruhenhof 4, 48565 Steinfurt, Germania. Telefon: +49 2551 835195, Email: info@safety-doors.com",
+
+    "dataCollectionTitle": "2. Ce date colectăm",
+    "cookiesText": "a. Cookie-uri (colectate automat): Folosim un singur cookie pentru a detecta limba preferată (locale). Nu folosim cookie-uri de urmărire, instrumente de analiză sau alte tehnologii de profilare.",
+    "demoRequestText": "b. Cerere de demonstrație (trimisă de utilizator): Când solicitați o demonstrație de produs, colectăm următoarele date: Nume complet, Adresă de email, Număr de telefon, Numele companiei, Număr de angajați.",
+
+    "purposeTitle": "3. Scopul și temeiul legal",
+    "purposeText": "Temeiul legal pentru prelucrarea acestor date este Art. 6 (1)(b) GDPR — măsuri necesare înainte de încheierea unui contract la solicitarea dumneavoastră. Folosim datele doar pentru a vă contacta și a programa o demonstrație.",
+
+    "securityTitle": "4. Transmiterea și securitatea datelor",
+    "securityText": "Datele trimise sunt transmise exclusiv prin protocoale criptate și sigure și sunt gestionate doar de echipa noastră de vânzări autorizată. Nu partajăm datele cu terți și nu le transferăm în afara UE/SEE.",
+
+    "retentionTitle": "5. Păstrarea datelor",
+    "retentionText": "Datele dumneavoastră sunt păstrate doar cât timp este necesar pentru a răspunde cererii de demonstrație sau pentru a respecta obligațiile legale (de exemplu, legislația privind păstrarea datelor comerciale).",
+
+    "rightsTitle": "6. Drepturile dumneavoastră conform GDPR",
+    "rightsText": "Aveți dreptul de a: Accesa datele (Art. 15 GDPR), Corecta datele incorecte (Art. 16 GDPR), Șterge datele (Art. 17 GDPR), Restricționa prelucrarea (Art. 18 GDPR), Opoziție la prelucrare (Art. 21 GDPR), Portabilitatea datelor (Art. 20 GDPR). Pentru a vă exercita drepturile, contactați: info@safety-doors.com.",
+
+    "complaintTitle": "7. Dreptul de a depune o plângere",
+    "complaintText": "Dacă considerați că datele dumneavoastră sunt prelucrate ilegal, puteți depune o plângere la o autoritate de protecție a datelor. În Germania, aceasta este: Comisarul Federal pentru Protecția Datelor și Libertatea Informației (BfDI). Website: https://www.bfdi.bund.de",
+
+    "changesTitle": "8. Modificări ale acestei politici",
+    "changesText": "Putem actualiza această politică pentru a respecta cerințele legale sau pentru a reflecta modificările aduse serviciilor noastre. Cea mai recentă versiune va fi întotdeauna publicată pe această pagină.",
+
+    "legalInfoTitle": "Informații conform § 5 TMG",
+
+    "impressumTitle": "Impressum (Informații legale)",
+    "impressumText": "Safety Doors GmbH, Ruhenhof 4, 48565 Steinfurt, Germania",
+
+    "phoneLabel": "Telefon",
+    "phoneText": "+49 2551 83 51 20",
+
+    "emailLabel": "Email",
+    "emailText": "info@safety-doors.com",
+
+    "websiteLabel": "Website",
+    "websiteText": "safety-doors.com",
+
+    "representedLabel": "Reprezentat de",
+    "representedText": "Karl-Heinz Beier, Andreas Schuch",
+
+    "registerLabel": "Registrul Comerțului",
+    "registerText": "Instanță de înregistrare: Steinfurt, Registrul Comerțului: HRB 9306",
+
+    "vatLabel": "Cod TVA",
+    "vatText": "Cod de identificare TVA conform §27a din Legea privind taxa pe vânzări: DE278535593",
+
+    "insuranceTitle": "Informații despre asigurarea de răspundere profesională",
+    "insuranceText": "Domeniu de acoperire al asigurării: în toată Europa.",
+
+    "disputeTitle": "Soluționarea litigiilor în UE",
+    "disputeText": "Comisia Europeană oferă o platformă pentru soluționarea online a litigiilor (ODR): https://ec.europa.eu/consumers/odr. Adresa noastră de email poate fi găsită mai sus, în Impressum.",
+
+    "consumerDisputeTitle": "Soluționarea litigiilor de consum",
+    "consumerDisputeText": "Nu suntem dispuși sau obligați să participăm la proceduri de soluționare a litigiilor în fața unui organism de arbitraj pentru consumatori.",
+
+    "contentLiabilityTitle": "Răspunderea pentru conținut",
+    "contentLiabilityText": "În calitate de furnizori de servicii, suntem responsabili pentru conținutul propriu de pe aceste pagini conform § 7 (1) din Legea germană a serviciilor media (TMG). Totuși, conform §§ 8–10 TMG, nu suntem obligați să monitorizăm informațiile transmise sau stocate ale terților sau să investigăm activități ilegale. Obligațiile de a elimina sau bloca utilizarea informațiilor conform legislației generale rămân neafectate. Răspunderea este posibilă doar din momentul în care aflăm despre o încălcare concretă. Dacă luăm cunoștință de astfel de încălcări, vom elimina imediat conținutul respectiv.",
+
+    "linkLiabilityTitle": "Răspunderea pentru linkuri",
+    "linkLiabilityText": "Website-ul nostru conține linkuri către site-uri externe ale terților, asupra cărora nu avem control. Prin urmare, nu ne asumăm nicio responsabilitate pentru acest conținut extern. Furnizorul sau operatorul respectiv este întotdeauna responsabil pentru conținutul paginilor legate. Paginile au fost verificate pentru posibile încălcări legale la momentul conectării. Nu s-au identificat conținuturi ilegale la acel moment. O monitorizare permanentă a paginilor legate nu este rezonabilă fără dovezi concrete ale unei încălcări legale. Dacă ni se aduc la cunoștință încălcări legale, vom elimina imediat linkurile respective.",
+
+    "copyrightTitle": "Drepturi de autor",
+    "copyrightText": "Conținutul și lucrările de pe aceste pagini create de operatorii site-ului sunt protejate de legea germană a drepturilor de autor. Reproducerea, prelucrarea, distribuirea și orice formă de valorificare în afara limitelor dreptului de autor necesită acordul scris al autorului sau creatorului. Descărcările și copiile acestui site sunt permise doar pentru uz privat, necomercial. În măsura în care conținutul de pe acest site nu a fost creat de operator, se respectă drepturile de autor ale terților. Conținutul terților este marcat ca atare. Dacă totuși observați o încălcare a drepturilor de autor, vă rugăm să ne informați. La notificare, vom elimina imediat conținutul respectiv."
   }
+
 }

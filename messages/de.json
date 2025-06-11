@@ -145,6 +145,81 @@
     "description":"Bei Safety2 unterstützen wir Unternehmen mit innovativen Softwarelösungen im Umwelt-, Gesundheits- und Sicherheitsmanagement (EHS). Unsere Plattform vereinfacht die Einhaltung von Vorschriften, verbessert die Sicherheit am Arbeitsplatz und unterstützt branchenübergreifend nachhaltige Umweltpraktiken. Was uns auszeichnet, ist nicht nur unsere Technologie, sondern auch unser Engagement für partnerschaftliche Zusammenarbeit. Wir liefern nicht einfach nur Software – wir begleiten unsere Kunden bei jedem Schritt und bieten kontinuierliche Unterstützung, um langfristigen Erfolg und messbare Wirkung zu gewährleisten. Unsere Stärke liegt in unserem vielfältigen und internationalen Team, in dem jede Stimme zählt. Wir glauben, dass Innovation durch den Austausch von Ideen entsteht, und wir fördern eine kollaborative Kultur, die den Input unserer Teammitglieder und unserer Kunden wertschätzt. Kundenfeedback ist entscheidend für unsere Weiterentwicklung – unsere Produkt-Roadmap orientiert sich an realen Bedürfnissen und Erkenntnissen. Mit Safety2 erhalten Sie nicht nur eine Lösung, sondern einen vertrauenswürdigen Partner für eine sicherere, gesündere und nachhaltigere Zukunft.",
     "demo":"Demo anfordern",
     "learn":"Mehr erfahren"
+  },
+  
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "effectiveDate": "Gültig ab: 11. Juni 2025",
+
+    "introTitle": "Einleitung",
+    "introText": "Wir nehmen den Datenschutz ernst. Diese Datenschutzerklärung erklärt, welche personenbezogenen Daten wir erheben, wie wir sie verwenden und welche Rechte Sie gemäß der Datenschutz-Grundverordnung (DSGVO) haben.",
+
+    "controllerTitle": "1. Verantwortlicher",
+    "controllerText": "Safety Doors GmbH, Ruhenhof 4, 48565 Steinfurt, Deutschland. Telefon: +49 2551 835195, E-Mail: info@safety-doors.com",
+
+    "dataCollectionTitle": "2. Welche Daten wir erfassen",
+    "cookiesText": "a. Cookies (automatisch erfasst): Wir verwenden ein einziges Cookie zur Erkennung der bevorzugten Sprache (locale). Wir verwenden keine Tracking-Cookies, Analysetools oder andere Profiling-Technologien.",
+    "demoRequestText": "b. Demo-Anfrage (vom Nutzer übermittelt): Wenn Sie eine Produktdemo anfordern, erfassen wir folgende Daten: Vollständiger Name, E-Mail-Adresse, Telefonnummer, Firmenname, Anzahl der Mitarbeiter.",
+
+    "purposeTitle": "3. Zweck und Rechtsgrundlage",
+    "purposeText": "Die Rechtsgrundlage für die Verarbeitung dieser Daten ist Art. 6 Abs. 1 lit. b DSGVO – Maßnahmen vor Vertragsabschluss auf Ihre Anfrage. Wir verwenden die Daten ausschließlich, um Sie zu kontaktieren und eine Demo zu vereinbaren.",
+
+    "securityTitle": "4. Datenübermittlung und Sicherheit",
+    "securityText": "Die übermittelten Daten werden ausschließlich über verschlüsselte und sichere Protokolle übertragen und nur von unserem autorisierten Vertriebsteam verarbeitet. Wir geben keine Daten an Dritte weiter und übertragen sie nicht außerhalb der EU/des EWR.",
+
+    "retentionTitle": "5. Speicherdauer",
+    "retentionText": "Ihre Daten werden nur so lange gespeichert, wie es zur Bearbeitung Ihrer Demo-Anfrage erforderlich ist oder gesetzliche Aufbewahrungspflichten (z. B. handelsrechtliche Vorschriften) bestehen.",
+
+    "rightsTitle": "6. Ihre Rechte nach der DSGVO",
+    "rightsText": "Sie haben das Recht auf: Auskunft (Art. 15 DSGVO), Berichtigung (Art. 16 DSGVO), Löschung (Art. 17 DSGVO), Einschränkung der Verarbeitung (Art. 18 DSGVO), Widerspruch (Art. 21 DSGVO), Datenübertragbarkeit (Art. 20 DSGVO). Zur Ausübung Ihrer Rechte schreiben Sie bitte an: info@safety-doors.com.",
+
+    "complaintTitle": "7. Beschwerderecht",
+    "complaintText": "Wenn Sie der Meinung sind, dass Ihre Daten unrechtmäßig verarbeitet werden, können Sie sich bei einer Datenschutzaufsichtsbehörde beschweren. In Deutschland ist dies z. B.: Der Bundesbeauftragte für den Datenschutz und die Informationsfreiheit (BfDI). Website: https://www.bfdi.bund.de",
+
+    "changesTitle": "8. Änderungen dieser Erklärung",
+    "changesText": "Wir können diese Datenschutzerklärung aktualisieren, um gesetzlichen Anforderungen zu entsprechen oder Änderungen unserer Dienste abzubilden. Die jeweils aktuelle Version wird immer auf dieser Seite veröffentlicht.",
+
+    "legalInfoTitle": "Angaben gemäß § 5 TMG",
+
+    "impressumTitle": "Impressum",
+    "impressumText": "Safety Doors GmbH, Ruhenhof 4, 48565 Steinfurt, Deutschland",
+
+    "phoneLabel": "Telefon",
+    "phoneText": "+49 2551 83 51 20",
+
+    "emailLabel": "E-Mail",
+    "emailText": "info@safety-doors.com",
+
+    "websiteLabel": "Website",
+    "websiteText": "safety-doors.com",
+
+    "representedLabel": "Vertreten durch",
+    "representedText": "Karl-Heinz Beier, Andreas Schuch",
+
+    "registerLabel": "Handelsregister",
+    "registerText": "Registergericht: Steinfurt, Handelsregister: HRB 9306",
+
+    "vatLabel": "Umsatzsteuer-ID",
+    "vatText": "Umsatzsteuer-Identifikationsnummer gemäß § 27a UStG: DE278535593",
+
+    "insuranceTitle": "Angaben zur Berufshaftpflichtversicherung",
+    "insuranceText": "Räumlicher Geltungsbereich der Versicherung: Europaweit.",
+
+    "disputeTitle": "EU-Streitbeilegung",
+    "disputeText": "Die Europäische Kommission stellt eine Plattform zur Online-Streitbeilegung (OS) bereit: https://ec.europa.eu/consumers/odr. Unsere E-Mail-Adresse finden Sie oben im Impressum.",
+
+    "consumerDisputeTitle": "Verbraucherstreitbeilegung",
+    "consumerDisputeText": "Wir sind nicht bereit oder verpflichtet, an Streitbeilegungsverfahren vor einer Verbraucherschlichtungsstelle teilzunehmen.",
+
+    "contentLiabilityTitle": "Haftung für Inhalte",
+    "contentLiabilityText": "Als Diensteanbieter sind wir gemäß § 7 Abs. 1 TMG für eigene Inhalte auf diesen Seiten verantwortlich. Nach §§ 8 bis 10 TMG sind wir jedoch nicht verpflichtet, übermittelte oder gespeicherte fremde Informationen zu überwachen oder nach Umständen zu forschen, die auf eine rechtswidrige Tätigkeit hinweisen. Verpflichtungen zur Entfernung oder Sperrung der Nutzung von Informationen nach den allgemeinen Gesetzen bleiben hiervon unberührt. Eine diesbezügliche Haftung ist jedoch erst ab dem Zeitpunkt der Kenntnis einer konkreten Rechtsverletzung möglich. Bei Bekanntwerden entsprechender Rechtsverletzungen werden wir diese Inhalte umgehend entfernen.",
+
+    "linkLiabilityTitle": "Haftung für Links",
+    "linkLiabilityText": "Unser Angebot enthält Links zu externen Webseiten Dritter, auf deren Inhalte wir keinen Einfluss haben. Deshalb können wir für diese fremden Inhalte auch keine Gewähr übernehmen. Für die Inhalte der verlinkten Seiten ist stets der jeweilige Anbieter oder Betreiber der Seiten verantwortlich. Die verlinkten Seiten wurden zum Zeitpunkt der Verlinkung auf mögliche Rechtsverstöße überprüft. Rechtswidrige Inhalte waren zum Zeitpunkt der Verlinkung nicht erkennbar. Eine permanente inhaltliche Kontrolle der verlinkten Seiten ist jedoch ohne konkrete Anhaltspunkte einer Rechtsverletzung nicht zumutbar. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Links umgehend entfernen.",
+
+    "copyrightTitle": "Urheberrecht",
+    "copyrightText": "Die durch die Seitenbetreiber erstellten Inhalte und Werke auf diesen Seiten unterliegen dem deutschen Urheberrecht. Die Vervielfältigung, Bearbeitung, Verbreitung und jede Art der Verwertung außerhalb der Grenzen des Urheberrechts bedürfen der schriftlichen Zustimmung des jeweiligen Autors bzw. Erstellers. Downloads und Kopien dieser Seite sind nur für den privaten, nicht kommerziellen Gebrauch gestattet. Soweit die Inhalte auf dieser Seite nicht vom Betreiber erstellt wurden, werden die Urheberrechte Dritter beachtet. Insbesondere werden Inhalte Dritter als solche gekennzeichnet. Sollten Sie trotzdem auf eine Urheberrechtsverletzung aufmerksam werden, bitten wir um einen entsprechenden Hinweis. Bei Bekanntwerden von Rechtsverletzungen werden wir derartige Inhalte umgehend entfernen."
   }
+
 
 }

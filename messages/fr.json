@@ -146,6 +146,81 @@
     "description":"Chez Safety2, nous nous engageons à fournir aux organisations des solutions logicielles de pointe en matière de gestion de l'environnement, de la santé et de la sécurité (EHS). Notre plateforme est conçue pour simplifier la conformité, améliorer la sécurité au travail et soutenir des pratiques environnementales durables dans tous les secteurs. Ce qui nous distingue, ce n'est pas seulement notre technologie, mais aussi notre engagement envers le partenariat. Nous ne nous contentons pas de fournir des logiciels : nous accompagnons nos clients à chaque étape de leur développement, leur offrant un soutien continu pour garantir leur réussite à long terme et un impact mesurable. Notre force réside dans notre équipe diversifiée et internationale, où chaque voix compte. Nous sommes convaincus que l'innovation prospère grâce au partage des idées et nous favorisons une culture collaborative qui valorise les contributions de nos équipes et de nos clients. Les retours clients sont au cœur de notre évolution : notre feuille de route produit est façonnée par des besoins et des connaissances concrets. Avec Safety2, vous n'obtenez pas seulement une solution, vous bénéficiez d'un partenaire de confiance pour bâtir un avenir plus sûr, plus sain et plus durable.",
     "demo":"demander une démo.",
     "learn":"apprendre encore plus"
+  },
+  
+  "privacy": {
+    "title": "Politique de Confidentialité",
+    "effectiveDate": "Date d'entrée en vigueur : 11 juin 2025",
+
+    "introTitle": "Introduction",
+    "introText": "Nous prenons la confidentialité des données très au sérieux. Cette politique de confidentialité explique quelles données personnelles nous collectons, comment nous les utilisons et quels sont vos droits en vertu du Règlement Général sur la Protection des Données (RGPD).",
+
+    "controllerTitle": "1. Responsable",
+    "controllerText": "Safety Doors GmbH, Ruhenhof 4, 48565 Steinfurt, Allemagne. Téléphone : +49 2551 835195, Email : info@safety-doors.com",
+
+    "dataCollectionTitle": "2. Quelles données nous collectons",
+    "cookiesText": "a. Cookies (collectés automatiquement) : Nous utilisons uniquement un cookie pour détecter votre langue préférée (locale). Nous n'utilisons pas de cookies de suivi, d'analyses ni d'autres technologies de profilage.",
+    "demoRequestText": "b. Demande de démonstration (soumise par l'utilisateur) : Lorsque vous demandez une démonstration du produit, nous collectons les données suivantes : Nom complet, Adresse e-mail, Numéro de téléphone, Nom de l’entreprise, Nombre d’employés.",
+
+    "purposeTitle": "3. Finalité et base juridique",
+    "purposeText": "La base juridique du traitement de ces données est l'Art. 6 (1)(b) du RGPD — les étapes nécessaires avant la conclusion d’un contrat à votre demande. Nous utilisons vos données uniquement pour vous contacter et planifier une démonstration.",
+
+    "securityTitle": "4. Transmission et sécurité des données",
+    "securityText": "Vos données sont transmises exclusivement via des protocoles sécurisés chiffrés et sont traitées uniquement par notre équipe commerciale autorisée. Nous ne partageons pas vos données avec des tiers ni ne les transférons en dehors de l'UE/EEE.",
+
+    "retentionTitle": "5. Conservation des données",
+    "retentionText": "Vos données sont conservées uniquement le temps nécessaire pour répondre à votre demande de démonstration ou pour satisfaire aux obligations légales (par exemple, les lois de conservation commerciale).",
+
+    "rightsTitle": "6. Vos droits selon le RGPD",
+    "rightsText": "Vous avez le droit de : Accéder à vos données (Art. 15 RGPD), Corriger les données inexactes (Art. 16 RGPD), Supprimer vos données (Art. 17 RGPD), Limiter le traitement (Art. 18 RGPD), Vous opposer au traitement (Art. 21 RGPD), Portabilité des données (Art. 20 RGPD). Pour exercer vos droits, contactez : info@safety-doors.com.",
+
+    "complaintTitle": "7. Droit d’introduire une réclamation",
+    "complaintText": "Si vous estimez que vos données sont traitées illégalement, vous pouvez introduire une réclamation auprès d'une autorité de protection des données. En Allemagne, il s’agit du : Commissaire fédéral à la protection des données et à la liberté d'information (BfDI). Site web : https://www.bfdi.bund.de",
+
+    "changesTitle": "8. Modifications de cette politique",
+    "changesText": "Nous pouvons mettre à jour cette politique pour nous conformer aux exigences légales ou refléter des changements dans nos services. La version la plus récente sera toujours publiée sur cette page.",
+
+    "legalInfoTitle": "Informations selon § 5 TMG",
+
+    "impressumTitle": "Mentions légales (Impressum)",
+    "impressumText": "Safety Doors GmbH, Ruhenhof 4, 48565 Steinfurt, Allemagne",
+
+    "phoneLabel": "Téléphone",
+    "phoneText": "+49 2551 83 51 20",
+
+    "emailLabel": "Email",
+    "emailText": "info@safety-doors.com",
+
+    "websiteLabel": "Site web",
+    "websiteText": "safety-doors.com",
+
+    "representedLabel": "Représenté par",
+    "representedText": "Karl-Heinz Beier, Andreas Schuch",
+
+    "registerLabel": "Enregistrement",
+    "registerText": "Tribunal de commerce : Steinfurt, Registre du commerce : HRB 9306",
+
+    "vatLabel": "Numéro de TVA",
+    "vatText": "Numéro d’identification TVA selon §27 a de la loi sur la TVA : DE278535593",
+
+    "insuranceTitle": "Assurance responsabilité professionnelle",
+    "insuranceText": "Informations sur l’assurance responsabilité professionnelle. Zone de couverture : Europe entière.",
+
+    "disputeTitle": "Règlement des litiges en ligne",
+    "disputeText": "La Commission européenne propose une plateforme de règlement des litiges en ligne (ODR) : https://ec.europa.eu/consumers/odr. Notre adresse email est indiquée ci-dessus dans les mentions légales.",
+
+    "consumerDisputeTitle": "Règlement des litiges de consommation",
+    "consumerDisputeText": "Nous ne sommes ni disposés ni obligés de participer à une procédure de règlement des litiges devant un organisme d'arbitrage de consommation universel.",
+
+    "contentLiabilityTitle": "Responsabilité relative aux contenus",
+    "contentLiabilityText": "En tant que prestataire de services, nous sommes responsables de nos propres contenus sur ces pages conformément à l'article 7 (1) de la loi allemande sur les télémédias (TMG). Toutefois, selon les articles 8 à 10 de la TMG, nous ne sommes pas tenus de surveiller les informations transmises ou stockées provenant de tiers ou d’enquêter sur des activités illégales. Les obligations de suppression ou de blocage des informations selon la législation générale restent inchangées. Une responsabilité n'est possible qu'à partir du moment où une infraction est constatée. Dès que nous aurons connaissance d'une infraction, nous supprimerons immédiatement ce contenu.",
+
+    "linkLiabilityTitle": "Responsabilité relative aux liens",
+    "linkLiabilityText": "Notre site web contient des liens vers des sites externes de tiers, dont nous ne contrôlons pas le contenu. Nous n’assumons donc aucune responsabilité quant à ces contenus. Le fournisseur ou l'exploitant respectif est toujours responsable des pages liées. Les pages liées ont été vérifiées pour détecter d’éventuelles violations légales au moment de la liaison. Aucun contenu illégal n'a été constaté à ce moment-là. Une surveillance permanente des contenus liés n'est pas raisonnable sans preuve concrète d’une infraction. En cas de notification d'une infraction, nous supprimerons immédiatement ces liens.",
+
+    "copyrightTitle": "Droits d’auteur",
+    "copyrightText": "Les contenus et œuvres créés par les opérateurs de ce site sont soumis au droit d’auteur allemand. La reproduction, le traitement, la distribution et toute utilisation en dehors des limites du droit d’auteur nécessitent l’autorisation écrite de l’auteur ou du créateur. Les téléchargements et copies de ce site ne sont autorisés que pour un usage privé et non commercial. Dans la mesure où le contenu de ce site n’a pas été créé par l’exploitant, les droits d’auteur de tiers sont respectés. En particulier, les contenus de tiers sont signalés comme tels. Si vous constatez malgré cela une violation des droits d’auteur, veuillez nous en informer. Dès notification d’une violation, nous supprimerons immédiatement le contenu concerné."
+  
   }
   
 }
