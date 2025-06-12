@@ -23,7 +23,6 @@ export  const Footer = async () => {
       <nav  className='flex flex-col gap-6 mt-6 md:flex-row md:justify-center'>
         <Link href='/about'>{t('uns')}</Link>
         <Link href="/#module" scroll={true}>{t('modules')}</Link>
-        <a href='#'>{t('help')}</a>
         <a href='#'>{t('contact')}</a>
         <a href='#'>{t('privacy')}</a>
         <Link href='/vision'>{t('help')}</Link>
