@@ -1,6 +1,19 @@
 version: '3.9'
 
 services:
+  mysql:
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_DATABASE: appdb
+      MYSQL_USER: root
+      MYSQL_PASSWORD: secret
+    ports:
+      - "3307:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
   nextjs:
     build: .
     ports:
@@ -8,6 +21,34 @@ services:
     environment:
       - NODE_ENV=production
       - PORT=3000
-    extra_hosts:
-      - "host.docker.internal:host-gateway"
+      - DB_HOST=mysql
+      - DB_PORT=3306
+      - DB_USER=root
+      - DB_PASSWORD=
+      - DB_NAME=appdb
+    depends_on:
+      - mysql
+
+  phpmyadmin:
+    image: phpmyadmin/phpmyadmin
     restart: unless-stopped
+    ports:
+      - "8080:80"
+    environment:
+      PMA_HOST: mysql
+      PMA_PORT: 3306
+      MYSQL_ROOT_PASSWORD: secret
+      PMA_ABSOLUTE_URI: http://localhost:8080/
+      COOKIE_SECURE: false
+      SESSION_COOKIE_SECURE: false
+  web:
+    build: .
+    depends_on:
+      - mysql
+    ports:
+      - "3000:3000"
+    environment:
+      DATABASE_URL: mysql://root:secret@localhost:3307/appdb
+
+volumes:
+  mysql_data:
