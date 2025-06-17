@@ -219,7 +219,13 @@
 
     "copyrightTitle": "Derechos de autor",
     "copyrightText": "El contenido y las obras creadas por los operadores del sitio están sujetos a la ley de derechos de autor alemana. La reproducción, edición, distribución o uso fuera de los límites del derecho de autor requiere el consentimiento por escrito del autor o creador correspondiente. Las descargas y copias de este sitio solo están permitidas para uso privado y no comercial. Si el contenido no fue creado por el operador, se respetan los derechos de autor de terceros. Si observa alguna infracción de derechos, notifíquenoslo y eliminaremos el contenido de inmediato."
-  }
+  },
+  "careers": {
+  "title": "Carreras",
+  "job": "Empleos",
+  "training": "Formación",
+  "learn": "más información"
+}
 
 
 }

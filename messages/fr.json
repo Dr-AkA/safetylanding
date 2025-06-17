@@ -221,6 +221,12 @@
     "copyrightTitle": "Droits d’auteur",
     "copyrightText": "Les contenus et œuvres créés par les opérateurs de ce site sont soumis au droit d’auteur allemand. La reproduction, le traitement, la distribution et toute utilisation en dehors des limites du droit d’auteur nécessitent l’autorisation écrite de l’auteur ou du créateur. Les téléchargements et copies de ce site ne sont autorisés que pour un usage privé et non commercial. Dans la mesure où le contenu de ce site n’a pas été créé par l’exploitant, les droits d’auteur de tiers sont respectés. En particulier, les contenus de tiers sont signalés comme tels. Si vous constatez malgré cela une violation des droits d’auteur, veuillez nous en informer. Dès notification d’une violation, nous supprimerons immédiatement le contenu concerné."
   
-  }
+  },
+  "careers": {
+  "title": "Carrières",
+  "job": "Emplois",
+  "training": "Formation",
+  "learn": "en savoir plus"
+}
   
 }

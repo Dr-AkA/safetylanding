@@ -219,6 +219,14 @@
     "copyrightTitle": "Copyright",
     "copyrightText": "The content and works created by the site operators are subject to German copyright law. Reproduction, processing, distribution, or use beyond legal limits requires written permission. Downloads and copies are permitted for private, non-commercial use only. Third-party content is marked accordingly. If you notice a copyright infringement, inform us and we will act immediately."
   
+},
+"careers":
+{
+  "title":"Careers",
+  "job":"Jobs",
+  "training":"Training",
+  "learn":"learn more"
+
 }
 
 

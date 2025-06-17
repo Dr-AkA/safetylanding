@@ -198,6 +198,13 @@
 
     "copyrightTitle": "Drepturi de autor",
     "copyrightText": "Conținutul și lucrările de pe aceste pagini create de operatorii site-ului sunt protejate de legea germană a drepturilor de autor. Reproducerea, prelucrarea, distribuirea și orice formă de valorificare în afara limitelor dreptului de autor necesită acordul scris al autorului sau creatorului. Descărcările și copiile acestui site sunt permise doar pentru uz privat, necomercial. În măsura în care conținutul de pe acest site nu a fost creat de operator, se respectă drepturile de autor ale terților. Conținutul terților este marcat ca atare. Dacă totuși observați o încălcare a drepturilor de autor, vă rugăm să ne informați. La notificare, vom elimina imediat conținutul respectiv."
-  }
+  },
+  "careers": {
+  "title": "Cariere",
+  "job": "Locuri de muncă",
+  "training": "Instruire",
+  "learn": "află mai multe"
+}
+
 
 }
