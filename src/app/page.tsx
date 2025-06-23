@@ -22,6 +22,19 @@ const surroundingIcons = [
   { src: "/assets/Module/boebachtung.png", alt: "Sicherheits-Beobachtungen", key: "Sicherheits-Beobachtungen" },
 ];
 
+// Mapping von Modul-Key zu großem Bild (Foto)
+const modulePhotos: Record<string, string> = {
+  'EHS-Basis': '/src/assets/ehsbasistab.jpg',
+  'Betriebsanweisung': '/src/assets/betriebanweisung1.jpg',
+  'Qualifkationen': '/src/assets/qualifcationtab.jpg',
+  'Gefahrdungsbeurteilungen': '/src/assets/gefahr1.jpg',
+  'Maßnahmen': '/src/assets/Massnahmen-PC.png',
+  'Prüf & Wartungsplaner': '/src/assets/pruf.jpg',
+  'Umfallmanagement': '/src/assets/umfalmanagement.jpg',
+  'Digitale Unterweisungen': '/src/assets/unterweisung.jpg',
+  'Sicherheits-Beobachtungen': '/src/assets/boebachtung.jpg',
+};
+
 function getCirclePosition(index: number, total: number, radiusPercent: number) {
   const angle = (index / total) * 2 * Math.PI - Math.PI / 2;
   const r = radiusPercent;
@@ -34,6 +47,7 @@ export default function Home() {
   const [hovered, setHovered] = useState<string | null>(null);
   const [spotlight, setSpotlight] = useState<{x: number, y: number} | null>(null);
   const [selected, setSelected] = useState<string | null>(null);
+  const [showPanel, setShowPanel] = useState(false);
 
   useEffect(() => {
     const originalOverflow = document.body.style.overflow;
@@ -53,6 +67,17 @@ export default function Home() {
     info = modulesData.Modules[key];
   }
 
+  // Panel Animation steuern
+  useEffect(() => {
+    if (selected) {
+      setShowPanel(true);
+    } else {
+      // Panel mit Animation ausblenden
+      const timeout = setTimeout(() => setShowPanel(false), 250);
+      return () => clearTimeout(timeout);
+    }
+  }, [selected]);
+
   return (
     <>
       <Head>
@@ -63,12 +88,26 @@ export default function Home() {
         <meta property="og:image" content="https://safety-doors.com/wp-content/uploads/2023/08/safety2_logo.svg" />
         <meta name="linkedin:card" content="" />
       </Head>
-      {/* Custom Keyframes für das Wippen */}
+      {/* Custom Keyframes für das Wippen und Panel */}
       <style>{`
         @keyframes floatY {
           0% { transform: translateY(0); }
           50% { transform: translateY(-10px); }
           100% { transform: translateY(0); }
+        }
+        .fade-in-scale {
+          animation: fadeInScale 0.3s cubic-bezier(.4,0,.2,1);
+        }
+        .fade-out-scale {
+          animation: fadeOutScale 0.25s cubic-bezier(.4,0,.2,1);
+        }
+        @keyframes fadeInScale {
+          0% { opacity: 0; transform: scale(0.95); }
+          100% { opacity: 1; transform: scale(1); }
+        }
+        @keyframes fadeOutScale {
+          0% { opacity: 1; transform: scale(1); }
+          100% { opacity: 0; transform: scale(0.95); }
         }
       `}</style>
       <Header/>
@@ -85,22 +124,9 @@ export default function Home() {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        {/* Info-Panel */}
-        {selected && info && infoIcon ? (
-          <div className="relative flex flex-col items-center justify-center bg-black/80 rounded-xl p-8 max-w-xl w-full text-white shadow-2xl animate-fade-in z-40">
-            <button className="absolute top-4 right-4 text-white text-2xl" onClick={() => setSelected(null)}>&#10005;</button>
-            <img src={infoIcon.src} alt={infoIcon.alt} className="w-24 h-24 mb-4" />
-            <h2 className="text-2xl font-bold mb-2">{info.title}</h2>
-            {"description" in info && (
-              <p className="mb-4 text-base whitespace-pre-line">{info.description}</p>
-            )}
-            {"features" in info && info.features && (
-              <div className="bg-white/10 rounded p-3 text-sm mb-2">{info.features}</div>
-            )}
-          </div>
-        ) : (
+        {/* Dashboard bleibt immer sichtbar, wird aber bei Info-Panel ausgegraut und geblurrt */}
         <div
-          className="relative w-[80vw] h-[80vw] max-w-[950px] max-h-[950px] min-w-[320px] min-h-[320px]"
+          className={`relative w-[80vw] h-[80vw] max-w-[950px] max-h-[950px] min-w-[320px] min-h-[320px] transition-all duration-300 ${selected ? 'opacity-40 blur-sm pointer-events-none' : ''}`}
           style={{ aspectRatio: '1/1' }}
           onMouseMove={e => {
             const rect = (e.target as HTMLDivElement).getBoundingClientRect();
@@ -185,6 +211,26 @@ export default function Home() {
             );
           })}
         </div>
+        {/* Info-Panel als Overlay mit Animation */}
+        {showPanel && info && infoIcon && (
+          <div className={`fixed inset-0 flex items-center justify-center z-50 bg-black/30 transition-all duration-300`}
+            style={{ pointerEvents: selected ? 'auto' : 'none' }}
+          >
+            <div className={`relative flex flex-col items-center justify-center bg-black/80 rounded-xl p-8 max-w-xl w-full text-white shadow-2xl ${selected ? 'fade-in-scale' : 'fade-out-scale'}`}
+              style={{ minHeight: 350 }}
+            >
+              <button className="absolute top-4 right-4 text-white text-2xl" onClick={() => setSelected(null)}>&#10005;</button>
+              {/* Icon für alle Module */}
+              <img src={infoIcon.src} alt={infoIcon.alt} className="w-24 h-24 mb-4" />
+              <h2 className="text-2xl font-bold mb-2">{info.title}</h2>
+              {"description" in info && (
+                <p className="mb-4 text-base whitespace-pre-line">{info.description}</p>
+              )}
+              {"features" in info && info.features && (
+                <div className="bg-white/10 rounded p-3 text-sm mb-2">{info.features}</div>
+              )}
+            </div>
+          </div>
         )}
       </main>
       {/*
