@@ -22,19 +22,6 @@ const surroundingIcons = [
   { src: "/assets/Module/boebachtung.png", alt: "Sicherheits-Beobachtungen", key: "Sicherheits-Beobachtungen" },
 ];
 
-// Mapping von Modul-Key zu großem Bild (Foto)
-const modulePhotos: Record<string, string> = {
-  'EHS-Basis': '/src/assets/ehsbasistab.jpg',
-  'Betriebsanweisung': '/src/assets/betriebanweisung1.jpg',
-  'Qualifkationen': '/src/assets/qualifcationtab.jpg',
-  'Gefahrdungsbeurteilungen': '/src/assets/gefahr1.jpg',
-  'Maßnahmen': '/src/assets/Massnahmen-PC.png',
-  'Prüf & Wartungsplaner': '/src/assets/pruf.jpg',
-  'Umfallmanagement': '/src/assets/umfalmanagement.jpg',
-  'Digitale Unterweisungen': '/src/assets/unterweisung.jpg',
-  'Sicherheits-Beobachtungen': '/src/assets/boebachtung.jpg',
-};
-
 function getCirclePosition(index: number, total: number, radiusPercent: number) {
   const angle = (index / total) * 2 * Math.PI - Math.PI / 2;
   const r = radiusPercent;
@@ -88,7 +75,6 @@ export default function Home() {
         <meta property="og:image" content="https://safety-doors.com/wp-content/uploads/2023/08/safety2_logo.svg" />
         <meta name="linkedin:card" content="" />
       </Head>
-      {/* Custom Keyframes für das Wippen und Panel */}
       <style>{`
         @keyframes floatY {
           0% { transform: translateY(0); }
@@ -124,7 +110,6 @@ export default function Home() {
           backgroundRepeat: 'no-repeat',
         }}
       >
-        {/* Dashboard bleibt immer sichtbar, wird aber bei Info-Panel ausgegraut und geblurrt */}
         <div
           className={`relative w-[80vw] h-[80vw] max-w-[950px] max-h-[950px] min-w-[320px] min-h-[320px] transition-all duration-300 ${selected ? 'opacity-40 blur-sm pointer-events-none' : ''}`}
           style={{ aspectRatio: '1/1' }}
@@ -220,14 +205,16 @@ export default function Home() {
               style={{ minHeight: 350 }}
             >
               <button className="absolute top-4 right-4 text-white text-2xl" onClick={() => setSelected(null)}>&#10005;</button>
-              {/* Icon für alle Module */}
+              {/* Icon groß und zentriert */}
               <img src={infoIcon.src} alt={infoIcon.alt} className="w-24 h-24 mb-4" />
-              <h2 className="text-2xl font-bold mb-2">{info.title}</h2>
+              <h2 className="text-2xl font-bold mb-2 mt-2">{info.title}</h2>
               {"description" in info && (
                 <p className="mb-4 text-base whitespace-pre-line">{info.description}</p>
               )}
               {"features" in info && info.features && (
-                <div className="bg-white/10 rounded p-3 text-sm mb-2">{info.features}</div>
+                <ul className="bg-white/10 rounded p-3 text-sm mb-2 list-disc list-inside">
+                  {info.features.split('|').map((f: string, i: number) => f && <li key={i}>{f}</li>)}
+                </ul>
               )}
             </div>
           </div>
