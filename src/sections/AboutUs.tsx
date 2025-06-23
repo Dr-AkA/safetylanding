@@ -11,7 +11,6 @@ export const About = async () => {
       <div className='md:flex items-center'>
       <div className='w-full max-w-[478px]'>
       <h1 className="text-4xl  font-bold tracking-tighter bg-gradient-to-b from-white to-[#8f8382] text-transparent bg-clip-text mt-6 md:text-2xl md:text-balance sm:text-1xl">{t('title')}</h1>
-        <h2> This is a commit change test for firewall rules on Gitgub by Davan </h2>
       
       <p className="text-xl text-[white] tracking-tight mt-6 justify-center  sm:text-balance md:text-balance md:text-2xl sm:text-1xl ">{t('description')}</p>
    <div className="flex gap-1 items-center mt-[30px]">
