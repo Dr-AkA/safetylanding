@@ -2,7 +2,7 @@ import CallToActionWrapper from "@/components/CookieConsentBannerWrapper";
 import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
 import Head from "next/head";
-import {About} from "@/sections/AboutUs";
+import {Contact} from "@/sections/ContactUs";
 export default function aboutUs() {
   return (<>
   
@@ -19,6 +19,7 @@ export default function aboutUs() {
     </Head>
     
     <Header/>
+    <Contact/>
     <CallToActionWrapper/>
     <Footer/>
     
