@@ -37,7 +37,7 @@ export const Header = () => {
               <Link href='/about'>{t('uns')}</Link>
               <Link href='/#module' scroll={true}>{t('modules')}</Link>
               <Link href='/vision'>{t('vision')}</Link>
-              <Link href='#'>{t('contact')}</Link>
+              <Link href='/contact'>{t('contact')}</Link>
               <Link href='/career'>{t('career')}</Link>
               
 
