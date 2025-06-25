@@ -46,8 +46,6 @@ export default async function RootLayout({
       <body className={clsx(dmSans.className, "antialiased bg-[#EAEEFE]")}>
         <div className="absolute text-[10px] top-2 right-4 z-50">
           <link rel="icon" type="image/svg+xml" href='/favicon.ico'/>
-
-          <LanguageSwitcher />
         </div>
         <LanguageDetector />
         <NextIntlClientProvider locale={locale} messages={messages}>

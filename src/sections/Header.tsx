@@ -1,12 +1,11 @@
 'use client'; // Add this if using Next.js App Router
 
 import { useState } from 'react';
-import ArrowRight from '@/assets/arrow-right.svg';
 import Logo from '@/assets/safety2_logo.svg';
 import MenuIcon from '@/assets/menu.svg';
-import Head from 'next/head';
-import { useTranslations } from 'next-intl'; // Changed from getTranslations for client component
+import { useTranslations } from 'next-intl';
 import Link from 'next/link';
+import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 
 export const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,35 +16,45 @@ export const Header = () => {
   };
 
   return (
-    <header className='sticky top-0 backdrop-blur-sm z-20'>
-      <div className="flex justify-center items-center py-3 bg-black text-white text-sm gap-3">
-        <p className='text-white/80 hidden md:block'>{t('header')}</p>
-        <div className='inline-flex items-center gap-1'>
-          <p>{t('demo')}</p>
-          <ArrowRight className="h-4 w-4 justify-center items-center"/>
-        </div>
+    <header className="sticky top-0 backdrop-blur-sm z-20 bg-white/95 shadow-sm">
+      <div className="container mx-auto py-4 flex items-center justify-between">
+        {/* Logo left */}
+        <Logo className="h-9 w-auto" />
+        
+        {/* Desktop Nav */}
+        <nav className="hidden md:flex items-center gap-8">
+          <Link href='/' className="text-lg">{t('home')}</Link>
+          <Link href='/about' className="text-lg">{t('uns')}</Link>
+          <Link href='/#module' scroll={true} className="text-lg">{t('modules')}</Link>
+          <Link href='/vision' className="text-lg">{t('vision')}</Link>
+          <Link href='/contact' className="text-lg">{t('contact')}</Link>
+          <Link href='/career' className="text-lg">{t('career')}</Link>
+          <LanguageSwitcher />
+        </nav>
+        
+        {/* Mobile Burger */}
+        <button onClick={toggleMenu} className="md:hidden ml-auto">
+          <MenuIcon className="h-7 w-7" />
+        </button>
       </div>
-      <div className='py-5'>
-        <div className="container">
-          <div className="flex justify-between items-center">
-            <Logo className="h-12 w-13"/>
-            <button onClick={toggleMenu} className="md:hidden">
-              <MenuIcon className="h-7 w-7"/>
-            </button>
-            <nav className={`md:flex gap-6 text-black/80 items-center ${isMenuOpen ? 'flex flex-col absolute top-24 left-0 right-0 bg-white shadow-lg py-4 z-30' : 'hidden'}`}>
-              <Link href='/'>{t('home')}</Link>
-              <Link href='/about'>{t('uns')}</Link>
-              <Link href='/#module' scroll={true}>{t('modules')}</Link>
-              <Link href='/vision'>{t('vision')}</Link>
-              <Link href='/contact'>{t('contact')}</Link>
-              <Link href='/career'>{t('career')}</Link>
-              
-
-              <button className='bg-black text-white px-4 py-2 rounded-lg font-medium inline-flex items-center justify-center tracking-tight'>{t('demo')}</button>
+      {/* Mobile Menu */}
+      {isMenuOpen && (
+        <div className="fixed inset-0 bg-black/40 z-30" onClick={toggleMenu}>
+          <div className="absolute top-0 right-0 w-64 bg-white shadow-lg h-full flex flex-col p-6 gap-6" onClick={e => e.stopPropagation()}>
+            <nav className="flex flex-col gap-4 text-black/80">
+              <Link href='/' onClick={toggleMenu}>{t('home')}</Link>
+              <Link href='/about' onClick={toggleMenu}>{t('uns')}</Link>
+              <Link href='/#module' scroll={true} onClick={toggleMenu}>{t('modules')}</Link>
+              <Link href='/vision' onClick={toggleMenu}>{t('vision')}</Link>
+              <Link href='/contact' onClick={toggleMenu}>{t('contact')}</Link>
+              <Link href='/career' onClick={toggleMenu}>{t('career')}</Link>
             </nav>
+            <div className="mt-4 flex flex-col gap-4">
+              <LanguageSwitcher />
+            </div>
           </div>
         </div>
-      </div>
+      )}
     </header>
   );
 };
