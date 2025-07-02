@@ -225,7 +225,21 @@
   "job": "Stellenangebote",
   "training": "Ausbildung",
   "learn": "mehr erfahren"
-}
+},
+ "contact": {
+    "title": "Kontaktieren Sie unser Team",
+    "description": "Erfahren Sie, wie unsere Lösungen Ihr Unternehmen unterstützen können. Füllen Sie das untenstehende Formular aus, um das Gespräch zu beginnen.",
+    "first": "Vorname",
+    "last": "Nachname",
+    "company": "Unternehmen",
+    "email": "E-Mail",
+    "phone": "Telefonnummer",
+    "num": "Anzahl der Mitarbeitenden",
+    "message": "Nachricht",
+    "privacy": "Mit Ihrer Auswahl stimmen Sie unserer",
+    "policy": "Datenschutzrichtlinie",
+    "button": "Lassen Sie uns sprechen"
+  }
 
 
 }

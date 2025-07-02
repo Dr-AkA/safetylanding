@@ -225,7 +225,21 @@
   "job": "Empregos",
   "training": "Treinamento",
   "learn": "saiba mais"
-}
+},
+"contact": {
+    "title": "Contate a nossa equipe",
+    "description": "Descubra como as nossas soluções podem apoiar o seu negócio. Preencha o formulário abaixo para iniciar a conversa.",
+    "first": "Nome",
+    "last": "Sobrenome",
+    "company": "Empresa",
+    "email": "E-mail",
+    "phone": "Número de telefone",
+    "num": "Número de funcionários",
+    "message": "Mensagem",
+    "privacy": "Ao selecionar isto, você concorda com a nossa",
+    "policy": "política de privacidade",
+    "button": "Vamos conversar"
+  }
 
 
 }

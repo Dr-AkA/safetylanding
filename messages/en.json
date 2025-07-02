@@ -227,6 +227,21 @@
   "training":"Training",
   "learn":"learn more"
 
+},
+"contact":
+{
+  "title":"Contact Our Team",
+  "description":"Discover how our solutions can support your business. Fill out the form below to start the conversation.",
+  "first":"First name",
+  "last":"Last name",
+  "company":"Company",
+  "email":"Email",
+  "phone":"Phone number",
+  "num":"Number of Employees",
+  "message":"Message",
+  "privacy":"By selecting this, you agree to our",
+  "policy":"privacy and policy",
+  "button":"Let's talk"
 }
 
 

@@ -2,7 +2,7 @@ import CallToActionWrapper from "@/components/CookieConsentBannerWrapper";
 import { Footer } from "@/sections/Footer";
 import { Header } from "@/sections/Header";
 import Head from "next/head";
-import {Contact} from "@/sections/ContactUs";
+import Contact from '@/sections/ContactUs';
 export default function aboutUs() {
   return (<>
   

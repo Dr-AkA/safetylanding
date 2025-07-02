@@ -204,7 +204,21 @@
   "job": "Locuri de muncă",
   "training": "Instruire",
   "learn": "află mai multe"
-}
+},
+ "contact": {
+    "title": "Contactează echipa noastră",
+    "description": "Descoperă cum soluțiile noastre îți pot sprijini afacerea. Completează formularul de mai jos pentru a începe conversația.",
+    "first": "Prenume",
+    "last": "Nume",
+    "company": "Companie",
+    "email": "Email",
+    "phone": "Număr de telefon",
+    "num": "Număr de angajați",
+    "message": "Mesaj",
+    "privacy": "Prin selectarea acestei opțiuni, ești de acord cu",
+    "policy": "politica noastră de confidențialitate",
+    "button": "Hai să vorbim"
+  }
 
 
 }

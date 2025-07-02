@@ -227,6 +227,20 @@
   "job": "Emplois",
   "training": "Formation",
   "learn": "en savoir plus"
-}
+},
+"contact": {
+    "title": "Contactez notre équipe",
+    "description": "Découvrez comment nos solutions peuvent soutenir votre entreprise. Remplissez le formulaire ci-dessous pour commencer la conversation.",
+    "first": "Prénom",
+    "last": "Nom",
+    "company": "Entreprise",
+    "email": "E-mail",
+    "phone": "Numéro de téléphone",
+    "num": "Nombre d’employés",
+    "message": "Message",
+    "privacy": "En sélectionnant ceci, vous acceptez notre",
+    "policy": "politique de confidentialité",
+    "button": "Discutons"
+  }
   
 }
