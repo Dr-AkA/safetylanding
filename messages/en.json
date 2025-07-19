@@ -1,0 +1,355 @@
+{
+    "HomePage": {
+      "header": "Safety first, compliance always.",
+      "demo":"request a demo.",
+      "home":"Home",
+      "uns":"about us",
+      "modules":"Modules",
+      "vision":"Our Vision",
+      "contact":"Contact",
+      "career":"Career"
+      
+    },
+    "Main":
+    {
+      "version":"Version 2.0 is Here",
+      "title":"Safety² The most advanced EHS software for maximum occupational safety",
+      "description":"safety² is the flexible, browser- and cloud-based EHS software that adapts seamlessly to your company's requirements. Thanks to its modular structure, you decide which features you need. Audit-proof, standards-compliant, and always up-to-date – for a safe working environment that makes no compromises.",
+      "demo":"request a demo.",
+      "learn":"learn more"
+    },
+    "Showcase":
+    {
+      "header":"Safety first, compliance always.",
+      "header2":"Maximum security, smarter, faster, more reliable.",
+      "header3":"Safety Efficiency. Compliance",
+      "description":"Create a safe and compliant work environment without compromise. Our EHS software helps you identify risks early, comply with regulations effortlessly, and manage processes efficiently."
+    },
+    "Modules":
+    {
+     "EHS-Basis":
+     {
+      "title":"EHS-Basis",
+      "buttonText":"Learn more",
+      "description":"The safety² EHS-Basis – Your central platform for structured and efficient health and safety management. All relevant data is centrally bundled, continuously updated, and seamlessly linked with other modules. Flexible permission structures ensure the highest data protection and security standards. The customizable document management system (DMS) ensures consistent documentation and provides all employees – across locations – with quick access to current guidelines and procedures. Of course, safety² is available in multiple languages.",
+      "alt":"Environment and safety",
+      "features":"safety² EHS-Basis centralizes your data, keeps it current, and intelligently connects it with all modules. Customizable permissions ensure the highest data security."
+     },
+     "Betriebsanweisung":
+     {
+      "title":"Operating instructions",
+      "buttonText":"Learn more",
+      "description":"With the safety² Operating Instructions module, you fulfill your information obligations in a legally secure and standardized manner. Use proven templates or create individual instructions, tailored precisely to your company. Integrate relevant safety guidelines, processes, and protective measures – for effective risk minimization and reliable compliance with legal requirements.",
+      "alt":"Create operating instructions online",
+      "features":"Create operating instructions efficiently with predefined or customizable components. Thanks to intelligent linking, generation happens automatically – structured, time-saving, and standards-compliant."
+    },
+    "Qualifkationen":
+    {
+      "title":"Qualifications",
+      "buttonText":"Learn more",
+      "description":"Targeted task assignment based on individual qualifications – with the safety² Qualifications module. The module supports you in deploying employees precisely according to their competencies. This not only increases operational efficiency but also reduces safety-relevant risks and sustainably improves occupational safety. Through automatic linking with the Training module, you always maintain an overview of required training and expiring certificates – and receive timely reminders.",
+      "alt":"Compliance certificates",
+      "features":"Central, digital competency management with comprehensive overview of all employee qualifications. Enables targeted filtering by specific professional competencies and expertise for optimal resource planning."
+    },
+    "Gefahrdungsbeurteilungen":
+    {
+      "title":"Risk assessments",
+      "buttonText":"Learn more",
+      "description":"Identify hazards early and prevent them effectively – with the safety² Risk Assessment module. Systematically evaluate hazards and ensure that appropriate protective measures are implemented in a timely manner. The module supports you in holistic risk assessment and helps to identify potential sources of danger early – before they become a problem.",
+      "alt":"Risk management",
+      "features":"Comprehensive digital risk recording and management with safety² - systematically identifies, documents, and evaluates all operational hazard potentials for maximum occupational safety and compliance."
+    },
+    "Maßnahmen":
+    {
+      "title":"Measures",
+      "buttonText":"Learn more",
+      "description":"Efficient measure management – clear, central, transparent. With the safety² Measures module, you keep track of all operational measures. Create new measures with just a few clicks and assign them specifically to responsible persons or departments. Thanks to a central overview and automated notifications about deadlines, changes, and status updates, you ensure maximum security, transparency, and traceability – without any additional effort.",
+      "alt":"Audit management",
+      "features":"Central digital measures management with safety² – enables seamless planning, tracking, and documentation of all company-wide measures. Includes intelligent reminder system for timely implementation and automatic notifications of critical changes."
+    },
+    "Prüf & Wartungsplaner":
+    {
+      "title":"Inspection & Maintenance Planner",
+      "buttonText":"Learn more",
+      "description":"Reliability with a system – thanks to digital inspection and maintenance management. With the safety² Inspection & Maintenance Planner module, you record all items and work equipment requiring inspection centrally and digitally. Set up individual checklists and plan automatic assignments at defined intervals. The integrated reminder system ensures that all legal inspection cycles are met – seamlessly, on time, and audit-proof.",
+      "alt":"Legal regulations",
+      "features":"Central digital recording and monitoring of all inspection-required objects and work equipment. Ensures maximum safety and seamless compliance through structured management of test equipment and maintenance activities with automated deadline control."
+    },
+    "Umfallmanagement":
+    {
+      "title":"Incident management",
+      "buttonText":"Learn more",
+      "description":"Comprehensive accident management for more safety and less risk. With the safety² Accident Management module, you record and manage near-misses, commuting accidents, and workplace accidents digitally and in a structured manner. Critical events are systematically evaluated, documented, and translated into concrete prevention measures. The intuitive quick entry mask enables efficient processing, while the integrated accident report function significantly reduces administrative effort.",
+      "alt":"Incident management",
+      "features":"Smart occupational safety documentation: Digital recording and analysis of workplace accidents for a safer working environment."
+    },
+    "Digitale Unterweisungen":
+    {
+      "title":"Digital instructions",
+      "buttonText":"Learn more",
+      "description":"100% legally secure training – automated, verifiable, and individual. With the safety² Training module, you fulfill your training obligations seamlessly and efficiently – for both internal and external employees. Create individual training topics and plans, conduct learning success checks, and generate legally secure certificates. The module enables simple creation and management of training sessions, including automated reminders, status queries, and comprehensive documentation of evidence.",
+      "alt":"Create digital training",
+      "features":"Efficient online training that fulfills your legal instruction obligations simply and verifiably."
+     },
+     "Sicherheits-Beobachtungen":
+    {
+      "title":"Security observations",
+      "buttonText":"Learn more",
+      "description":"Detect safety risks early – with the safety² Observations module. Promote an active safety culture through targeted observations and digital documentation. The module enables employees to easily and directly report unsafe behavior or rule violations to the responsible departments – across departments and locations. Potential sources of danger such as defective work equipment or unsuitable environments are recorded in a structured manner. In combination with other safety² modules, action plans or operating instructions can be automatically derived – for more safety and less risk in everyday work.",
+      "alt":"Safety observations",
+      "features":"Digital recording of workplace behavior and conditions for targeted prevention measures and continuous improvement."
+    },
+    "Intelligente Audits & Begehungen":
+    {
+      "title":"Intelligent audits & inspections",
+      "buttonText":"Learn more",
+      "description":"Excellent occupational safety through systematic audit and inspection management. With the safety² Audits & Inspections module, you organize all safety checks centrally and efficiently – for maximum safety and compliance. Record observations directly on site, document them digitally in real time, evaluate results specifically, and immediately initiate necessary measures. This way you sustainably optimize your safety standards and proactively fulfill all regulatory requirements.",
+       "alt":"Audit management",
+      "features":"Optimize your compliance processes through digital real-time documentation during inspections. Our integrated toolkit ensures compliance with guidelines, proactive hazard detection, and automated scheduling – transforming routine inspections into strategic safety intelligence."
+     },
+       "section":
+     {
+      "title":"All EHS processes, one solution – Maximum control with one click",
+      "paragraph":"Our diverse specialist modules enable you to centrally manage all important EHS processes..."
+     }
+
+  },
+  "callToAction":
+  {
+   "Title":"Register for free today",
+   "paragraph":"Use our advanced EHS system now and improve your occupational health, safety, and environmental management. Our platform helps you meet compliance requirements, minimize risks, and increase workplace safety. With intuitive dashboards, automated reports, and comprehensive analytics tools, you can optimize your EHS processes and protect both your employees and the environment. Our team of experts will support you with seamless integration into your existing processes – at no upfront cost.",
+   "button":"request a demo",
+   "button2":"learn more"
+  },
+  "footer":
+  {
+  
+    "uns":"about us",
+    "modules":"Modules",
+    "help":"Our Vision",
+    "contact":"Contact",
+    "privacy":"Privacy Policy",
+    "career":"Career"
+  },
+  "Cookie":
+  {
+   "privacy":"Privacy Policy",
+   "paragraph":"This Website uses cookies to enhance your experince you can read it more in our",
+   "button":"Accept All",
+   "button2":"Decline"
+  },
+  "aboutUs":
+  {
+    "title":"Who are we?",
+    "description":"At Safety2, we are dedicated to empowering organizations with cutting-edge software solutions in Environment, Health, and Safety (EHS) management. Our platform is designed to simplify compliance, enhance workplace safety, and support sustainable environmental practices across industries. What sets us apart is not just our technology, but our commitment to partnership. We don’t simply deliver software—we stay with our clients every step of the way, offering continuous support to ensure long-term success and measurable impact. Our strength lies in our diverse and international team, where every voice matters. We believe innovation thrives when ideas are shared, and we foster a collaborative culture that values input from both our team members and our clients. Customer feedback is central to how we evolve—our product roadmap is shaped by real-world needs and insights. With Safety2, you’re not just getting a solution—you’re gaining a trusted partner in building a safer, healthier, and more sustainable future.",
+    "demo":"request a demo.",
+    "learn":"learn more"
+  },
+ 
+"careers":
+{
+  "title":"Careers",
+  "job":"Jobs",
+  "training":"Training",
+  "learn":"learn more"
+
+},
+"contact":
+{
+  "title":"Contact Our Team",
+  "description":"Discover how our solutions can support your business. Fill out the form below to start the conversation.",
+  "first":"First name",
+  "last":"Last name",
+  "company":"Company",
+  "email":"Email",
+  "phone":"Phone number",
+  "num":"Number of Employees",
+  "message":"Message",
+  "privacy":"By submiting this, you agree to our",
+  "policy":"privacy and policy",
+  "button":"Let's talk",
+  "alertTitle":"success",
+  "alertMessage":"Email Sent Succesfully"
+},
+"chatbot": {
+  "greeting": "Hi! How can I help you today?"
+},
+"FAQ": {
+    "location": {
+      "question": "Where are you Located?",
+      "answer": "we are located at Ruhenhof 4,48565 Steinfurt, Germany."
+    },
+    "contact": {
+      "question": "How can I contact support?",
+      "answer": "You can email us at info@safety-doors.com or call us during office hours 8:00 to 17:00 under this number +49 2551 83 51 20."
+    },
+    "support":{
+      "question":"What kind of support do you offer?",
+      "answer":"We offer dedicated support via email and chat during business hours. Our team is quick to respond and focused on helping you solve issues, not sending you to knowledge base articles."
+    },
+    "data":{
+      "question":"Is my data secure with you?",
+      "answer":"Absolutely. We follow industry-standard security protocols and GDPR-compliant practices to ensure your data stays private and protected at all times."
+    },
+    "customize":{
+      "question":"Can your solution be customized to fit our needs?",
+      "answer":"Yes our platform is built to be flexible. Whether it’s specific workflows or integrations, we’ll work with you to adapt the solution to your environment."
+    },
+    "price":{
+      "question":"What is your pricing model?",
+      "answer":"We offer flexible pricing tailored to your specific needs. Contact us directly so we can understand your requirements and provide a customized quote."
+    }
+
+  },
+  "Vision":
+  {
+    
+  "intro": "Our Vision",
+  "title": "Simplifying Safety",
+  "description": "Simplifying Safety. Eliminating Bureaucracy. Digitizing Compliance. At Safety, we believe Health, Safety & Environment (HSE) shouldn’t be stuck in outdated workflows. Regulations matter—but so does speed, clarity, and focus. Our platform replaces disconnected tools and manual paperwork with one unified system designed to streamline your entire HSE process.",
+  
+  "feature1": {
+    "title": "Advanced Analytics",
+    "description": "Make sense of your safety data. Our dashboards and reporting tools provide clear insights—from audit performance to qualification tracking—so you can make informed decisions, not educated guesses.",
+    "icon": "faChartColumn",
+    "color": "bg-indigo-500"
+    
+  },
+  "feature2": {
+    "title": "Fast Integration",
+    "description": "Get running without disruption. We connect with your existing systems to centralize documents, tasks, and responsibilities—from operating instructions to maintenance plans—so workflows stay smooth.",
+    "icon": "faTruckFast",
+    "color": "bg-red-500"
+  },
+  "feature3": {
+    "title": "Security First",
+    "description": "HSE data is sensitive. That’s why we prioritize secure access, data protection, and full audit trails—so your compliance isn’t just achieved, it’s provable.",
+    "icon": "faShield",
+    "color": "bg-yellow-500"
+  },
+  "feature4": {
+    "title": "Cloud Integration",
+    "description": "Work from anywhere, anytime. Whether on-site or remote, your safety data, documents, and training modules are accessible when you need them—with version control and secure storage baked in.",
+    "icon": "faCloud",
+    "color": "bg-sky-500"
+  },
+  "feature5": {
+    "title": "Task Management",
+    "description": "No more chasing deadlines. Our platform helps you assign, track, and verify tasks across your HSE responsibilities—ensuring that nothing slips through the cracks.",
+    "icon": "faPenNib",
+    "color": "bg-green-500"
+  },
+  "feature6": {
+    "title": "Performance Metrics",
+    "description": "Measure what matters. From instruction completions to inspection frequency and risk trends, our metrics help you see the full picture—and optimize over time.",
+    "icon": "faBolt",
+    "color": "bg-orange-500"
+  },
+  "feature7": {
+    "title": "Looking Ahead",
+    "description": "We're actively developing AI-driven tools to make your workflow even smarter—reducing manual effort, surfacing risk insights earlier, and helping you focus on prevention instead of paperwork. We’re not just digitizing HSE. We’re building a smarter, safer future—one process at a time.",
+    "icon": "faRobot",
+    "color": "bg-teal-500"
+  },
+  "feature8": {
+    "title": "Built for Every Team",
+    "description": "Whether you're operating in one plant or across multiple countries, our interface is clean, intuitive, and built for real users—not just admins. Multilingual support ensures your workforce gets the right message, in the right language, without confusion.",
+    "icon": "faLanguage",
+    "color": "bg-sky-500"
+  },
+  "feature9": {
+    "title": "Ease by Design",
+    "description": "No training marathons. No user manuals. From the very first click, Safety feels familiar. We obsess over usability—so your team can focus on safety, not figuring out software. Every feature is just where you expect it to be.",
+    "icon": "faBarsProgress",
+    "color": "bg-blue-500"
+  }
+},
+
+"privacy":
+{
+  "menu":"Privacy Menu",
+  "intro":"Introduction",
+  "datacoll":"Data Collection",
+  "usedata":"Use of Data",
+  "rights":"Your Rights",
+  "title":"Privacy Policy",
+  "introdescription":"At Safety, we are committed to protecting your privacy and ensuring the security of any information you share with us. We believe in transparency and want you to understand exactly how we handle your data.",
+  "title2":"Our Privacy-First Approach:",
+  "approach":"We have designed our website with privacy as a core principle. We do not automatically collect, track, or store personal data about our visitors. The only data processing that occurs on our website is:",
+  "listitem1":"Language Preference Detection:",
+  "listitem1desc":"We detect your locale settings to automatically set your preferred language for a better browsing experience. This information is not stored or transmitted.",
+  "listitem2":"Contact Form Submissions:",
+  "contanctlist":"Cookies and Consent Management:",
+  "cosent":" We use essential cookies necessary for the basic functionality of our website. Our consent management system is built entirely in-house without any third-party providers, ensuring your privacy preferences remain completely under our control and are not shared with external services.",
+  "listitem2desc":"When you voluntarily submit information through our contact form, we handle it with the utmost care and security.",
+  "datasecurity":"How We Protect Your Information",
+  "datasecuritydesc":"When you reach out to us through our contact form, your data is:",
+  "listitem3":"1-Transmitted using secure email protocols to ensure safe delivery",
+  "listitem4":"2-Encrypted using strong encryption mechanisms before storage",
+  "listitem5":"3-Automatically deleted from our systems every 30 days",
+  "datasecuritydesc2":"We do not share, sell, or distribute your personal information to third parties. Your data is used solely for the purpose of responding to your inquiries and providing you with the assistance you requested. This privacy policy explains our practices in detail and your rights regarding any information you choose to share with us.",
+  "usedatadesc":"We use the information you provide through our contact form for one primary purpose: to respond to your inquiries, Specifically, we use your data to:",
+  "listitem6":"1-Understand and address your questions or concerns",
+  "listitem7":"2-Provide you with the information or assistance you requested",
+  "listitem8":"3-Follow up on your inquiry if additional clarification is needed",
+  "listitem9":"4-Ensure we can contact you back with our response",
+  "usedatadesc2":"We do not use your personal information for marketing purposes, promotional emails, newsletters, or any other communications unless you specifically request such services. Your data serves solely to facilitate our response to your direct inquiry.",
+  "usedatadesc3":"Once we have addressed your inquiry and the 30-day retention period has passed, your information is permanently deleted from our systems.",
+  "usedatadesc4":"This privacy policy explains our practices in detail and your rights regarding any information you choose to share with us.",
+  "rightstitle":"What rights do you have regarding your data?",
+  "rightsdesc":"You have the right to obtain free information about the origin, recipient, and purpose of your stored personal data at any time. You also have the right to request correction or deletion of this data. If you have given consent to the processing of your data, you can revoke this consent at any time for the future. You also have the right, under certain circumstances, to demand the restriction of the processing of your personal data. Furthermore, you have the right to lodge a complaint with the competent supervisory authority.",
+  "rightsappend":"You can contact us at any time with regard to this and other questions about data protection. at info@safety-doors.com or via phone: +49 2551 83 51 20",
+ 
+  "hosting":"Hosting",
+  "hostingtitle":"We host the content of our website with the following provider:",
+  "hostingprovider":"S&B Computer GmbH",
+  "hostingcatalog":"Computers & Accessories",
+  "hostingaddress":"Ruhenhof 4, 48565, Steinfurt",
+  "hostinghpone":" +49 2551 8351 0",
+  "hostingmail":"info@tz-steinfurt.de",
+  "hostingdesc":"The use of S&B Computer GmbH is based on Article 6(1)(f) of the GDPR. We have a legitimate interest in a reliable presentation of our website. If consent has been requested, processing will only take place on the basis of Article 6(1)(a) of the GDPR and Section 25(1) of the TTDSG, insofar as the consent includes the storage of cookies or access to information on the user’s terminal device (e.g. device fingerprinting) within the meaning of the TTDSG. The consent can be revoked at any time.",
+
+  "order":"Order Processing",
+  "orderdesc":"We have concluded a contract for order processing (AVV) with the above-mentioned provider. This is a legally required contract that ensures that it processes the personal data of our website visitors only according to our instructions and in compliance with the GDPR.",
+
+  "impressum":"Impressum",
+  "impressumtitle":"Information according to § 5 TMG",
+  "impressumprovider":"safety doors GmbH",
+  "register":"Handelsregister: HRB 11639",
+  "registeramt":"Registergericht: Steinfurt",
+  "representer":"Represented By:",
+  "owner1":"Karl-Heinz Beier",
+  "owner2":"Andreas Schuch",
+  "impressumcontact":"Contact",
+  "impressumphone":"Telefon: +49 2551 83 51 20",
+  "impressumfax":"Telefax: +49 2551 83 51 95",
+  "impressummail":"E-Mail: info@safety-doors.de",
+  "tax":"Sales tax ID",
+  "taxid":"Sales tax identification number according to § 27 a Umsatzsteuergesetz: DE125502550",
+  "insurance":"Details of professional liability insurance",
+  "insurancedesc":"Area of validity of the insurance: Europe-wide",
+  "dispute":"EU-Dispute resolution",
+  "disputedesc":"The European Commission provides a platform for online dispute resolution (OS): https://ec.europa.eu/consumers/odr. You can find our e-mail address in the imprint above.",
+  "concept":"Concept & Design",
+  "designer":"By Desire Solution GmbH",
+  "designerdesc":"is a Software Company for Tailored Software Solutions - Custom Development for Unique Business Requirements",
+  
+
+
+  "consumer":"Consumer dispute resolution/universal arbitration board",
+  "consumerdesc":"We are neither willing nor obligated to participate in dispute resolution proceedings before a consumer arbitration board.",
+  "content":"Liability for content",
+  "contentdesc":"As service providers, we are responsible for our own content on these pages pursuant to section 7(1) of the German Telemedia Act (TMG), according to general laws. However, pursuant to sections 8 to 10 of the TMG, we are not obligated as service providers to monitor third party information that is transmitted or stored, or to look for circumstances that may indicate illegal activities. Liability for the removal or blocking of the use of information pursuant to general laws shall remain unaffected by this. However, such liability is only possible from the time of knowledge of a concrete infringement. If we become aware of any such legal violations, we will remove the content immediately.",
+
+
+  "link":"Liability for links",
+  "linkdesc":"Our offer contains links to external websites of third parties, on whose content we have no influence. Therefore, we cannot assume any liability for these third-party contents. The respective provider or operator of the pages is always responsible for the contents of the linked pages. The linked pages were checked for possible legal violations at the time of linking. Illegal content was not recognizable at the time of linking. However, permanent monitoring of the content of the linked pages is not reasonable without concrete evidence of a violation of the law. If we become aware of any legal violations, we will remove such links immediately.",
+  "copy":"Copyright",
+  "copydesc":"The content and works created by the site operators on these pages are subject to German copyright law. Reproduction, processing, distribution, and any kind of exploitation beyond the limits of copyright require the written consent of the respective author or creator. Downloads and copies of this page are only permitted for private, non-commercial use. Insofar as the content on this page was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is identified as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any legal violations, we will remove such content immediately."
+ 
+}
+  
+
+
+    
+  }

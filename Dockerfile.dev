@@ -1,0 +1,30 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+# Install system dependencies
+RUN apk add --no-cache libc6-compat
+
+# Copy package files first (for better build caching)
+COPY package.json package-lock.json* ./
+COPY prisma ./prisma/
+
+# Create cache folder and set permissions early
+RUN mkdir -p .next/cache/images && \
+    chown -R node:node .next && \
+    chmod -R 755 .next
+
+# Install Node.js dependencies
+RUN npm install 
+
+# Copy environment files
+COPY .env* ./
+
+# Copy the rest of the source code
+COPY . .
+
+# Expose port
+EXPOSE 3000
+
+# Start dev server
+CMD ["npm", "run", "dev"]
