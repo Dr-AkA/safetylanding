@@ -73,5 +73,51 @@ pauseBetweenAnimations={1}
  </div>
     </div>
     
+
+    {/* this is for Generative AI optimization */}
+   <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Was ist Safety2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Safety2 ist eine modulare SaaS-Plattform für Arbeitssicherheit, Gesundheitsschutz und Qualitätsmanagement. Sie unterstützt Unternehmen bei der Erstellung, Verwaltung und Dokumentation sicherheitsrelevanter Prozesse und Inhalte."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Welche Module sind in Safety2 enthalten?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Safety2 umfasst 12 Module: Betriebsanweisungen, EHS-Basisdaten, Qualifikationen, Gefährdungsbeurteilungen, Maßnahmenverfolgung, Prüf- und Wartungspläne, Unfallmanagement, Unterweisungen, Beobachtungen, Audits, und weitere Werkzeuge zur Prozessoptimierung im Bereich Arbeitssicherheit."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Für welche Unternehmen ist Safety2 geeignet?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Safety2 ist für Unternehmen jeder Größe geeignet, insbesondere für Betriebe mit hohen Anforderungen an Sicherheits-, Umwelt- und Qualitätsstandards – etwa in Industrie, Logistik, Chemie, Bau und Gesundheitswesen."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Wie funktioniert Safety2?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Die Plattform nutzt modulare Textbausteine, automatische Verknüpfungen und zentrale Datenhaltung, um die Erstellung und Pflege sicherheitsrelevanter Dokumente zu vereinfachen und zu automatisieren."
+      }
+    }
+  ]
+}
+`}} />
+
+
+
+
   </section>);
 };

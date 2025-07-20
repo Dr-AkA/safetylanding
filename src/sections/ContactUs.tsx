@@ -12,7 +12,8 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/alert-dialog"
+} from "@/components/ui/alert-dialog";
+import Head from "next/head";
 type Props = {
   translations: {
     title: string;
@@ -57,6 +58,22 @@ export const Contact = ({ translations }: Props) => {
 }, [state]);
 
   return (
+    <>
+    <Head>
+      <script
+  type="application/ld+json"
+  dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "ContactPage",
+      "name": "Kontakt",
+      "url": "https://safety-doors.com/contact",
+      "description": "Kontaktieren Sie Safety2 für Fragen rund um EHS-Software, Compliance und Arbeitssicherheit."
+    })
+  }}
+/>
+
+    </Head>
     <div className="isolate bg-[#eaeefe] px-6 py-24 sm:py-32 lg:px-8">
       <div
         aria-hidden="true"
@@ -214,5 +231,5 @@ export const Contact = ({ translations }: Props) => {
   </AlertDialogContent>
 </AlertDialog>
     </div>
-  )
+</>  )
 }

@@ -19,7 +19,27 @@ export default  function Home() {
       <meta property="og:description" content="Vereinfachte Erstellung durch vorhandene oder konfigurierbare Textbausteine und Symbole. Automatisierte Erstellung durch die intelligente Verknüpfung der Module." />
       <meta property="og:image" content="https://safety-doors.com/wp-content/uploads/2023/08/safety2_logo.svg" />
       <meta name="linkedin:card" content="" />
-      
+      {/* this is ai generative optimization */}
+      <script
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+    __html: JSON.stringify({
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "Safety2",
+      "applicationCategory": "BusinessApplication",
+      "operatingSystem": "Web",
+      "description": "Cloudbasierte EHS-Software für Arbeitssicherheit, Umwelt- und Qualitätsmanagement.",
+      "url": "https://safety-doors.com",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "EUR"
+      }
+    })
+  }}
+/>
+
 
     </Head>
     

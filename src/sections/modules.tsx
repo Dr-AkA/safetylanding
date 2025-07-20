@@ -234,6 +234,32 @@ const fachmodules: Module[] = [
           />
         )}
       </div>
+
+
+<noscript>
+  <section>
+    <h2>Was ist Safety2 Modules?</h2>
+    <p>Safety2 ist eine modulare SaaS-Plattform für Arbeitssicherheit, Umwelt- und Qualitätsmanagement.</p>
+
+    <h3>Enthaltene Module</h3>
+    <ul>
+      <li>Betriebsanweisungen</li>
+      <li>Gefährdungsbeurteilungen</li>
+      <li>Qualifikationen</li>
+      <li>Unfallmanagement</li>
+      <li>Unterweisungen</li>
+      <li>Beobachtungen</li>
+      <li>Audits</li>
+      <li>EHS-Basis</li>
+      <li>Maßnahmen</li>
+      <li>Prüf- und Wartungsplan</li>
+    </ul>
+  </section>
+</noscript>
+
+
+
+
     </section>
   );
 };
