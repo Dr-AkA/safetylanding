@@ -7,7 +7,8 @@ import SocialYouyube from '@/assets/social-youtube.svg';
 import Location from '@/assets/location.png';
 import {getTranslations} from 'next-intl/server';
 import Link from 'next/link';
-
+import { faEnvelope,faPhone } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 export  const Footer = async () => {
   const t = await getTranslations('footer');
   return (
@@ -33,11 +34,33 @@ export  const Footer = async () => {
           <SocialInsta/>
           <SocialLinkedIn/>
           <SocialYouyube/>
+           
           <a href='https://www.google.com/maps/place/Ruhenhof+4,+48565+Steinfurt/@52.1555973,7.3198097,17z/data=!3m1!4b1!4m6!3m5!1s0x47b835e77d3aef1b:0xb7dca09b3305d0c6!8m2!3d52.1555973!4d7.3198097!16s%2Fg%2F11c4kpyb2n?entry=ttu&g_ep=EgoyMDI1MDUxNS4wIKXMDSoASAFQAw%3D%3D' target='_blank'>
           <Image src={Location} className='h-[23px] w-[23px]' alt='Ruhenhof 4 48565 Steinfurt'/>
           </a> 
-          </div>
+          <a href='mailto:info@safety-doors.com'>
+          <FontAwesomeIcon
+                         icon={faEnvelope}
+                         className=" text-[#BDBDBD] w-[23px] h-[23px]" />
+                        
+                         </a>
+                        
+                      <div className="relative group">
+  <a href="tel:00492551835120">
+    <FontAwesomeIcon
+      icon={faPhone}
+      className="text-[#BDBDBD] w-[23px] h-[23px]"
+    />
+  </a>
+<div className="absolute left-1/2 -translate-x-1/2 mt-2 hidden group-hover:block px-3 py-1 text-sm text-white bg-gray-900 rounded-lg shadow-lg z-10 whitespace-nowrap">
+  +49 2551 83 51 20
+</div>
+    <div className="tooltip-arrow" data-popper-arrow></div>
+</div>
+
+</div>
           <p className='mt-5'>Ruhenhof 4,48565 Steinfurt, Germany</p>
+         
 
           <p className='mt-6'>&copy; 2025 Safety-doors GmbH All rights Reserved</p>
       </div>

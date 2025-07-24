@@ -152,7 +152,12 @@
   "title": "Carreiras",
   "job": "Empregos",
   "training": "Treinamento",
-  "learn": "saiba mais"
+  "learn": "aplicar",
+   "start":"Data de início: ",
+  "end":"Data de término: ",
+  "noJobsAvailable":"aucun emploi disponible",
+  "noTrainingsAvailable":"aucune formation disponible"
+
 },
 "contact": {
     "title": "Contate a nossa equipe",
@@ -341,6 +346,17 @@
   "copy":"Direitos Autorais",
   "copydesc":"O conteúdo e obras criados pelos operadores do site nessas páginas estão sujeitos à lei alemã de direitos autorais. Reprodução, processamento, distribuição e qualquer tipo de exploração além dos limites de direitos autorais requerem o consentimento por escrito do respectivo autor ou criador. Downloads e cópias desta página são permitidos apenas para uso privado, não comercial. Na medida em que o conteúdo nesta página não foi criado pelo operador, os direitos autorais de terceiros são respeitados. Em particular, conteúdo de terceiros é identificado como tal. Se você ainda assim tomar conhecimento de uma infração de direitos autorais, por favor nos informe adequadamente. Se tomarmos conhecimento de quaisquer violações legais, removeremos tal conteúdo imediatamente."
  
+},
+"apply": {
+ "first": "Nome",
+ "last": "Sobrenome", 
+ "email": "E-mail",
+ "address": "Endereço",
+ "phone": "Número de telefone",
+ "cv": "CV",
+ "upload": "Carregar",
+ "apply": "Candidatar",
+ "cancel": "Cancelar"
 }
 
 

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Button } from "@/components/ui/button";
+import { NextResponse } from "next/server";
 
 type Job = {
   id: number;
@@ -26,9 +27,15 @@ export default function JobsPage() {
   }, []);
 
   async function fetchJobs() {
+    try 
+    {
     const res = await fetch("/api/jobs");
     const data = await res.json();
     setJobs(data);
+    }catch (err)
+    {
+      setJobs(jobs)
+    }
   }
 
   async function handleAdd() {
@@ -82,10 +89,11 @@ export default function JobsPage() {
       </div>
 
       <div className="space-y-4">
-        {jobs.length === 0 ? (
+        {!jobs||jobs.length === 0 ? (
           <p className="text-gray-500">No jobs found.</p>
         ) : (
           jobs.map((job) => (
+            
             <div
               key={job.id}
               className="border rounded-lg p-4 flex justify-between items-start"

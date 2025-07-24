@@ -151,7 +151,11 @@
   "title":"Careers",
   "job":"Jobs",
   "training":"Training",
-  "learn":"learn more"
+  "learn":"Apply",
+  "start":"Start Date: ",
+  "end":"End Date: ",
+  "noJobsAvailable":"no Job available",
+  "noTrainingsAvailable":"no Training available"
 
 },
 "contact":
@@ -347,6 +351,19 @@
   "copy":"Copyright",
   "copydesc":"The content and works created by the site operators on these pages are subject to German copyright law. Reproduction, processing, distribution, and any kind of exploitation beyond the limits of copyright require the written consent of the respective author or creator. Downloads and copies of this page are only permitted for private, non-commercial use. Insofar as the content on this page was not created by the operator, the copyrights of third parties are respected. In particular, third-party content is identified as such. Should you nevertheless become aware of a copyright infringement, please inform us accordingly. If we become aware of any legal violations, we will remove such content immediately."
  
+},
+
+"apply":
+{
+  "first":"First name",
+  "last":"Last name",
+  "email":"Email",
+  "address":"Address",
+  "phone":"Phone number",
+  "cv":"CV",
+  "upload":"Upload",
+  "apply":"Apply",
+  "cancel":"Cancel"
 }
   
 

@@ -7,8 +7,12 @@ import Magnet from '@/components/Magnet';
 import Head from 'next/head';
 export const About = async () => {
   const t = await getTranslations('aboutUs');
+  
   return (
   <>
+
+    
+
   <Head>
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
 {

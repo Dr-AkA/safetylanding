@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React, { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 
 type FAQItem = {
@@ -11,15 +11,25 @@ type FAQItem = {
 type ChatbotProps = {
   faqItems: FAQItem[];
   initialMessage: string;
-
 };
 
 export const Chatbot = ({ faqItems, initialMessage }: ChatbotProps) => {
   const [isOpen, setIsOpen] = useState(false);
   const [hasUnread, setHasUnread] = useState(true);
- const [messages, setMessages] = useState<{ sender: "bot" | "user"; text: string }[]>([
-  { sender: "bot", text: initialMessage },
-]);
+  const [messages, setMessages] = useState<{ sender: "bot" | "user"; text: string }[]>([
+    { sender: "bot", text: initialMessage },
+  ]);
+
+ 
+  const scrollContainerRef = useRef<HTMLDivElement>(null);
+
+ 
+  useEffect(() => {
+    const container = scrollContainerRef.current;
+    if (container) {
+      container.scrollTo({ top: container.scrollHeight, behavior: "smooth" });
+    }
+  }, [messages]);
 
   const handleUserClick = (item: FAQItem) => {
     setMessages((prev) => [
@@ -48,7 +58,12 @@ export const Chatbot = ({ faqItems, initialMessage }: ChatbotProps) => {
             />
             Support Bot
           </div>
-          <div className="flex-1 p-3 overflow-y-auto max-h-96">
+
+         
+          <div
+            ref={scrollContainerRef}
+            className="flex-1 p-3 overflow-y-auto max-h-96"
+          >
             {messages.map((msg, idx) => (
               <div
                 key={idx}
@@ -66,6 +81,7 @@ export const Chatbot = ({ faqItems, initialMessage }: ChatbotProps) => {
               </div>
             ))}
           </div>
+
           <div className="p-2 border-t flex flex-wrap gap-2">
             {faqItems.map((item, idx) => (
               <button
@@ -77,6 +93,7 @@ export const Chatbot = ({ faqItems, initialMessage }: ChatbotProps) => {
               </button>
             ))}
           </div>
+
           <button
             onClick={toggleChat}
             className="text-xs text-gray-500 p-1 hover:underline"

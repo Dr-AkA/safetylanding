@@ -131,7 +131,12 @@
   "title": "Cariere",
   "job": "Locuri de muncă",
   "training": "Instruire",
-  "learn": "află mai multe"
+  "learn": "aplica",
+   "start":"Data de início: ",
+  "end":"Data de término: ",
+  "noJobsAvailable":"aucun emploi disponible",
+  "noTrainingsAvailable":"aucune formation disponible"
+
 },
  "contact": {
     "title": "Contactează echipa noastră",
@@ -319,6 +324,17 @@
   "copy":"Drepturi de Autor",
   "copydesc":"Conținutul și lucrările create de operatorii site-ului pe aceste pagini sunt supuse legii germane de drepturi de autor. Reproducerea, procesarea, distribuirea și orice fel de exploatare dincolo de limitele drepturilor de autor necesită consimțământul scris al autorului sau creatorului respectiv. Descărcările și copiile acestei pagini sunt permise doar pentru uz privat, necomercial. În măsura în care conținutul de pe această pagină nu a fost creat de operator, drepturile de autor ale terților sunt respectate. În special, conținutul terților este identificat ca atare. Dacă totuși luați cunoștință de o încălcare a drepturilor de autor, vă rugăm să ne informați în mod corespunzător. Dacă luăm cunoștință de orice violări legale, vom îndepărta astfel de conținut imediat."
  
+},
+"apply": {
+ "first": "Prenume",
+ "last": "Nume de familie", 
+ "email": "E-mail",
+ "address": "Adresă",
+ "phone": "Număr de telefon",
+ "cv": "CV",
+ "upload": "Încărcare",
+ "apply": "Aplică",
+ "cancel": "Anulează"
 }
 
 

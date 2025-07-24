@@ -1,30 +1,41 @@
+# Use Alpine-based Node.js image for minimal footprint
 FROM node:20-alpine
 
+# Set working directory
 WORKDIR /app
 
-# Install system dependencies
+# Install essential system libraries
 RUN apk add --no-cache libc6-compat
 
-# Copy package files first (for better build caching)
-COPY package.json package-lock.json* ./
-COPY prisma ./prisma/
+# Create runtime directories early to leverage Docker layer caching
+RUN mkdir -p .next/cache/images \
+    && mkdir -p cv-uploads \
+    && chown -R node:node .next cv-uploads \
+    && chmod -R 755 .next \
+    && chmod -R 700 cv-uploads
 
-# Create cache folder and set permissions early
-RUN mkdir -p .next/cache/images && \
-    chown -R node:node .next && \
-    chmod -R 755 .next
+# Copy package files for dependency caching
+COPY package.json package-lock.json* ./
 
 # Install Node.js dependencies
-RUN npm install 
+RUN npm install
 
-# Copy environment files
+# Copy Prisma schema and env files
+COPY prisma ./prisma/
 COPY .env* ./
 
-# Copy the rest of the source code
+# Copy rest of the application source
 COPY . .
 
-# Expose port
+# Fix permissions again in case COPY overwrites them
+RUN chown -R node:node ./cv-uploads \
+    && chmod -R 700 ./cv-uploads
+
+# Switch to non-root user for safety
+USER node
+
+# Expose port used by the app
 EXPOSE 3000
 
-# Start dev server
+# Start development server
 CMD ["npm", "run", "dev"]
