@@ -33,7 +33,8 @@ export async function GET(req:NextRequest,{params}:{params:{id:string}})
             company:decrypt(contact.company),
             email:decrypt(contact.email),
             phone:decrypt(contact.phone),
-            numEmp:decrypt(contact.numEmp.toString())
+            numEmp:decrypt(contact.numEmp.toString()),
+            isSeen:contact.isSeen
         }
          return NextResponse.json(decryptedFields)
     }catch (error)
@@ -43,46 +44,35 @@ export async function GET(req:NextRequest,{params}:{params:{id:string}})
 }
 
 
-export async function PUT(req:NextRequest,{params}:{params:{id:string}})
-{
-    const session=await getServerSession(authOptions);
-    if(!session)
-    {
-     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
-    }
+export async function PUT(req: NextRequest, { params }: { params: { id: string } }) {
+  const session = await getServerSession(authOptions);
+  if (!session) {
+    return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
+  }
 
-    const id=parseInt(params.id)
-    if(isNaN(id))
-    {
-        return NextResponse.json({error:'invalid ID'},{status:400});
-    }
-    const {firstName,lastName,company,email,phone,numEmp}=await req.json();
-    if(!firstName || !lastName || !company || !email || !phone || !numEmp)
-    {
-        return NextResponse.json({ error: 'Missing required fields' }, { status: 400 })
-    }
+  const id = parseInt(params.id);
+  if (isNaN(id)) {
+    return NextResponse.json({ error: 'Invalid ID' }, { status: 400 });
+  }
 
-    try 
-    {
-        const contact=await prisma.contactSubmission.update(
-            {
-                where:{id},
-                data:{
-                    firstName:encrypt(firstName),
-                    lastName:encrypt(lastName),
-                    company:encrypt(company),
-                    email:encrypt(email),
-                    phone:encrypt(phone),
-                    numEmp:parseInt(numEmp)
+  const { isSeen } = await req.json();
 
-                }
-            }
-        );
-        return NextResponse.json(contact);
-    }catch(error)
-    {
-        return NextResponse.json({ error: 'Internal server error' }, { status: 500 })
-    }
+  if (typeof isSeen !== "boolean") {
+    return NextResponse.json({ error: 'Missing or invalid isSeen field' }, { status: 400 });
+  }
+
+  try {
+    const contact = await prisma.contactSubmission.update({
+      where: { id },
+      data: {
+        isSeen
+      }
+    });
+    return NextResponse.json(contact);
+  } catch (error) {
+    console.error(error);
+    return NextResponse.json({ error: 'Internal server error' }, { status: 500 });
+  }
 }
 
 

@@ -4,7 +4,9 @@ import path from "path";
 import { randomUUID } from "crypto";
 import { prisma } from "@/lib/prisma";
 import { existsSync } from "fs";
-
+import { getServerSession } from "next-auth";
+import { authOptions } from "@/lib/authOptions";
+import { decrypt } from "@/lib/crypto";
 export async function POST(req: Request) {
   try {
     const formData = await req.formData();
@@ -26,7 +28,6 @@ export async function POST(req: Request) {
     const uniqueFileName = `${randomUUID()}-${safeFileName}`;
     const uploadsDir = path.join(process.cwd(), "cv-uploads");
 
-    // Ensure folder exists (race‑safe)
     if (!existsSync(uploadsDir)) {
       await mkdir(uploadsDir, { recursive: true, mode: 0o700 });
     }
@@ -55,4 +56,48 @@ export async function POST(req: Request) {
     console.error("Upload failed:", error);
     return NextResponse.json({ error: "Internal Server Error" }, { status: 500 });
   }
+}
+
+
+
+export async function GET() 
+{
+  try 
+  {
+    const session=await getServerSession(authOptions);
+    if(!session)
+    {
+      return NextResponse.json({error:"Unauthorized"},{status:401});
+    }
+    const applicants=await prisma.applicant.findMany(
+      {
+        orderBy:{
+          submittedAt:'desc'
+        },
+         include: {
+        job: true,
+        training: true,
+         }
+      }
+    );
+     const decryptedApplicants = applicants.map(applicant => ({
+                ...applicant,
+                firstName: decrypt(applicant.firstName),
+                lastName: decrypt(applicant.lastName),
+                email:decrypt(applicant.email),
+                phone:decrypt(applicant.phone),
+                address:decrypt(applicant.address),
+                cv:applicant.cvStorageUrl,
+                isSeen:applicant.isSeen,
+                job: applicant.job,
+                training: applicant.training,
+                
+            }));
+            return NextResponse.json(decryptedApplicants);
+   
+  }catch (error)
+{
+  return NextResponse.json({error:"internal server error"}, {status:500})
+  
+}
 }

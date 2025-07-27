@@ -1,10 +1,4 @@
-// This is your Prisma schema file,
-// learn more about it in the docs: https://pris.ly/d/prisma-schema
-
-// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
-// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
-
-generator cl
+generator cl {
   provider      = "prisma-client-js"
   output        = "../src/generated/prisma"
   binaryTargets = ["native", "linux-musl-openssl-3.0.x"]
@@ -21,7 +15,6 @@ model Admin {
   email     String @unique
   password  String
   hashEmail String @unique
-  
 }
 
 model Job {
@@ -61,6 +54,7 @@ model ContactSubmission {
   numEmp    Int
   message   String
   createdAt DateTime @default(now())
+  isSeen    Boolean  @default(false)
 }
 
 model Applicant {
@@ -73,9 +67,8 @@ model Applicant {
   cvStorageUrl String?
   jobId        Int?
   trainingId   Int?
-
+  submittedAt DateTime @default(now())
+  isSeen    Boolean  @default(false)
   job      Job?      @relation(fields: [jobId], references: [id])
   training Training? @relation(fields: [trainingId], references: [id])
-}
-  training    Training? @relation(fields: [trainingId], references: [id])
 }
