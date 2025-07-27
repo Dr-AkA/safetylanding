@@ -335,6 +335,35 @@
  "upload": "Încărcare",
  "apply": "Aplică",
  "cancel": "Anulează"
+},
+"learn": {
+   "headline": "Locuri de muncă mai inteligente și mai sigure — Alimentate de date",
+   "intro": "Platforma noastră permite profesioniștilor HSE să controleze activ riscurile, să rămână conformi și să creeze spații de lucru mai sigure — totul dintr-un singur tablou de bord. Fie că urmărești incidente, auditezi site-uri sau instruiești personalul, te avem acoperit.",
+   "subsection1": "Ce face?",
+   "subsection1title1": "Raportarea incidentelor: ",
+   "subsection1bullet1": "Raportare standardizată în timp real de pe orice dispozitiv.",
+   "subsection1title2": "Instrumente de audit și inspecție: ",
+   "subsection1bullet2": "Liste de verificare personalizate, reamintiri automate și tablouri de bord inteligente.",
+   "subsection1title3": "Tracker de conformitate: ",
+   "subsection1bullet3": "Rămâi aliniat cu reglementările ISO, OSHA sau locale.",
+   "subsection1title4": "Module de instruire: ",
+   "subsection1bullet4": "Atribuie, urmărește și verifică instruirea de siguranță.",
+   "subsection1title5": "Analize și alerte: ",
+   "subsection1bullet5": "Identifică tendințele înainte să devină răspunderi.",
+   "subsection2title1": "Pentru cine este?",
+   "subsection2description": "Construit pentru organizații cu echipe dedicate de siguranță, conformitate și operațiuni — în industrii precum construcții, energie, producție, logistică și nu numai.",
+   "subsection3title1": "De ce contează?",
+   "subsection3bullet1": "Reduce birocrația și erorile umane",
+   "subsection3bullet2": "Reduce timpul de răspuns la jumătate",
+   "subsection3bullet3": "Dovedește conformitatea în secunde",
+   "subsection3bullet4": "Previne incidentele costisitoare și amenzile",
+   "subsection4title": "Cum funcționează?",
+   "subsection4bullet1": "Capturează date (la fața locului sau de la distanță)",
+   "subsection4bullet2": "Analizează și urmărește tendințele",
+   "subsection4bullet3": "Ia măsuri cu alerte și automatizare",
+   "cta": "Vrei să-l vezi în acțiune?",
+   "cta1": "Programează o demonstrație",
+   "cta2": "Gata să-ți transformi procesele HSE?"
 }
 
 

@@ -27,6 +27,7 @@ import Unterweisung1 from '@/assets/unterweisung.jpg';
 import Boebachtung from '@/assets/boebachtung.jpg';
 import Pruf from '@/assets/pruf.jpg';
 import audit1 from '@/assets/audit1.jpg';
+import Head from 'next/head';
 
 type Module = {
   key: string;
@@ -163,6 +164,40 @@ const fachmodules: Module[] = [
   const closeModal = () => setIsModalOpen(false);
 
   return (
+    <>
+    <Head>
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+{
+  "@context": "https://schema.org",
+  "@type": "SoftwareApplication",
+  "@id": "https://safety-doors.com#de-modules",
+  "name": "Safety Doors – EHS Softwareplattform",
+  "description": "Die modulare EHS-Plattform von Safety Doors GmbH bietet umfassende Tools für Arbeitssicherheit, Gesundheits- und Umweltschutz sowie Qualitätsmanagement.",
+  "url": "https://safety-doors.com",
+  "applicationCategory": "BusinessApplication",
+  "operatingSystem": "All",
+  "creator": {
+    "@type": "Organization",
+    "name": "Safety Doors GmbH",
+    "url": "https://safety-doors.com"
+  },
+  "featureList": [
+    "Betriebsanweisungen",
+    "Gefährdungsbeurteilungen",
+    "Qualifikationen",
+    "Unfallmanagement",
+    "Unterweisungen",
+    "Beobachtungen",
+    "Audits",
+    "EHS-Basis",
+    "Maßnahmenverfolgung",
+    "Prüf- und Wartungsplan"
+  ],
+  "inLanguage": "de"
+}
+`}} />
+
+    </Head>
     <section className="mt-10 py-24">
       <div className="container">
         <h2 className="section-title mt-5">
@@ -182,6 +217,7 @@ const fachmodules: Module[] = [
             const features = t(`${module.key}.features`).split('|');
 
             return (
+              
               <div
                 key={index}
                 className="p-10 mt-5 border border-[#77B596]/50 rounded-3xl shadow-[0_7px_14px_#EAEAEA] text-center w-[300px] flex flex-col h-[500px] transition-all duration-300 hover:scale-105 hover:shadow-lg"
@@ -261,5 +297,6 @@ const fachmodules: Module[] = [
 
 
     </section>
-  );
+  </>);
+  
 };

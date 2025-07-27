@@ -355,6 +355,35 @@
  "upload": "Hochladen",
  "apply": "Bewerben",
  "cancel": "Abbrechen"
+},
+"learn": {
+   "headline": "Intelligentere, sicherere Arbeitsplätze — Datengesteuert",
+   "intro": "Unsere Plattform ermöglicht es HSE-Fachkräften, Risiken aktiv zu kontrollieren, compliant zu bleiben und sicherere Arbeitsplätze zu schaffen — alles von einem einzigen Dashboard aus. Ob Sie Vorfälle verfolgen, Standorte auditieren oder Mitarbeiter schulen, wir haben Sie abgedeckt.",
+   "subsection1": "Was macht es?",
+   "subsection1title1": "Vorfallsmeldung: ",
+   "subsection1bullet1": "Echtzeit-standardisierte Berichterstattung von jedem Gerät aus.",
+   "subsection1title2": "Audit- & Inspektionstools: ",
+   "subsection1bullet2": "Individuelle Checklisten, automatische Erinnerungen und intelligente Dashboards.",
+   "subsection1title3": "Compliance-Tracker: ",
+   "subsection1bullet3": "Bleiben Sie im Einklang mit ISO, OSHA oder lokalen Vorschriften.",
+   "subsection1title4": "Schulungsmodule: ",
+   "subsection1bullet4": "Sicherheitsschulungen zuweisen, verfolgen und verifizieren.",
+   "subsection1title5": "Analytics & Benachrichtigungen: ",
+   "subsection1bullet5": "Trends erkennen, bevor sie zu Haftungsrisiken werden.",
+   "subsection2title1": "Für wen ist es gedacht?",
+   "subsection2description": "Entwickelt für Organisationen mit dedizierten Sicherheits-, Compliance- und Betriebsteams — branchenübergreifend wie Bauwesen, Energie, Fertigung, Logistik und darüber hinaus.",
+   "subsection3title1": "Warum ist es wichtig?",
+   "subsection3bullet1": "Papierkram und menschliche Fehler reduzieren",
+   "subsection3bullet2": "Reaktionszeit halbieren",
+   "subsection3bullet3": "Compliance in Sekunden nachweisen",
+   "subsection3bullet4": "Kostspielige Vorfälle und Bußgelder verhindern",
+   "subsection4title": "Wie funktioniert es?",
+   "subsection4bullet1": "Daten erfassen (vor Ort oder remote)",
+   "subsection4bullet2": "Trends analysieren und verfolgen",
+   "subsection4bullet3": "Mit Benachrichtigungen und Automatisierung handeln",
+   "cta": "Möchten Sie es in Aktion sehen?",
+   "cta1": "Demo anfordern",
+   "cta2": "Bereit, Ihre HSE-Prozesse zu transformieren?"
 }
 
 

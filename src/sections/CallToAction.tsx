@@ -30,8 +30,8 @@ export const CallToAction = ({ translations }: Props) => {
           </Magnet>
          <Magnet padding={60} disabled={false} magnetStrength={50}>
 
-          <button className="btn btn-text gap-1"><span>{translations.button2}</span>
-          <ArrowRight className="h-5 w-5"/></button>
+          <Link href={'/learn'} className="btn btn-text gap-1"><span>{translations.button2}</span>
+          <ArrowRight className="h-5 w-5"/></Link>
           </Magnet>
         </div>
       </div>

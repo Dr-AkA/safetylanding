@@ -356,6 +356,35 @@
  "upload": "Télécharger",
  "apply": "Postuler",
  "cancel": "Annuler"
+},
+"learn": {
+   "headline": "Des lieux de travail plus intelligents et plus sûrs — Alimentés par les données",
+   "intro": "Notre plateforme permet aux professionnels HSE de contrôler activement les risques, de rester conformes et de créer des espaces de travail plus sûrs — le tout depuis un tableau de bord unique. Que vous suiviez les incidents, auditiez les sites ou formiez le personnel, nous vous avons couvert.",
+   "subsection1": "Que fait-elle ?",
+   "subsection1title1": "Signalement d'incidents : ",
+   "subsection1bullet1": "Signalement standardisé en temps réel depuis n'importe quel appareil.",
+   "subsection1title2": "Outils d'audit et d'inspection : ",
+   "subsection1bullet2": "Listes de contrôle personnalisées, rappels automatiques et tableaux de bord intelligents.",
+   "subsection1title3": "Suivi de conformité : ",
+   "subsection1bullet3": "Restez aligné avec les réglementations ISO, OSHA ou locales.",
+   "subsection1title4": "Modules de formation : ",
+   "subsection1bullet4": "Assigner, suivre et vérifier la formation en sécurité.",
+   "subsection1title5": "Analyses et alertes : ",
+   "subsection1bullet5": "Repérer les tendances avant qu'elles ne deviennent des responsabilités.",
+   "subsection2title1": "Pour qui est-ce ?",
+   "subsection2description": "Conçu pour les organisations avec des équipes dédiées à la sécurité, la conformité et les opérations — dans tous les secteurs tels que la construction, l'énergie, la fabrication, la logistique et au-delà.",
+   "subsection3title1": "Pourquoi c'est important ?",
+   "subsection3bullet1": "Réduire la paperasserie et les erreurs humaines",
+   "subsection3bullet2": "Diviser par deux le temps de réponse",
+   "subsection3bullet3": "Prouver la conformité en quelques secondes",
+   "subsection3bullet4": "Prévenir les incidents coûteux et les amendes",
+   "subsection4title": "Comment ça marche ?",
+   "subsection4bullet1": "Capturer les données (sur site ou à distance)",
+   "subsection4bullet2": "Analyser et suivre les tendances",
+   "subsection4bullet3": "Agir avec des alertes et de l'automatisation",
+   "cta": "Vous voulez le voir en action ?",
+   "cta1": "Planifier une démo",
+   "cta2": "Prêt à transformer vos processus HSE ?"
 }
 
   

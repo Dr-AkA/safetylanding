@@ -357,6 +357,35 @@
  "upload": "Carregar",
  "apply": "Candidatar",
  "cancel": "Cancelar"
+},
+"learn": {
+   "headline": "Locais de trabalho mais inteligentes e seguros — Impulsionados por dados",
+   "intro": "Nossa plataforma permite que profissionais de HSE controlem ativamente os riscos, mantenham-se em conformidade e criem espaços de trabalho mais seguros — tudo a partir de um único painel. Se você está rastreando incidentes, auditando locais ou treinando funcionários, nós cobrimos você.",
+   "subsection1": "O que faz?",
+   "subsection1title1": "Relatório de incidentes: ",
+   "subsection1bullet1": "Relatórios padronizados em tempo real de qualquer dispositivo.",
+   "subsection1title2": "Ferramentas de auditoria e inspeção: ",
+   "subsection1bullet2": "Listas de verificação personalizadas, lembretes automáticos e painéis inteligentes.",
+   "subsection1title3": "Rastreador de conformidade: ",
+   "subsection1bullet3": "Mantenha-se alinhado com regulamentações ISO, OSHA ou locais.",
+   "subsection1title4": "Módulos de treinamento: ",
+   "subsection1bullet4": "Atribuir, rastrear e verificar treinamentos de segurança.",
+   "subsection1title5": "Análises e alertas: ",
+   "subsection1bullet5": "Identificar tendências antes que se tornem responsabilidades.",
+   "subsection2title1": "Para quem é?",
+   "subsection2description": "Construído para organizações com equipes dedicadas de segurança, conformidade e operações — em setores como construção, energia, manufatura, logística e além.",
+   "subsection3title1": "Por que é importante?",
+   "subsection3bullet1": "Reduzir papelada e erros humanos",
+   "subsection3bullet2": "Reduzir o tempo de resposta pela metade",
+   "subsection3bullet3": "Provar conformidade em segundos",
+   "subsection3bullet4": "Prevenir incidentes custosos e multas",
+   "subsection4title": "Como funciona?",
+   "subsection4bullet1": "Capturar dados (no local ou remoto)",
+   "subsection4bullet2": "Analisar e rastrear tendências",
+   "subsection4bullet3": "Tomar ação com alertas e automação",
+   "cta": "Quer ver em ação?",
+   "cta1": "Agendar uma demonstração",
+   "cta2": "Pronto para transformar seus processos HSE?"
 }
 
 

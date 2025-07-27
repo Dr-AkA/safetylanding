@@ -364,6 +364,36 @@
   "upload":"Upload",
   "apply":"Apply",
   "cancel":"Cancel"
+},
+"learn": 
+{
+  "headline":"Smarter, Safer Workplaces — Powered by Data",
+  "intro":"Our platform allows HSE professionals to control risk actively, stay compliant, and create safer workspaces — all from a single dashboard. If you're tracking incidents, auditing sites, or training staff, we've got you covered.",
+  "subsection1":"What It Does?",
+  "subsection1title1":"Incident Reporting: ",
+  "subsection1bullet1":"Real-time, standardized reporting from any device.",
+  "subsection1title2":"Audit & Inspection Tools: ",
+  "subsection1bullet2":"Custom checklists, automatic reminders, and smart dashboards.",
+  "subsection1title3":"Compliance Tracker: ",
+  "subsection1bullet3":"Stay aligned with ISO, OSHA, or local regulations.",
+  "subsection1title4":"Training Modules: ",
+  "subsection1bullet4":"Assign, track, and verify safety training.",
+  "subsection1title5":"Analytics & Alerts: ",
+  "subsection1bullet5":"Spot trends before they become liabilities.",
+  "subsection2title1":" Who It’s For?",
+  "subsection2description":"Built for organizations with dedicated safety, compliance, and operations teams — across industries such as construction, energy, manufacturing, logistics, and beyond.",
+  "subsection3title1":"Why It Matters?",
+  "subsection3bullet1":"Reduce paperwork and human error",
+  "subsection3bullet2":"Cut response time in half",
+  "subsection3bullet3":"Prove compliance in seconds",
+  "subsection3bullet4":"Prevent costly incidents and fines",
+  "subsection4title":"How It Works?",
+  "subsection4bullet1":"Capture data (on-site or remote)",
+  "subsection4bullet2":"Analyze and track trends",
+  "subsection4bullet3":"Take action with alerts and automation",
+  "cta":"Want to see it in action?",
+  "cta1":"Schedule a demo",
+  "cta2":"Ready to transform your HSE processes?"
 }
   
 

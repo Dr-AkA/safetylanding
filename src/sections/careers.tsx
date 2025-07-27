@@ -3,7 +3,7 @@ import Arrow from "@/assets/arrow-right.svg";
 import { getTranslations } from 'next-intl/server';
 import ApplyButtonWrapper from "@/components/ApplyButtonWrapper";
 import { headers } from "next/headers";
-
+import Head from "next/head";
 export default async function Careers() {
   const t = await getTranslations('careers');
 
@@ -20,6 +20,87 @@ const host = headers().get('host');
   const trainings = await trainingsRes.json();
 
   return (
+    <>
+    <Head>
+  <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "@id": "https://safety-doors.com/career#en",
+  "title": "IT & Software Engineering Opportunities",
+  "description": "We are hiring IT and software professionals to join our growing team at Safety Doors GmbH. Areas include backend, frontend, systems integration, DevOps, and infrastructure. We welcome initiative applications.",
+  "url": "https://safety-doors.com/career",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Safety Doors GmbH",
+    "value": "IT-OPEN-HIRE-EN"
+  },
+  "datePosted": "",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "Safety Doors GmbH",
+    "sameAs": "https://safety-doors.com",
+    "logo": "https://safety-doors.com/logo.png"
+  },
+  "employmentType": "FULL_TIME",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Steinfurt",
+      "addressCountry": "DE"
+    }
+  },
+  "applicantLocationRequirements": {
+    "@type": "Country",
+    "name": "Germany"
+  },
+  "industry": ["Information Technology", "Software Development", "Compliance Tech"],
+  "inLanguage": "en"
+}
+`}} />
+
+<script type="application/ld+json" dangerouslySetInnerHTML={{ __html: `
+{
+  "@context": "https://schema.org",
+  "@type": "JobPosting",
+  "@id": "https://safety-doors.com/career#de",
+  "title": "IT- und Software-Engineering-Stellenangebote",
+  "description": "Wir suchen IT- und Softwarefachkräfte für unser wachsendes Team bei Safety Doors GmbH. Bereiche: Backend, Frontend, Systemintegration, DevOps und Infrastruktur. Initiativbewerbungen sind willkommen.",
+  "url": "https://safety-doors.com/career",
+  "identifier": {
+    "@type": "PropertyValue",
+    "name": "Safety Doors GmbH",
+    "value": "IT-OPEN-HIRE-DE"
+  },
+  "datePosted": "",
+  "hiringOrganization": {
+    "@type": "Organization",
+    "name": "Safety Doors GmbH",
+    "sameAs": "https://safety-doors.com",
+    "logo": "https://safety-doors.com/logo.png"
+  },
+  "employmentType": "FULL_TIME",
+  "jobLocation": {
+    "@type": "Place",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Steinfurt",
+      "addressCountry": "DE"
+    }
+  },
+  "applicantLocationRequirements": {
+    "@type": "Country",
+    "name": "Deutschland"
+  },
+  "industry": ["Informationstechnologie", "Softwareentwicklung", "Sicherheitstechnologie"],
+  "inLanguage": "de"
+}
+`}} />
+
+
+
+    </Head>
   <main className="min-h-screen p-6 bg-[#EAEEFE]">
     <h1 className="section-title">{t('title')}</h1>
     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 text-center">
@@ -68,5 +149,5 @@ const host = headers().get('host');
       </section>
     </div>
   </main>
-);
+</>);
 }

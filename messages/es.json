@@ -353,6 +353,35 @@
  "upload": "Subir",
  "apply": "Aplicar",
  "cancel": "Cancelar"
+},
+"learn": {
+   "headline": "Lugares de trabajo más inteligentes y seguros — Impulsados por datos",
+   "intro": "Nuestra plataforma permite a los profesionales de HSE controlar activamente los riesgos, mantenerse en cumplimiento y crear espacios de trabajo más seguros — todo desde un único panel de control. Ya sea que estés rastreando incidentes, auditando sitios o capacitando personal, te tenemos cubierto.",
+   "subsection1": "¿Qué hace?",
+   "subsection1title1": "Reporte de incidentes: ",
+   "subsection1bullet1": "Reportes estandarizados en tiempo real desde cualquier dispositivo.",
+   "subsection1title2": "Herramientas de auditoría e inspección: ",
+   "subsection1bullet2": "Listas de verificación personalizadas, recordatorios automáticos y paneles inteligentes.",
+   "subsection1title3": "Rastreador de cumplimiento: ",
+   "subsection1bullet3": "Mantente alineado con las regulaciones ISO, OSHA o locales.",
+   "subsection1title4": "Módulos de capacitación: ",
+   "subsection1bullet4": "Asignar, rastrear y verificar la capacitación en seguridad.",
+   "subsection1title5": "Análisis y alertas: ",
+   "subsection1bullet5": "Detectar tendencias antes de que se conviertan en responsabilidades.",
+   "subsection2title1": "¿Para quién es?",
+   "subsection2description": "Construido para organizaciones con equipos dedicados de seguridad, cumplimiento y operaciones — en industrias como construcción, energía, manufactura, logística y más.",
+   "subsection3title1": "¿Por qué es importante?",
+   "subsection3bullet1": "Reducir el papeleo y errores humanos",
+   "subsection3bullet2": "Reducir el tiempo de respuesta a la mitad",
+   "subsection3bullet3": "Demostrar cumplimiento en segundos",
+   "subsection3bullet4": "Prevenir incidentes costosos y multas",
+   "subsection4title": "¿Cómo funciona?",
+   "subsection4bullet1": "Capturar datos (en sitio o remoto)",
+   "subsection4bullet2": "Analizar y rastrear tendencias",
+   "subsection4bullet3": "Tomar acción con alertas y automatización",
+   "cta": "¿Quieres verlo en acción?",
+   "cta1": "Programar una demo",
+   "cta2": "¿Listo para transformar tus procesos HSE?"
 }
 
 
