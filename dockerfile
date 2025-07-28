@@ -30,7 +30,11 @@ COPY --from=builder /app/public ./public
 COPY --from=builder /app/prisma ./prisma
 COPY --from=builder /app/src ./src
 COPY --from=builder /app/.env* ./
+COPY llm.txt /app/llm.txt
+
 RUN npx prisma generate
+RUN mkdir -p /app/cv-uploads && chown -R node:node /app/cv-uploads
+RUN mkdir -p /app/.next/cache/images && chown -R node:node /app/.next/cache
 
 USER node
 
