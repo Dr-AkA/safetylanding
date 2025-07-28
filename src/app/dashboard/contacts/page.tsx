@@ -14,6 +14,7 @@ type Contacts = {
   phone:string;
   numEmp:string;
   message:string;
+  isSeen:boolean;
 };
 
 export default function ContactPage() {

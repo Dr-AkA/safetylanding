@@ -1,14 +1,16 @@
+version: "3.8"
+
 services:
   mysql:
     image: mysql:8.0
     restart: unless-stopped
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      MYSQL_DATABASE:  ${MYSQL_DATABASE}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
-      MYSQL_PASSWORD:  ${MYSQL_PASSWORD}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     ports:
-      - "3301:3306"
+      - "3301:3306" 
     volumes:
       - mysql_data:/var/lib/mysql
     command: --default-authentication-plugin=mysql_native_password
@@ -18,20 +20,13 @@ services:
       retries: 10
 
   web:
-    build: .
+    build:
+      context: .
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: mysql://${MYSQL_USER}:${MYSQL_PASSWORD}@mysql:3306/${MYSQL_DATABASE}
     ports:
       - "3000:3000"
-    environment:
-      - NODE_ENV=production
-      - PORT=3000
-      - DB_HOST=${DB_HOST}
-      - DB_PORT=${DB_PORT}
-      - DB_USER=${DB_USER}
-      - DB_PASSWORD=${DB_PASSWORD}
-      - DB_NAME=${DB_NAME}
-      - DATABASE_URL=${DATABASE_URL}
-    env_file:
-      - .env
     depends_on:
       mysql:
         condition: service_healthy
@@ -42,12 +37,11 @@ services:
     ports:
       - "8080:80"
     environment:
-      PMA_HOST: ${DB_HOST}
-      PMA_PORT: ${PMA_PORT}
+      PMA_HOST: mysql
+      PMA_PORT: 3306
       PMA_USER: ${PMA_USER}
       PMA_PASSWORD: ${PMA_PASSWORD}
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
-      PMA_ABSOLUTE_URI: http://localhost:8080/
     depends_on:
       mysql:
         condition: service_healthy

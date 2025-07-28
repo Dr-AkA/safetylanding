@@ -1,15 +1,15 @@
 import 'dotenv/config';
-import { PrismaClient } from '@/generated/prisma';
-import { encrypt,hash } from '../src/lib/crypto';
+import { getPrisma } from '../src/lib/prisma';
+import { encrypt, hash } from '../src/lib/crypto';
 import bcrypt from 'bcrypt';
 
-const prisma = new PrismaClient();
 
 (async () => {
   try {
     const defaultEmail = process.env.DEFAULT_ADMIN_EMAIL;
     const defaultName = process.env.DEFAULT_ADMIN_NAME;
     const defaultPassword = process.env.DEFAULT_ADMIN_PASSWORD;
+    const prisma = getPrisma();
 
     if (!defaultEmail || !defaultName || !defaultPassword) {
       console.error('Missing env vars');
@@ -20,7 +20,6 @@ const prisma = new PrismaClient();
     const encryptedName = encrypt(defaultName);
     const hashedPassword = await bcrypt.hash(defaultPassword, 10);
     const hashedEmail=hash(defaultEmail);
-
     const existing = await prisma.admin.findFirst({
       where: { email: hashedEmail },
     });
@@ -42,6 +41,7 @@ const prisma = new PrismaClient();
   } catch (err) {
     console.error('Error seeding admin:', err);
   } finally {
-    await prisma.$disconnect();
+    await getPrisma().$disconnect();
+
   }
 })();

@@ -22,6 +22,7 @@ export default async function AdminLayout({
           <Link href="/dashboard/training" className="hover:bg-gray-700 p-2 rounded">Ausbildung</Link>
           <Link href="/dashboard/patches" className="hover:bg-gray-700 p-2 rounded">Patches</Link>
           <Link href="/dashboard/contacts" className="hover:bg-gray-700 p-2 rounded">Contacts</Link>
+           <Link href="/dashboard/applicant" className="hover:bg-gray-700 p-2 rounded">Applicants</Link>
 
         </nav>
       </aside>

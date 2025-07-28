@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { prisma } from '@/lib/prisma';
+import { getPrisma } from '@/lib/prisma';
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/authOptions"
 import { error } from 'console';
@@ -9,7 +9,7 @@ import { error } from 'console';
 
 
 export async function POST(req: NextRequest) {
- 
+  const prisma = getPrisma();
   const session=await getServerSession(authOptions);
   if(!session)
   {
@@ -34,12 +34,14 @@ export async function POST(req: NextRequest) {
 
 export async function GET() {
   try {
+     const prisma = getPrisma();
     const patches = await prisma.patch.findMany({
       orderBy: { releasedAt: 'desc' },
     });
 
+    type Patch = typeof patches[0];
     
-    const formatted = patches.map(patch => ({
+    const formatted = patches.map((patch: Patch) => ({
       ...patch,
       releasedAt: patch.releasedAt.toISOString().split('T')[0]
     }));

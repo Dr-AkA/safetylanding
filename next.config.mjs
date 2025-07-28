@@ -30,20 +30,9 @@ const nextConfig = {
     return config;
   },
 
-  webpackDevMiddleware: config => {
-    config.watchOptions = {
-      poll: 500,
-      aggregateTimeout: 200,
-    }
-    return config
-  },
+
   
-  experimental: {
-    optimizePackageImports: [
-      '@prisma/client',
-    ],
-  },
-};
+}
 
 const withNextIntl = createNextIntlPlugin();
 

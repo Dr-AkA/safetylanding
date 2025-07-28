@@ -1,9 +1,10 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { prisma } from '@/lib/prisma'
+import { getPrisma } from '@/lib/prisma'
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/authOptions"
 
 export async function GET(req: NextRequest, { params }: { params: { id: string } }) {
+   const prisma = getPrisma();
   const id = parseInt(params.id)
   if (isNaN(id)) {
     return NextResponse.json({ error: 'Invalid ID' }, { status: 400 })
@@ -22,6 +23,7 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
 }
 
 export async function PUT(req: NextRequest, { params }: { params: { id: string } }) {
+   const prisma = getPrisma();
   const session = await getServerSession(authOptions)
   if (!session) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
@@ -50,6 +52,7 @@ export async function PUT(req: NextRequest, { params }: { params: { id: string }
 }
 
 export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+   const prisma = getPrisma();
   const session = await getServerSession(authOptions)
   if (!session) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })

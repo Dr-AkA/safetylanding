@@ -2,20 +2,17 @@ import React from "react";
 import Arrow from "@/assets/arrow-right.svg";
 import { getTranslations } from 'next-intl/server';
 import ApplyButtonWrapper from "@/components/ApplyButtonWrapper";
-import { headers } from "next/headers";
 import Head from "next/head";
+
 export default async function Careers() {
   const t = await getTranslations('careers');
 
-const host = headers().get('host');
-  const protocol = process.env.NODE_ENV === 'development' ? 'http' : 'https';
-  const baseUrl = `${protocol}://${host}`;
+const baseUrl = process.env.BASE_URL || 'http://localhost:3000';
 
-  const [jobsRes, trainingsRes] = await Promise.all([
-    fetch(`${baseUrl}/api/jobs`, { next: { revalidate: 60 } }),
-    fetch(`${baseUrl}/api/training`, { next: { revalidate: 60 } }),
-  ]);
-
+const [jobsRes, trainingsRes] = await Promise.all([
+  fetch(`${baseUrl}/api/jobs`, { next: { revalidate: 60 } }),
+  fetch(`${baseUrl}/api/training`, { next: { revalidate: 60 } }),
+]);
   const jobs = await jobsRes.json();
   const trainings = await trainingsRes.json();
 

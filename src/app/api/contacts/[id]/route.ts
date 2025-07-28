@@ -1,12 +1,13 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { prisma } from '@/lib/prisma';
+import { getPrisma } from '@/lib/prisma';
 import { getServerSession } from "next-auth";
 import { authOptions } from "@/lib/authOptions";
 import { error } from 'console';
 import {decrypt,encrypt} from '@/lib/crypto';
 
 export async function GET(req:NextRequest,{params}:{params:{id:string}})
-{
+{ 
+    const prisma = getPrisma();
     const session=await getServerSession(authOptions);
     if(!session)
     {
@@ -45,6 +46,7 @@ export async function GET(req:NextRequest,{params}:{params:{id:string}})
 
 
 export async function PUT(req: NextRequest, { params }: { params: { id: string } }) {
+   const prisma = getPrisma();
   const session = await getServerSession(authOptions);
   if (!session) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
@@ -78,6 +80,7 @@ export async function PUT(req: NextRequest, { params }: { params: { id: string }
 
 
 export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+   const prisma = getPrisma();
     const session = await getServerSession(authOptions);
     if (!session) {
         return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });

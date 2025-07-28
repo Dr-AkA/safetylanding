@@ -1,11 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server';
-import { prisma } from '@/lib/prisma';
+import { getPrisma } from '@/lib/prisma';
 import { getServerSession } from 'next-auth';
 import { authOptions } from '@/lib/authOptions';
 import { error } from 'console';
 
 
 export async function POST(req: NextRequest) {
+   const prisma = getPrisma();
   const session = await getServerSession(authOptions);
   if (!session) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 });
@@ -39,6 +40,7 @@ export async function POST(req: NextRequest) {
 export async function GET() {
  try 
  {
+   const prisma = getPrisma();
   const training=await prisma.training.findMany(
     {
       orderBy:{id:'desc'},
@@ -67,7 +69,7 @@ export async function PUT(req: NextRequest, { params }: { params: { id: string }
   if (!title || !description || !startDate || !endDate || !tags) {
     return NextResponse.json({ error: 'Missing required fields' }, { status: 400 });
   }
-
+ const prisma = getPrisma();
   const training = await prisma.training.update({
     where: { id },
     data: { title, description, startDate: new Date(startDate), endDate: new Date(endDate), tags },
@@ -87,7 +89,7 @@ export async function DELETE(req: NextRequest, { params }: { params: { id: strin
   if (isNaN(id)) {
     return NextResponse.json({ error: 'Invalid ID' }, { status: 400 });
   }
-
+   const prisma = getPrisma();
   await prisma.training.delete({ where: { id } });
   return NextResponse.json({ message: 'Training deleted' });
 }

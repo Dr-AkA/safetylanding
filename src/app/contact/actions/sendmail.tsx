@@ -1,6 +1,6 @@
 'use server'
 import { encrypt } from "@/lib/crypto";
-import { prisma } from "@/lib/prisma";
+import { getPrisma } from "@/lib/prisma";
 import nodemailer from "nodemailer";
 
 export async function sendEmail(prevState: any, formData: FormData) {
@@ -43,6 +43,7 @@ export async function sendEmail(prevState: any, formData: FormData) {
                 <p><strong>Nachricht:</strong><br>${message}</p>
             `,
         });
+            const prisma = getPrisma();
             await prisma.contactSubmission.create({
             data: {
                 firstName: encrypt(first),

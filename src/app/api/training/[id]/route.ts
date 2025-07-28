@@ -1,11 +1,12 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { prisma } from '@/lib/prisma'
+import { getPrisma } from '@/lib/prisma'
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/authOptions"
 import { error } from 'console';
 
 export async function GET(req:NextRequest,{params}:{params:{id:string}})
 {
+     const prisma = getPrisma();
     const id=parseInt(params.id);
     if(isNaN(id))
     {
@@ -28,6 +29,7 @@ export async function GET(req:NextRequest,{params}:{params:{id:string}})
 
 export async function PUT(req:NextRequest,{params}:{params:{id:string}})
 {
+     const prisma = getPrisma();
     const session=await getServerSession(authOptions);
     if(!session)
     {
@@ -65,6 +67,7 @@ export async function PUT(req:NextRequest,{params}:{params:{id:string}})
 
 export async function DELETE(req:NextRequest,{params}:{params:{id:string}})
 {
+     const prisma = getPrisma();
     const session=await getServerSession(authOptions);
     if(!session)
     {

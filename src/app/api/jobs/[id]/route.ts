@@ -1,5 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server'
-import { prisma } from '@/lib/prisma'
+import { getPrisma } from '@/lib/prisma'
 import { getServerSession } from "next-auth"
 import { authOptions } from "@/lib/authOptions"
 
@@ -10,6 +10,7 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
   }
 
   try {
+     const prisma = getPrisma();
     const job = await prisma.job.findUnique({ where: { id } })
     if (!job) {
       return NextResponse.json({ error: 'Job not found' }, { status: 404 })
@@ -22,6 +23,7 @@ export async function GET(req: NextRequest, { params }: { params: { id: string }
 }
 
 export async function PUT(req: NextRequest, { params }: { params: { id: string } }) {
+   const prisma = getPrisma();
   const session = await getServerSession(authOptions)
   if (!session) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
@@ -50,6 +52,7 @@ export async function PUT(req: NextRequest, { params }: { params: { id: string }
 }
 
 export async function DELETE(req: NextRequest, { params }: { params: { id: string } }) {
+   const prisma = getPrisma();
   const session = await getServerSession(authOptions)
   if (!session) {
     return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
