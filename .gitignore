@@ -3,3 +3,4 @@ node_modules/
 .env
 out/
 /src/generated/prisma
+safety.tar

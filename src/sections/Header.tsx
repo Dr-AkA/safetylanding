@@ -42,7 +42,7 @@ export const Header = () => {
         <Link href={'/'} className='hover:-translate-y-1 hover:scale-105 transition'>
           <Logo className="h-8 sm:h-10 md:h-12 w-auto" />
         </Link>
-        <button onClick={toggleMenu} className="md:hidden">
+        <button onClick={toggleMenu} aria-label="Open navigation menu" className="md:hidden">
           <MenuIcon className="h-6 w-6 sm:h-7 sm:w-7" />
         </button>
         <nav className={`md:flex flex-col md:flex-row gap-4 md:gap-6 text-black/80 items-center 

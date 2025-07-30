@@ -16,6 +16,24 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
             changeFrequency: 'monthly',
             priority: 1
         },
+        {
+              url: 'https://new.safety-doors.com/career',
+            lastModified: new Date(),
+            changeFrequency: 'monthly',
+            priority: 1
+        },
+        {
+              url: 'https://new.safety-doors.com/vision',
+            lastModified: new Date(),
+            changeFrequency: 'monthly',
+            priority: 1
+        },
+        {
+              url: 'https://new.safety-doors.com/contact',
+            lastModified: new Date(),
+            changeFrequency: 'monthly',
+            priority: 1
+        }
        
     ];
 }
