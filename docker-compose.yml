@@ -48,5 +48,4 @@ services:
 
 volumes:
   mysql_data:
-env_file:
-  - stack.env
+
