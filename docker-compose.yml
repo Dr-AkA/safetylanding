@@ -4,13 +4,15 @@ services:
   mysql:
     image: mysql:8.0
     restart: unless-stopped
+    env_file:
+      - stack.env
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
       MYSQL_USER: ${MYSQL_USER}
       MYSQL_PASSWORD: ${MYSQL_PASSWORD}
     ports:
-      - "3301:3306" 
+      - "3301:3306"
     volumes:
       - mysql_data:/var/lib/mysql
     command: --default-authentication-plugin=mysql_native_password
@@ -22,6 +24,8 @@ services:
   web:
     build:
       context: .
+    env_file:
+      - stack.env
     environment:
       NODE_ENV: production
       DATABASE_URL: mysql://${MYSQL_USER}:${MYSQL_PASSWORD}@mysql:3306/${MYSQL_DATABASE}
@@ -34,6 +38,8 @@ services:
   phpmyadmin:
     image: phpmyadmin/phpmyadmin
     restart: unless-stopped
+    env_file:
+      - stack.env
     ports:
       - "8080:80"
     environment:
@@ -48,5 +54,3 @@ services:
 
 volumes:
   mysql_data:
-env_file:
-  - stack.env
